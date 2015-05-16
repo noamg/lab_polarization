@@ -1,0 +1,630 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+קיטוב
+\end_layout
+
+\begin_layout Author
+דן וקסלר ונועם גביש, בהנחיית נגה וייס
+\end_layout
+
+\begin_layout Abstract
+תקציר
+\end_layout
+
+\begin_layout Abstract
+משקפי פולורואיד
+\end_layout
+
+\begin_layout Abstract
+משקפי תלת ממד
+\end_layout
+
+\begin_layout Part*
+רקע תיאורטי
+\end_layout
+
+\begin_layout Section*
+תיאור של אור בתור גל
+\end_layout
+
+\begin_layout Standard
+אור הוא גל אלקטרומגנטי - הפרעה בשדה האלקטרומגנטי המתפשטת במרחב לפי משוואת
+ הגלים: 
+\begin_inset Formula $\frac{\partial^{2}\psi}{\partial t^{2}}=c^{2}\nabla^{2}\psi$
+\end_inset
+
+.
+ גל הפותר את המשוואה ניתן להצגה כסופר פוזיציה של גלים מישוריים, שלהם תיאור
+ מתמטי פשוט:
+\begin_inset Formula 
+\[
+\psi(\vec{r,}t)=A\exp(\vec{k}\cdot\vec{r}-\omega t+\phi_{0})\Rightarrow E(\vec{r,}t)=Re(\psi(\vec{r,}t))
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+קיטוב
+\end_layout
+
+\begin_layout Standard
+הגדרה
+\end_layout
+
+\begin_layout Standard
+קיטוב לינארי
+\end_layout
+
+\begin_layout Standard
+קיטוב מעגלי
+\end_layout
+
+\begin_layout Standard
+קיטוב אליפטי
+\end_layout
+
+\begin_layout Standard
+>>> ציור גל קיטוב לינארי <<<
+\end_layout
+
+\begin_layout Standard
+>>> ציור גל קיטוב מעגלי <<<
+\end_layout
+
+\begin_layout Standard
+תיאור וקטורי של קיטוב
+\end_layout
+
+\begin_layout Standard
+* מדידת קיטוב
+\end_layout
+
+\begin_layout Subsubsection*
+מקטב )מקטב לינארי(
+\end_layout
+
+\begin_layout Standard
+חוק מאלוס
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מקטבים
+\end_layout
+
+\begin_layout Standard
+חוק מאלוס
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מקטבים
+\end_layout
+
+\begin_layout Standard
+משפט על מה יוצר מקטב )אופטי, גלי מיקרו(
+\end_layout
+
+\begin_layout Subsubsection*
+לוחית גל
+\end_layout
+
+\begin_layout Standard
+שבירה כפולה
+\end_layout
+
+\begin_layout Standard
+הגיאומטריה בבעיה, צירים ראשיים.
+\end_layout
+
+\begin_layout Standard
+>>> סכימה שבירה כפולה <<<
+\end_layout
+
+\begin_layout Standard
+לוחית חצי גל
+\end_layout
+
+\begin_layout Standard
+לוחית רבע גל
+\end_layout
+
+\begin_layout Standard
+לוחית גל במערכת גלי מיקרו
+\end_layout
+
+\begin_layout Subsubsection*
+דעיכה במערכת לוחית גל של גלי מיקרו
+\end_layout
+
+\begin_layout Part*
+מערכת הניסוי
+\end_layout
+
+\begin_layout Standard
+>>> איך לחלק את הפרק הזה??? למשל, ענייני מאלוס
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+, מאלוס
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+, אופטי, מיקרו <<<
+\end_layout
+
+\begin_layout Standard
+>>> אולי אנחנו רוצים לגרש חלק מהתוצאות פה לנספח כי הן לא כ"כ מעניינות???
+ <<<
+\end_layout
+
+\begin_layout Subsection*
+חוק מאלוס
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series medium
+\shape default
+\size normal
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\shape up
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ אופטי
+\end_layout
+
+\begin_layout Standard
+>>> סכימה <<<
+\end_layout
+
+\begin_layout Subsection*
+חוק מאלוס
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size normal
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series bold
+\shape up
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ אופטי
+\end_layout
+
+\begin_layout Standard
+>>> סכימה <<<
+\end_layout
+
+\begin_layout Subsection*
+לוחית חצי גל אופטי
+\end_layout
+
+\begin_layout Subsection*
+לוחית רבע גל אופטי
+\end_layout
+
+\begin_layout Standard
+עיגול
+\end_layout
+
+\begin_layout Standard
+אליפסה
+\end_layout
+
+\begin_layout Standard
+הערות מיקרו:
+\end_layout
+
+\begin_layout Standard
+רב נתיב, התאבכות עם החזרה מהשולחן.
+ השופרים )אנטנות( לא באמת איזוטרופיים.
+ או שזה החדר.
+\end_layout
+
+\begin_layout Standard
+וודו בזמנים ארוכים.
+ צורך בכיול מדי פעם.
+ מדידות יחסיות.
+\end_layout
+
+\begin_layout Subsection*
+חוק מאלוס
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series medium
+\shape default
+\size normal
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\shape up
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ מיקרו
+\end_layout
+
+\begin_layout Standard
+>>> סכימה <<<
+\end_layout
+
+\begin_layout Subsection*
+חוק מאלוס
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size normal
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series bold
+\shape up
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ מיקרו
+\end_layout
+
+\begin_layout Standard
+>>> סכימה <<<
+\end_layout
+
+\begin_layout Standard
+דעיכה בהתקן מעכב פאזה )מיקרו(
+\end_layout
+
+\begin_layout Standard
+לוחית חצי גל מיקרו.
+ תיקוף הדעיכה בצירים השונים.
+ סטייה מסוימת מהנוסחא.
+\end_layout
+
+\begin_layout Standard
+לוחית רבע גל מיקרו.
+ לא הצלחנו ליצור כזאת.
+ תיאור הניסויונות.
+ הפנייה לסיכום ומסקנות.
+\end_layout
+
+\begin_layout Part*
+תוצאות
+\end_layout
+
+\begin_layout Standard
+תוצאות לפי המבנה של פרק מערכת הניסוי.
+\end_layout
+
+\begin_layout Standard
+לזכור גרפים פולאריים.
+\end_layout
+
+\begin_layout Standard
+לזכור תיאור מתחת לגרפים
+\end_layout
+
+\begin_layout Part*
+סיכום ומסקנות
+\end_layout
+
+\begin_layout Standard
+כיוונים להמשך: גלי מיקרו.
+ בדיקת פרופיל דעיכה במרחקים שונים
+\end_layout
+
+\begin_layout Standard
+טיפול מסודר יותר בהתאבכויות )תיקנון לפי איכות שידור וקליטה בזוויות שונות(
+\end_layout
+
+\begin_layout Standard
+מדידת השפעת החסימה ע"י שתי צלעות חוסמות ללא הצלעות שכופות תנאי שפה
+\end_layout
+
+\begin_layout Part*
+נספח
+\end_layout
+
+\begin_layout Standard
+חוק ברוסטר, יחסי פרנל, ללא תיאור המערכת.
+\end_layout
+
+\end_body
+\end_document
