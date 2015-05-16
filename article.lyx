@@ -287,8 +287,98 @@
 לוחית גל במערכת גלי מיקרו
 \end_layout
 
+\begin_layout Standard
+>>> סכימה מתוך ברקלי <<<
+\end_layout
+
+\begin_layout Standard
+הגל המישורי נתקל במחסום ומתפרק לסופר פוזיציה של גלים מישוריים בכיוונים שונים
+\end_layout
+
+\begin_layout Standard
+רוב הגלים האלה אינם מקיימים את תנאי השפה ודועכים
+\end_layout
+
+\begin_layout Standard
+הגלים המקיימים את תנאי השפה הללו מצייתים לכלל גיאומטרי מסוים.
+ זווית מסוימת
+\end_layout
+
+\begin_layout Standard
+מה מתקבל? גל מישורי עם אורך גל אפקטיבי, מהירות התקדמות אפקטיבית, אמפליטודה
+ שיורדת כתלות במרחק מהציר הראשי.
+\end_layout
+
 \begin_layout Subsubsection*
 דעיכה במערכת לוחית גל של גלי מיקרו
+\end_layout
+
+\begin_layout Standard
+יש איבוד אנרגיה מסוים שנובע מחסימת הגל.
+ הוא רלוונטי לשני הקיטובים.
+\end_layout
+
+\begin_layout Standard
+חלק ממרכיבי הגל דועכים ולכן אנרגיה אובדת.
+\end_layout
+
+\begin_layout Standard
+כנראה אם אורך ההתקן היה ארוך מאוד, הייתה שורדת זווית דיסקרטית, שנושאת איתה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אנרגיה.
+\end_layout
+
+\begin_layout Standard
+בגלל אורך ההתקן הסופי, יש טולרנס מסוים, וזוויות אחרות קרובות שורדות, ונותרת
+ אנרגיה מסוימת.
 \end_layout
 
 \begin_layout Part*
@@ -296,61 +386,7 @@
 \end_layout
 
 \begin_layout Standard
->>> איך לחלק את הפרק הזה??? למשל, ענייני מאלוס
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2
-\numeric off
-, מאלוס
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-3
-\numeric off
-, אופטי, מיקרו <<<
+משפט על זה שיש את העולם האופטי והעולם המיקרו ויש ניסויים שחוזרים על עצמם.
 \end_layout
 
 \begin_layout Standard
@@ -359,108 +395,19 @@
 \end_layout
 
 \begin_layout Subsection*
-חוק מאלוס
-\family roman
-\series bold
-\shape up
-\size large
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series medium
-\shape default
-\size normal
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2
-\family roman
-\shape up
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- אופטי
+הנה העולם האופטי
 \end_layout
 
 \begin_layout Standard
->>> סכימה <<<
+>>> סכמה <<<
 \end_layout
 
 \begin_layout Subsection*
-חוק מאלוס
-\family roman
-\series bold
-\shape up
-\size large
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size normal
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-3
-\family roman
-\series bold
-\shape up
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- אופטי
+הנה עולם המיקרו
 \end_layout
 
 \begin_layout Standard
->>> סכימה <<<
-\end_layout
-
-\begin_layout Subsection*
-לוחית חצי גל אופטי
-\end_layout
-
-\begin_layout Subsection*
-לוחית רבע גל אופטי
-\end_layout
-
-\begin_layout Standard
-עיגול
-\end_layout
-
-\begin_layout Standard
-אליפסה
+>>> סכמה <<<
 \end_layout
 
 \begin_layout Standard
@@ -477,95 +424,6 @@
 וודו בזמנים ארוכים.
  צורך בכיול מדי פעם.
  מדידות יחסיות.
-\end_layout
-
-\begin_layout Subsection*
-חוק מאלוס
-\family roman
-\series bold
-\shape up
-\size large
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series medium
-\shape default
-\size normal
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2
-\family roman
-\shape up
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- מיקרו
-\end_layout
-
-\begin_layout Standard
->>> סכימה <<<
-\end_layout
-
-\begin_layout Subsection*
-חוק מאלוס
-\family roman
-\series bold
-\shape up
-\size large
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size normal
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-3
-\family roman
-\series bold
-\shape up
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- מיקרו
-\end_layout
-
-\begin_layout Standard
->>> סכימה <<<
 \end_layout
 
 \begin_layout Standard
@@ -585,6 +443,88 @@
  הפנייה לסיכום ומסקנות.
 \end_layout
 
+\begin_layout Subsection*
+מאלוס
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Subsection*
+מאלוס
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Subsection*
+לוחית חצי גל אופטי
+\end_layout
+
+\begin_layout Subsection*
+לוחית רבע גל אופטי
+\end_layout
+
+\begin_layout Standard
+עיגול
+\end_layout
+
+\begin_layout Standard
+אליפסה
+\end_layout
+
+\begin_layout Subsection*
+דעיכה מיקרו
+\end_layout
+
+\begin_layout Subsection*
+לוחית חצי גל מיקרו
+\end_layout
+
 \begin_layout Part*
 תוצאות
 \end_layout
@@ -599,6 +539,95 @@
 
 \begin_layout Standard
 לזכור תיאור מתחת לגרפים
+\end_layout
+
+\begin_layout Subsection*
+חוק מאלוס
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series medium
+\shape default
+\size normal
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\shape up
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ אופטי, מיקרו
+\end_layout
+
+\begin_layout Standard
+>>> סכימה <<<
+\end_layout
+
+\begin_layout Subsection*
+חוק מאלוס
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size normal
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series bold
+\shape up
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ אופטי, מיקרו
+\end_layout
+
+\begin_layout Standard
+>>> סכימה <<<
 \end_layout
 
 \begin_layout Part*
