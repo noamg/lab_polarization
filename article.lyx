@@ -80,6 +80,124 @@
 משקפי תלת ממד
 \end_layout
 
+\begin_layout Abstract
+מה הניסוי מה התוצאות
+\end_layout
+
+\begin_layout Part*
+משימות
+\end_layout
+
+\begin_layout Itemize
+גניתוח נתונים - מאלוס
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שניהם
+\end_layout
+
+\begin_layout Itemize
+מלל של הדוח.
+ לעבור על הדוח ועל דוח חברים ולהוסיף בשר, להסביר את כל לוחית הגל, והדעיכה.
+\end_layout
+
+\begin_layout Itemize
+גרפים
+\end_layout
+
+\begin_layout Itemize
+ייצור גרף דעיכה, ניתוח נתונים דעיכה חצי גל
+\end_layout
+
+\begin_layout Itemize
+ניתוח נתונים רבע גל אופטי + פיתוח תיאורטי קל
+\end_layout
+
+\begin_layout Itemize
+ברוסטר.
+\end_layout
+
+\begin_layout Itemize
+חצי גל אופטי
+\end_layout
+
+\begin_layout Itemize
+הגיגים על דעיכה
+\end_layout
+
 \begin_layout Part*
 רקע תיאורטי
 \end_layout
@@ -379,10 +497,6 @@
 \begin_layout Standard
 בגלל אורך ההתקן הסופי, יש טולרנס מסוים, וזוויות אחרות קרובות שורדות, ונותרת
  אנרגיה מסוימת.
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Standard
