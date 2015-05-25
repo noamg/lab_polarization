@@ -645,6 +645,11 @@
  התאבכות של רכיבים שונים? צריך לנסח את הנוסחא לזוויות המותרות.
 \end_layout
 
+\begin_layout Standard
+???כפי שתואר בסעיף ___, ההתקן מעכב הפאזה יוצר גם דעיכה.
+ לדעיכה שני מרכיבים: 
+\end_layout
+
 \begin_layout Part*
 מערכת הניסוי
 \end_layout
@@ -996,8 +1001,29 @@
 דעיכה מיקרו
 \end_layout
 
+\begin_layout Standard
+בניסוי זה רצינו לאפיין באופן בסיסי את הדעיכה בהתקן מעכב הפאזה.
+ בדקנו את העצמה המגיעה לגלאי בשני הצירים הראשיים כתלות במרחק בין הצלעות
+ >>>
+\begin_inset Formula $?$
+\end_inset
+
+<<<.
+\end_layout
+
 \begin_layout Subsection*
 לוחית חצי גל מיקרו
+\end_layout
+
+\begin_layout Standard
+בניסוי זה כיוונו את מעכב הפאזה ללוחית חצי גל לפי נוסחא ____.
+ ניתחנו את השפעת הלוחית על גלים מקוטבים לינארית בזוויות שונות, תוך התייחסות
+ לדעיכה השונה בצירים הראשיים השונים.
+ נדרש כיוונון ידני שנתן סטייה קלה מהערך 
+\begin_inset Formula $d$
+\end_inset
+
+ בנוסחא עבור לוחית חצי גל.
 \end_layout
 
 \begin_layout Part*
@@ -1103,6 +1129,33 @@
 
 \begin_layout Standard
 >>> גרף <<<
+\end_layout
+
+\begin_layout Subsection*
+דעיכה מיקרו
+\end_layout
+
+\begin_layout Standard
+>>> גרף - דעיכה אופקי , אנכי <<<
+\end_layout
+
+\begin_layout Standard
+>>>גרף - דעיכה אנכי מתוקנן באופקי <<<
+\end_layout
+
+\begin_layout Standard
+כיתוב: פרופיל איבוד עצמה בהתקן מעכב הפאזה.
+ כצפוי, הדעיכה בציר האנכי מונוטונית )כמעט לינארית >>>?<<<( לשטח החסום.
+ הדעיכה בציר האופקי תלויה גם בתדרים שאובדים בעקבות תנאי השפה שכופות צלעות
+ המתכת, ולכן מורכבת יותר.
+\end_layout
+
+\begin_layout Subsection*
+לוחית חצי גל מיקרו
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Part*
