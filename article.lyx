@@ -84,6 +84,10 @@
 מה הניסוי מה התוצאות
 \end_layout
 
+\begin_layout Standard
+מטרת הניסוי: _____________
+\end_layout
+
 \begin_layout Part*
 משימות
 \end_layout
@@ -646,7 +650,114 @@
 \end_layout
 
 \begin_layout Standard
-משפט על זה שיש את העולם האופטי והעולם המיקרו ויש ניסויים שחוזרים על עצמם.
+בניסוי זה חקרנו תופעות קיטוב גלים אלקטרומגנטיים בשני תחומי תדר: תחום אופטי
+ ותחום גלי רדיו 
+\begin_inset Formula $(RF)$
+\end_inset
+
+.
+ בשתי המערכות בדקנו את תורת הקיטוב ע"י ניסוי מאלוס
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מקטבים, מאלוס
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+והתנהגות לוחיות גל .להלן יתוארו המאפיינים של מערכות הניסוי בכל תחום תדר,
+ ולאחר מכן יתוארו הניסויים שבוצעו במערכות אלה.
 \end_layout
 
 \begin_layout Standard
@@ -659,7 +770,58 @@
 \end_layout
 
 \begin_layout Standard
->>> סכמה <<<
+>>> תמונה <<<
+\end_layout
+
+\begin_layout Standard
+השתמשנו בלייזר אדום 
+\begin_inset Formula $\lambda=632.8[nm]$
+\end_inset
+
+, מקטבים ולוחיות גל 
+\begin_inset Formula $(\frac{\lambda}{2},\frac{\lambda}{4})$
+\end_inset
+
+ המתאימים לאורך הגל 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ וגלאי אור.
+\end_layout
+
+\begin_layout Itemize
+כדי להקטין את הרעש המתקבל בגלאי כיבינו את התאורה ואת מסך המחשב בעת ביצוע
+ הניסויים.
+\end_layout
+
+\begin_layout Itemize
+וידאנו את תקינות המקטבים וגם את העובדה שמקור הגל שידר גל מקוטב לינארית ע"י
+ הגעה לעצמה אפסית בגלאי בזווית מסויימת של המקטב.
+ העובדה שגל המקור היה מקוטב לינארית חסכה מקטב במהלך הניסוי.
+\end_layout
+
+\begin_layout Itemize
+אחד המקטבים בו השתמשנו היה בעייתי: חיבור מסוים היה חפשי מדי, ולכן במגמות
+ סיבוב שונות, אותה זווית במד הזווית הייתה מתאימה לזוויות מעט שונות של המקטב.
+ התמודדנו עם בעיה זו ע"י חזרה על המדידה בשתי מגמות הסיבוב, ומיצוע.
+\end_layout
+
+\begin_layout Itemize
+מצאנו את הצירים הראשיים של לוחיות הגל ע"י מדידה העצמה במערכת מקור-לוחית-מקטב-גלא
+י כך שמקטב מקביל לקיטוב המקור, עצמה מרבית מתקבלת בצירים הראשיים של לוחית
+ הגל.
+\end_layout
+
+\begin_layout Itemize
+וידאנו את תקינות לוחית הגל 
+\begin_inset Formula $\frac{\lambda}{4}$
+\end_inset
+
+ ע"י כך שקיבלנו קיטוב מעגלי בזווית הגעה של 
+\begin_inset Formula $\theta=\frac{1}{4}\pi$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection*
@@ -667,27 +829,60 @@
 \end_layout
 
 \begin_layout Standard
->>> סכמה <<<
+>>> תמונה <<<
 \end_layout
 
 \begin_layout Standard
-הערות מיקרו:
+השתמשנו בגל מיקרו 
+\begin_inset Formula $\lambda=?$
+\end_inset
+
+.
+ גל המקור וגם הגלאי היו בגלי מקטב לינארי מובנה.
+ בתור מקטב שלישי השתמשנו בלוחית אלומיניום מחורצת כפי שרואים באיור ____.
+ בלור לוחית גל השתמשנו בצלעות מתכת כפי שמתואר בסעיף ____.
+ במערכת גלי מיקרו נתקלנו במספר תופעות שדרשו טיפול:
 \end_layout
 
-\begin_layout Standard
-רב נתיב, התאבכות עם החזרה מהשולחן.
- השופרים )אנטנות( לא באמת איזוטרופיים.
- או שזה החדר.
+\begin_layout Itemize
+כאשר המקור והגלאי היו מכוונים באותו כיוון, העצמה הנמדדת הושפעה מהכיוון שלהם
+ ביחס לחדר.
+ מקור התופעה ככל הנראה: אלומת גלי המיקרו רחבה יחסית, ועוברת החזרה מאובייקטים
+ סמוכים )כמו המשטח עליו מוצבת המערכת(.
+ הגלים המוחזרים מתאבכים עם הגלים שעוברים בנתיב ישיר ומשפיעים על העצמה הנמדדת.
+ כיוון שאנטנות השופר אינן איזוטרופיות, והחדר אינו איזוטרופי, טיב ההתאבכות
+ מושפע מזווית המשדר והגלאי ביחס לחדר.
+ נמדד הבדל של כ-
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\begin_inset Formula $5\%$
+\end_inset
+
+ בין זוויות שונות.
+ הוספנו סטייה זו לשגיאת המדידה )ראה הרחבה בסיכום(.
 \end_layout
 
-\begin_layout Standard
-וודו בזמנים ארוכים.
- צורך בכיול מדי פעם.
- מדידות יחסיות.
+\begin_layout Itemize
+בזמנים ארוכים )דקות אחדות( הגלאי שינה את הקריאה שלו למרות שלו היה שינוי
+ במערכת.
+ כדי להתמודד עם בעיה זו, לפני כל סדרת ניסויים לקחנו מדידת כיול ותיקננו את
+ המדידות לפיה.
 \end_layout
 
-\begin_layout Standard
-דעיכה בהתקן מעכב פאזה )מיקרו(
+\begin_layout Itemize
+על מנת לקבל לוחיות גל משתמשים בהתקן חסימה עם צלעות מתכת, כמתואר בסעיף ___.
+ כמתואר לעיל, ההתקן יוצר דעיכה בהתקן מעכב פאזה )מיקרו( >>> מה בעצם אנחנו
+ רוצים להגיד כאן?<<<
 \end_layout
 
 \begin_layout Standard
@@ -732,6 +927,10 @@
 2
 \end_layout
 
+\begin_layout Standard
+>>> סכימה: מקור, מקטב, גלאי<<<
+\end_layout
+
 \begin_layout Subsection*
 מאלוס
 \family roman
@@ -761,6 +960,10 @@
 3
 \end_layout
 
+\begin_layout Standard
+>>> סכימה, מקור, מקטב, מקטב, גלאי <<<
+\end_layout
+
 \begin_layout Subsection*
 לוחית חצי גל אופטי
 \end_layout
@@ -770,11 +973,23 @@
 \end_layout
 
 \begin_layout Standard
-עיגול
+>>> סכימה: מקור, לוחית, מקטב, גלאי <<<
 \end_layout
 
 \begin_layout Standard
-אליפסה
+עיגול: 
+\begin_inset Formula $\theta=\frac{1}{2}\pi$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אליפסה: בחרנו 
+\begin_inset Formula $\theta=?$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
@@ -842,7 +1057,7 @@
 \end_layout
 
 \begin_layout Standard
->>> סכימה <<<
+>>> גרף <<<
 \end_layout
 
 \begin_layout Subsection*
@@ -887,7 +1102,7 @@
 \end_layout
 
 \begin_layout Standard
->>> סכימה <<<
+>>> גרף <<<
 \end_layout
 
 \begin_layout Part*
@@ -914,6 +1129,12 @@
 \end_inset
 
  , אם האיפוס מגיע בזווית השורדת נצפה ששום דבר לא יעבור
+\end_layout
+
+\begin_layout Standard
+סיפורי התאבכות.
+ קשה לומר איך נראית ההשפעה בזוויות שונות בלי פרופיל מלא.
+ מערכת רחוקה יותר ממקורות החזרה תאפשר מדידה נקייה יותר.
 \end_layout
 
 \begin_layout Part*
