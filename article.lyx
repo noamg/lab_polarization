@@ -207,9 +207,12 @@
 \end_layout
 
 \begin_layout Standard
-אור הוא גל אלקטרומגנטי - הפרעה בשדה האלקטרומגנטי המתפשטת במרחב לפי משוואת
- הגלים: 
-\begin_inset Formula $\frac{\partial^{2}\psi}{\partial t^{2}}=c^{2}\nabla^{2}\psi$
+אור הוא גל אלקטרומגנטי - הפרעה בשדה האלקטרומגנטי 
+\begin_inset Formula $\vec{E}$
+\end_inset
+
+ המתפשטת במרחב לפי משוואת הגלים: 
+\begin_inset Formula $\frac{\partial^{2}\vec{\psi}}{\partial t^{2}}=c^{2}\nabla^{2}\vec{\psi}$
 \end_inset
 
 .
@@ -217,7 +220,7 @@
  מתמטי פשוט:
 \begin_inset Formula 
 \[
-\psi(\vec{r,}t)=A\exp(\vec{k}\cdot\vec{r}-\omega t+\phi_{0})\Rightarrow E(\vec{r,}t)=Re(\psi(\vec{r,}t))
+\vec{\psi}(\vec{r,}t)=\vec{E_{+}}\exp(\vec{ik}\cdot\vec{r}-i\omega t+\phi_{0})\Rightarrow\vec{E}(\vec{r,}t)=2\cdot Re(\psi(\vec{r,}t))
 \]
 
 \end_inset
@@ -225,24 +228,85 @@
 
 \end_layout
 
+\begin_layout Standard
+הערות: לעיתים מוותרים על הביטוי המפורש של הפאזה 
+\begin_inset Formula $\phi_{0}$
+\end_inset
+
+ומכניסים את תיאור הפאזה לווקטור 
+\begin_inset Formula $\vec{E}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+הווקטור 
+\begin_inset Formula $\vec{E}$
+\end_inset
+
+ניצב לכיוון התקדמות הגל 
+\begin_inset Formula $\vec{k}$
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Section*
 קיטוב
 \end_layout
 
 \begin_layout Standard
-הגדרה
+קיטוב מוגדר בתור ______
 \end_layout
 
 \begin_layout Standard
-קיטוב לינארי
+קיטוב לינארי: גל מישורי המוגדר לפי 
+\begin_inset Formula $\vec{E}$
+\end_inset
+
+ממשי, הוא בעל קיטוב לינארי בכיוון ובגודל של 
+\begin_inset Formula $\vec{E}$
+\end_inset
+
+.
+ ראו איור ___.
+ סופר פוזיציה של גלים מקוטבים לינארית בעלי 
+\begin_inset Formula $\vec{E_{1},}\vec{E_{2}}$
+\end_inset
+
+ ממשיים בעלי פאזה שווה 
+\begin_inset Formula $\phi_{1}=\phi_{2}$
+\end_inset
+
+ הוא גל מקוטב לינארית לפי 
+\begin_inset Formula $\vec{E_{1}}+\vec{E_{2}}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-קיטוב מעגלי
+קיטוב מעגלי: סופר פוזיציה של גלים בעלי קיטוב לינארי בעצמה שווה בכיוונים
+ 
+\begin_inset Formula $\hat{x},\hat{y}$
+\end_inset
+
+ ובהפרש פאזה 
+\begin_inset Formula $\phi_{1}-\phi_{2}=\frac{1}{2}\pi$
+\end_inset
+
+ ייתן גל בעל קיטוב מעגלי.
+ ראו איור _____.
 \end_layout
 
 \begin_layout Standard
-קיטוב אליפטי
+קיטוב אליפטי: הקיטוב הכללי ביותר הוא אליפטי.
+ ראה איור ____.
+\end_layout
+
+\begin_layout Standard
+>>>אליפסת הקיטוב????<<<
 \end_layout
 
 \begin_layout Standard
@@ -254,15 +318,26 @@
 \end_layout
 
 \begin_layout Standard
-תיאור וקטורי של קיטוב
-\end_layout
+הערה לגבי וקטורי 
+\begin_inset Formula $E$
+\end_inset
 
-\begin_layout Standard
-* מדידת קיטוב
+ המתארים קיטוב:תיאור וקטורי של קיטוב ____
 \end_layout
 
 \begin_layout Subsubsection*
 מקטב )מקטב לינארי(
+\end_layout
+
+\begin_layout Standard
+מקטב )לינארי(: מכשיר אופטי הבולע את הקיטוב בציר מסוים ומעביר אותו בציר הניצב
+ לו.
+ מתמטית מתואר בתור הטלה 
+\begin_inset Formula $(projection)$
+\end_inset
+
+ על הציר שבו הקיטוב עובר.
+ הכיוון של המקטב הוא הכיוון שבו שדה לא נבלע.
 \end_layout
 
 \begin_layout Standard
@@ -316,7 +391,29 @@
 \uwave default
 \noun default
 \color inherit
-מקטבים
+מקטבים: כאשר אור בקיטוב לינארי עובר דרך מקטב שהכיוון שלו בזווית 
+\begin_inset Formula $\theta$
+\end_inset
+
+לכיוון הקיטוב, יחס העצמות יהיה:
+\begin_inset Formula 
+\[
+\frac{I_{out}}{I_{in}}=cos^{2}(\theta)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+זאת כיוון שעצמת הגל היא ביחס ריבועי למשרעת 
+\begin_inset Formula $\vec{E}$
+\end_inset
+
+.
+ כצפוי, גל שמקוטב בכיוון המקטב עובר במלואו, וגל שמקוטב בניצב למקטב נבלע
+ כולו.
 \end_layout
 
 \begin_layout Standard
@@ -370,11 +467,43 @@
 \uwave default
 \noun default
 \color inherit
-מקטבים
+מקטבים: גל מקוטב לינארית פוגש בזה אחר זה שני מקטבים.
+ המקטב השני ניצב לקיטוב הגל הנכנס.
+ המקטב האמצעי מקוטב בזווית 
+\begin_inset Formula $\theta$
+\end_inset
+
+ ביחס לגל הנכנס.
+ בתנאים אילו יחס העצמות יהיה:
 \end_layout
 
 \begin_layout Standard
-משפט על מה יוצר מקטב )אופטי, גלי מיקרו(
+\begin_inset Formula 
+\[
+\frac{I_{out}}{I_{in}}=\frac{1}{4}sin^{2}(2\theta)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כצפוי, אם המקטב האמצעי ניצב לגל הנכנס, או למקטב השני, כל הגל נבלע.
+ כצפוי )משיקולי סימטריה( העצמה המקסימלית מתקבלת עבור 
+\begin_inset Formula $\theta=\frac{1}{4}\pi$
+\end_inset
+
+ אך גם בה לא מועברת כל האנרגיה.
+\end_layout
+
+\begin_layout Standard
+כיצד בנוי מקטב?: מקטב מבוסס על חוסר סימטריה בין צירים ניצבים 
+\begin_inset Formula $x,y$
+\end_inset
+
+.
+ _____
 \end_layout
 
 \begin_layout Subsubsection*
