@@ -515,6 +515,37 @@
 \end_layout
 
 \begin_layout Standard
+מכשיר אופטי היוצר הפרש פאזה בין רכיבי גל לינאריים בזוג צירים מאונכים כלשהם.
+ זאת ע"י עיכוב ההתקדמות של אחד מרכיבי הקיטוב ביחס לאחר.
+ כאשר נזכיר את "רכיבי הגל" בהקשר של לוחית גל, הכוונה היא לרכיבים בפירוק
+ לצירים הראשיים של הלוחית.
+ לוחית גל לא משפיעה על הקיטוב של גל מקוטב לינארית באחד הצירים הראשיים שלה.
+\end_layout
+
+\begin_layout Standard
+לוחית 
+\begin_inset Formula $\frac{\lambda}{2}$
+\end_inset
+
+: מעכבת את את הרכיבים בחצי מחזור.
+ הופכת קיטובים לינאריים לקיטובים לינאריים לפי שיקוף דרך אחד הצירים הראשיים
+ )לא משנה איזה, התוצאה זהה(.
+\end_layout
+
+\begin_layout Standard
+לוחית 
+\begin_inset Formula $\frac{\lambda}{4}$
+\end_inset
+
+: מעכבת את אחד הרכיבים ברבע מחזור.
+ הופכת קיטוב לינארי שבו שני הרכיבים באותה עצמה לקיטוב מעגלי.
+\end_layout
+
+\begin_layout Standard
+בתחומי תדר שונים תופעות שונות גורמות לתופעה של לוחית גל )פירוט בהמשך(.
+\end_layout
+
+\begin_layout Standard
 שבירה כפולה
 \end_layout
 
@@ -648,6 +679,44 @@
 \begin_layout Standard
 ???כפי שתואר בסעיף ___, ההתקן מעכב הפאזה יוצר גם דעיכה.
  לדעיכה שני מרכיבים: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0col%
+width "50col%"
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/phase_delay_micro_trim.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part*
@@ -1155,7 +1224,15 @@
 \end_layout
 
 \begin_layout Standard
+>>> גרף היטל על ציר 
+\begin_inset Formula $x$
+\end_inset
 
+נכנס לעומת יוצא, היטל על ציר 
+\begin_inset Formula $y$
+\end_inset
+
+נכנס לעומת יוצא, להכניס את הצפי לפי דעיכה והסטת פאזה <<<
 \end_layout
 
 \begin_layout Part*
