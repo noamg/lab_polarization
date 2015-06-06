@@ -170,24 +170,34 @@
 \uwave default
 \noun default
 \color inherit
-שניהם
+שניהם -------------------
 \end_layout
 
 \begin_layout Itemize
 מלל של הדוח.
  לעבור על הדוח ועל דוח חברים ולהוסיף בשר, להסביר את כל לוחית הגל, והדעיכה.
+ ----------------
 \end_layout
 
 \begin_layout Itemize
-גרפים
+גרפים -------------
 \end_layout
 
 \begin_layout Itemize
-ייצור גרף דעיכה, ניתוח נתונים דעיכה חצי גל
+ייצור גרף דעיכה, ניתוח נתונים דעיכה חצי גל.
+ כיוון מבטיח.
 \end_layout
 
 \begin_layout Itemize
 ניתוח נתונים רבע גל אופטי + פיתוח תיאורטי קל
+\end_layout
+
+\begin_layout Itemize
+הגיגים על דעיכה
+\end_layout
+
+\begin_layout Itemize
+לסגור מלל
 \end_layout
 
 \begin_layout Itemize
@@ -196,10 +206,6 @@
 
 \begin_layout Itemize
 חצי גל אופטי
-\end_layout
-
-\begin_layout Itemize
-הגיגים על דעיכה
 \end_layout
 
 \begin_layout Part*
