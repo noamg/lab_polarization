@@ -211,7 +211,7 @@
 \end_layout
 
 \begin_layout Standard
-אור הוא גל אלקטרומגנטי - הפרעה בשדה האלקטרומגנטי 
+אור הוא גל א"מ )אלקטרומגנטי( - הפרעה בשדה האלקטרומגנטי 
 \begin_inset Formula $\vec{E}$
 \end_inset
 
@@ -261,7 +261,11 @@
 \end_layout
 
 \begin_layout Standard
-קיטוב מוגדר בתור ______
+קיטוב מוגדר בתור התלות של וקטור השדה החשמלי 
+\begin_inset Formula $\vec{E}$
+\end_inset
+
+ של גל א"מ בזמן ובמרחב.
 \end_layout
 
 \begin_layout Standard
@@ -274,7 +278,57 @@
 \end_inset
 
 .
- ראו איור ___.
+ בקיטוב לינארי כיוון השדה החשמלי לא משתנה אלא רק עצמתו, כפי שרואים באיור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שמאל.
  סופר פוזיציה של גלים מקוטבים לינארית בעלי 
 \begin_inset Formula $\vec{E_{1},}\vec{E_{2}}$
 \end_inset
@@ -301,32 +355,222 @@
 \end_inset
 
  ייתן גל בעל קיטוב מעגלי.
- ראו איור _____.
+ ראו איור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אמצע.
 \end_layout
 
 \begin_layout Standard
-קיטוב אליפטי: הקיטוב הכללי ביותר הוא אליפטי.
- ראה איור ____.
+קיטוב אליפטי: הקיטוב הכללי ביותר הוא אליפטי, כלומר, כל סופר פוזיציה של קיטובים
+ לינאריים בהפרשי פאזות כלשהם תתן קיטוב אליפטי.
+ ראה איור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ימין.
+ למעשה, קיטוב לינארי וקיטוב מעגלי הם מקרים "אידיאליים" או מקורבים: בפועל
+ מדובר בקיטוב אליפטי בעל אקסצנטריות אינסופית )לינארי( או בדיוק
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)מעגלי(.
 \end_layout
 
 \begin_layout Standard
->>>אליפסת הקיטוב????<<<
+>>>אליפסת הקיטוב???? כנראה להוריד<<<
 \end_layout
 
 \begin_layout Standard
->>> ציור גל קיטוב לינארי <<<
-\end_layout
-
-\begin_layout Standard
->>> ציור גל קיטוב מעגלי <<<
-\end_layout
-
-\begin_layout Standard
-הערה לגבי וקטורי 
-\begin_inset Formula $E$
+וקטורי 
+\begin_inset Formula $\vec{E_{+}}$
 \end_inset
 
- המתארים קיטוב:תיאור וקטורי של קיטוב ____
+ המתארים את הקיטוב הם וקטורים במרחב המרוכב 
+\begin_inset Formula $C^{2}$
+\end_inset
+
+, וניתן להציג אותם ע"י כל בסיס של שני וקטורים בו.
+ מכשירים אופטיים שונים פועלים בצורה שונה על קיטובים שונים, ובאופן כללי ניתן
+ להבין את פעולתם ע"י פירוק גל לרכיבי הקיטוב הראשיים שלו עבור המכשיר האופטי.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0col%
+width "50col%"
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/linear_circular_eliptic.jpeg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+הצגה סכמתית של קיטוב לינארי )שמאל(, מעגלי )אמצע(, אליפטי )ימין(
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -507,7 +751,7 @@
 \end_inset
 
 .
- _____
+ >>>_____<<<
 \end_layout
 
 \begin_layout Subsubsection*
@@ -546,31 +790,144 @@
 \end_layout
 
 \begin_layout Standard
-שבירה כפולה
+לוחית גל במערכת אופטית:
 \end_layout
 
 \begin_layout Standard
-הגיאומטריה בבעיה, צירים ראשיים.
+המקור הפיסיקלי הוא שבירה כפולה )
+\begin_inset Formula $birefringence$
+\end_inset
+
+(: בגבישים לא איזוטרופיים מסוימים, כיוון הקיטוב של גל משפיע על מהירות ההתקדמות
+ שלו בתוך הגביש 
+\begin_inset Formula $c_{in}$
+\end_inset
+
+ )לינארית למקדם השבירה 
+\begin_inset Formula $n$
+\end_inset
+
+( )איור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+(.
+ גל שמקוטב בציר האופטי מתקדם לפי מקדם שבירה 
+\begin_inset Formula $n_{o}$
+\end_inset
+
+, וגל שמקוטב בציר הניצב לו מתקדם לפי מקדם שבירה 
+\begin_inset Formula $n_{e}$
+\end_inset
+
+.
+ בסה"כ שני רכיבי הקיטוב צוברים הפרש פאזה לפי:
+\begin_inset Formula 
+\[
+\Delta\phi=L\Delta k=L\frac{\omega}{c}\Delta n
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
->>> סכימה שבירה כפולה <<<
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/birefringence.jpg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-לוחית חצי גל
+לוחית גל במערכת גלי מיקרו:
 \end_layout
 
 \begin_layout Standard
-לוחית רבע גל
-\end_layout
+משתמשים במוליך גלים בעל צלעות מתכתיות אנכיות )ראה תמונה ___(.
+ השדה ליד הצלעות מחויב לקיים את תנאי השפה: 
+\begin_inset Formula $E_{\perp}=\frac{\sigma}{\epsilon_{0}}$
+\end_inset
 
-\begin_layout Standard
-לוחית גל במערכת גלי מיקרו
-\end_layout
+, 
+\begin_inset Formula $E_{\parallel}=0$
+\end_inset
 
-\begin_layout Standard
->>> סכימה מתוך ברקלי <<<
+.
+ מכאן גל מקוטב אופקית מאבד אנרגיה בגלל המחסום, אך פרט לכך ממשיך כרגיל.
+ לעומתו, גל מקוטב אנכית חייב להתאפס על צלעות המתכת.
+ מובן שהגל לא מקיים זאת באופן מלא.
+ לאחר שהגל מגיע למחסום הוא מתפרק לרכיבים: גלים מישוריים המתקדמים בכיוונים
+ שונים אך קרובים לכיוון המקורי )פירוק פרנל >>>פוריה, 
+\begin_inset Formula $cite$
+\end_inset
+
+???<<<.
+ נבחן כעת זוג גלים כאלה המתקדמים בכיוונים 
+\begin_inset Formula $\theta$
+\end_inset
+
+, 
+\begin_inset Formula $-\theta$
+\end_inset
+
+)איור >>>
+\numeric on
+3
+\numeric off
+<<<(
 \end_layout
 
 \begin_layout Standard
