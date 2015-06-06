@@ -170,24 +170,34 @@
 \uwave default
 \noun default
 \color inherit
-שניהם
+שניהם -------------------
 \end_layout
 
 \begin_layout Itemize
 מלל של הדוח.
  לעבור על הדוח ועל דוח חברים ולהוסיף בשר, להסביר את כל לוחית הגל, והדעיכה.
+ ----------------
 \end_layout
 
 \begin_layout Itemize
-גרפים
+גרפים -------------
 \end_layout
 
 \begin_layout Itemize
-ייצור גרף דעיכה, ניתוח נתונים דעיכה חצי גל
+ייצור גרף דעיכה, ניתוח נתונים דעיכה חצי גל.
+ כיוון מבטיח.
 \end_layout
 
 \begin_layout Itemize
 ניתוח נתונים רבע גל אופטי + פיתוח תיאורטי קל
+\end_layout
+
+\begin_layout Itemize
+הגיגים על דעיכה
+\end_layout
+
+\begin_layout Itemize
+לסגור מלל
 \end_layout
 
 \begin_layout Itemize
@@ -196,10 +206,6 @@
 
 \begin_layout Itemize
 חצי גל אופטי
-\end_layout
-
-\begin_layout Itemize
-הגיגים על דעיכה
 \end_layout
 
 \begin_layout Part*
@@ -907,117 +913,121 @@ status open
 
 .
  מכאן גל מקוטב אופקית מאבד אנרגיה בגלל המחסום, אך פרט לכך ממשיך כרגיל.
- לעומתו, גל מקוטב אנכית חייב להתאפס על צלעות המתכת.
+\end_layout
+
+\begin_layout Standard
+לעומתו, גל מקוטב אנכית חייב להתאפס על צלעות המתכת.
  מובן שהגל לא מקיים זאת באופן מלא.
- לאחר שהגל מגיע למחסום הוא מתפרק לרכיבים: גלים מישוריים המתקדמים בכיוונים
- שונים אך קרובים לכיוון המקורי )פירוק פרנל >>>פוריה, 
+ כאשר שהגל מגיע למחסום הוא מתפרק לרכיבים לפי פרנל: גלים מישוריים המתקדמים
+ בכיוונים שונים )אך קרובים לכיוון המקורי כיוון שרוחב המחסום 
+\begin_inset Formula $a$
+\end_inset
+
+ גדול משמעותית מאורך הגל 
+\begin_inset Formula $\lambda$
+\end_inset
+
+(>>>פוריה, 
 \begin_inset Formula $cite$
 \end_inset
 
 ???<<<.
  נבחן כעת זוג גלים כאלה המתקדמים בכיוונים 
-\begin_inset Formula $\theta$
+\begin_inset Formula $\pm\theta$
 \end_inset
 
-, 
-\begin_inset Formula $-\theta$
-\end_inset
-
-)איור >>>
+)ונקרא להם הרכיבים הימני והשמאלי( כפי שמופיע באיור >>>
 \numeric on
 3
 \numeric off
-<<<(
+<<<.
+ רק זווית 
+\begin_inset Formula $\theta$
+\end_inset
+
+עבורה השיאים של הרכיב הימני חופפים בדיוק את השפלים של הרכיב השמאלי תקיים
+ את תנאי השפה 
+\begin_inset Formula $E_{\parallel}=0$
+\end_inset
+
+ על הצלעות המתכתיות.
+ שאר אכיבי הגל )בזוויות שונות(, אינם מקיימים את תנאי השפה ודועכים.
+ )>>>לשים את האיור פה!!!<<<(
 \end_layout
 
 \begin_layout Standard
-הגל המישורי נתקל במחסום ומתפרק לסופר פוזיציה של גלים מישוריים בכיוונים שונים
+>>>הזווית המותרת 
+\begin_inset Formula $\lambda_{0}=2a\cdot sin(\theta)$
+\end_inset
+
+<<<
 \end_layout
 
 \begin_layout Standard
-רוב הגלים האלה אינם מקיימים את תנאי השפה ודועכים
+שני הרכיבים המתקדמים בכיוונים 
+\begin_inset Formula $\pm\theta$
+\end_inset
+
+שקולים לגל בכיוון הציר הראשי, בעל תדירות 
+\begin_inset Formula $\omega$
+\end_inset
+
+, אורך גל אפקטיבי 
+\begin_inset Formula $\lambda_{g}=\frac{\lambda_{0}}{cos(\theta)}$
+\end_inset
+
+.ופרופיל עצמה לרוחב מוליך הגלים, כך שהוא מקסימלי במרכז ומתאפס על הצלעות.
 \end_layout
 
 \begin_layout Standard
-הגלים המקיימים את תנאי השפה הללו מצייתים לכלל גיאומטרי מסוים.
- זווית מסוימת
+כלומר, הגל השורד בקיטוב האנכי, בעל מהירות התקדמות שונה מאשר הרכיב האופקי,
+ והם צוברים היסט פאזה הנתון לפי:
 \end_layout
 
 \begin_layout Standard
-מה מתקבל? גל מישורי עם אורך גל אפקטיבי, מהירות התקדמות אפקטיבית, אמפליטודה
- שיורדת כתלות במרחק מהציר הראשי.
+\begin_inset Formula 
+\[
+\Delta\phi=???
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection*
-דעיכה במערכת לוחית גל של גלי מיקרו
+דעיכה / סינון במערכת לוחית גל של גלי מיקרו
 \end_layout
 
 \begin_layout Standard
-יש איבוד אנרגיה מסוים שנובע מחסימת הגל.
- הוא רלוונטי לשני הקיטובים.
+מוליך הגלים יוצר אפקט נוסף של דעיכה בעצמת הגל העובר, שיש לו שני גורמים:
 \end_layout
 
 \begin_layout Standard
-חלק ממרכיבי הגל דועכים ולכן אנרגיה אובדת.
+ראשית, מוליך הגלים מהווה גם מחסום שחוסם חלק מהאנרגיה של הגל )בכל קיטוב(.
 \end_layout
 
 \begin_layout Standard
-כנראה אם אורך ההתקן היה ארוך מאוד, הייתה שורדת זווית דיסקרטית, שנושאת איתה
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-0
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-אנרגיה.
+שנית, הקיטוב האנכי מאבד הרבה מהרכיבים שלו בגלל תנאי השפה שכופות צלעות המתכת
+ )כפי שהוסבר בפסקה הקודמת( כלומר, עובר סינון לפי כיוון התקדמות.
+ למעשה, אילו המוליך היה באורך אינסופי, היה נשאר רק הרכיב בדיוק בזווית 
+\begin_inset Formula $\theta$
+\end_inset
+
+, שהוא רכיב דיסקרטי מתוך רצף של זוויות, ולכן לא נושא איתו אנרגיה כלל.
+ אבל, כיוון שאורך המוליך סופי, יש טולרנס מסוים 
+\begin_inset Formula $\delta\theta$
+\end_inset
+
+ סביב 
+\begin_inset Formula $\theta$
+\end_inset
+
+שבו רכיבי הגל שורדים ועוברת אנרגיה.
 \end_layout
 
 \begin_layout Standard
-בגלל אורך ההתקן הסופי, יש טולרנס מסוים, וזוויות אחרות קרובות שורדות, ונותרת
- אנרגיה מסוימת.
+>>> לזרוק קומפלט
 \end_layout
 
 \begin_layout Standard
@@ -1039,16 +1049,16 @@ status open
 \end_layout
 
 \begin_layout Standard
+<<<
+\end_layout
+
+\begin_layout Standard
 \begin_inset Wrap figure
 lines 0
 placement o
 overhang 0col%
 width "50col%"
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption
@@ -1068,7 +1078,24 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+ניתוח של מעבר גל מקוטב אנכית במוליך גלים.
+ הגל מתפרק לגלים מישוריים בכיוונים שונים )פירוק פרנל(.
+ באיור מתוארים שני גלים המתקדמים בכיוונים 
+\begin_inset Formula $\pm\theta$
+\end_inset
 
+.
+ חזיתות גל של שיאים מיוצגות ע"י )+(, ושפל מיוצגות ע"י )-(.
+ רק זווית 
+\begin_inset Formula $\theta$
+\end_inset
+
+עבורה השיאים של הרכיב הימני חופפים בדיוק את השפלים של הרכיב השמאלי תקיים
+ את תנאי השפה 
+\begin_inset Formula $E_{\parallel}=0$
+\end_inset
+
+ על הצלעות המתכתיות.
 \end_layout
 
 \end_inset
@@ -1630,6 +1657,37 @@ status open
 
 \begin_layout Standard
 חוק ברוסטר, יחסי פרנל, ללא תיאור המערכת.
+\end_layout
+
+\begin_layout Standard
+תוצאות מאלוס )
+\numeric on
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+רדיו נכשלו(.
 \end_layout
 
 \end_body
