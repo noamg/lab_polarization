@@ -184,16 +184,23 @@
 \end_layout
 
 \begin_layout Itemize
-ייצור גרף דעיכה, ניתוח נתונים דעיכה חצי גל.
- כיוון מבטיח.
+ייצור גרף דעיכה, + כיוון מבטיח פקטור שורש - יש.
+ + הערכת אצבע לרוחב הסינק.
+ + הסבר למה זה עובד גם בלי.
+\end_layout
+
+\begin_layout Itemize
+להכניס הגיגים דעיכה לסיכום ומסקנות והמשך.
+\end_layout
+
+\begin_layout Itemize
+ניתוח נתונים דעיכה חצי גל - נספח, בעיקרו בדיקת שפיות.
+ + להוסיף משפט שעשינו בדיקת שפיות כזאת.
+ 
 \end_layout
 
 \begin_layout Itemize
 ניתוח נתונים רבע גל אופטי + פיתוח תיאורטי קל
-\end_layout
-
-\begin_layout Itemize
-הגיגים על דעיכה
 \end_layout
 
 \begin_layout Itemize
@@ -205,7 +212,7 @@
 \end_layout
 
 \begin_layout Itemize
-חצי גל אופטי
+חצי גל אופטי - להפיל
 \end_layout
 
 \begin_layout Part*
@@ -538,15 +545,12 @@
 , וניתן להציג אותם ע"י כל בסיס של שני וקטורים בו.
  מכשירים אופטיים שונים פועלים בצורה שונה על קיטובים שונים, ובאופן כללי ניתן
  להבין את פעולתם ע"י פירוק גל לרכיבי הקיטוב הראשיים שלו עבור המכשיר האופטי.
- 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Wrap figure
-lines 0
-placement o
-overhang 0col%
-width "50col%"
+\begin_inset Float figure
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
@@ -999,16 +1003,70 @@ status open
 דעיכה / סינון במערכת לוחית גל של גלי מיקרו
 \end_layout
 
-\begin_layout Standard
-מוליך הגלים יוצר אפקט נוסף של דעיכה בעצמת הגל העובר, שיש לו שני גורמים:
+\begin_layout Subsubsection*
+>>> להבין מה מפה צריך להיות רקע תיאורטי ומה ניתוח אוחר.
+ אני חושב שיהיה הרבה יותר קל להבין את ההסבר אחרי שרואים את מערכת הניסוי
+ <<<
 \end_layout
 
 \begin_layout Standard
-ראשית, מוליך הגלים מהווה גם מחסום שחוסם חלק מהאנרגיה של הגל )בכל קיטוב(.
+מוליך הגלים יוצר אפקט נוסף של דעיכה בעצמת הגל העובר 
+\begin_inset Formula $A$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-שנית, הקיטוב האנכי מאבד הרבה מהרכיבים שלו בגלל תנאי השפה שכופות צלעות המתכת
+בקיטוב האופקי, מוליך הגלים מהווה גם מחסום שחוסם חלק מהאנרגיה של הגל.
+ בהנחת שטף אנרגיה קבוע לאורך הכניסה למוליך הגלים, אפקט זה תורם תלות לינארית
+ של 
+\begin_inset Formula $A$
+\end_inset
+
+ ב- 
+\begin_inset Formula $w$
+\end_inset
+
+.
+ הגל הפוגע במחסום עובר עקיפה לפי מודל פרנהאופר ועצמתו כתלות בזווית נתונה
+ לפי 
+\begin_inset Formula $w\cdot sinc(\frac{1}{2}\frac{w}{\lambda}\alpha)$
+\end_inset
+
+.
+ ככל שהמוליך רחב יותר העצמה יותר מרוכזת בזוויות קטנות.
+ הגלאי נמצא רחוק ממוליך הגלים, כך שהוא אוסף אנרגיה מזוויות שקרובות לשיא
+ של ה- 
+\begin_inset Formula $sinc$
+\end_inset
+
+ , כך שהעצמה הנקלטת 
+\begin_inset Formula $A$
+\end_inset
+
+ מקבלת תלות לינארית נוספת ב- 
+\begin_inset Formula $w$
+\end_inset
+
+ )גובה ה- 
+\begin_inset Formula $sinc$
+\end_inset
+
+(.
+ בסופו של דבר 
+\begin_inset Formula $A_{horizontal}\propto w^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+בקיטוב האנכי, אובדת חלק מהאנרגיה בגלל אפקט החסימה.
+\end_layout
+
+\begin_layout Standard
+בנוסף, הקיטוב האנכי מאבד הרבה מהרכיבים שלו בגלל תנאי השפה שכופות צלעות המתכת
  )כפי שהוסבר בפסקה הקודמת( כלומר, עובר סינון לפי כיוון התקדמות.
  למעשה, אילו המוליך היה באורך אינסופי, היה נשאר רק הרכיב בדיוק בזווית 
 \begin_inset Formula $\theta$
@@ -1053,12 +1111,14 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Wrap figure
-lines 0
-placement o
-overhang 0col%
-width "50col%"
+\begin_inset Float figure
+wide false
+sideways false
 status open
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption
@@ -1462,6 +1522,75 @@ status open
 \end_inset
 
 <<<.
+ >>> אופקי: הערכת אצבע לרוחב הסינק <<<
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+ירידה בעצמה הנקלטת בקיטוב אופקי כתלות ברוחב מוליך הגלים.
+ כצפוי בסעיף ____ יש התאמה קוודרטית.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+>>><<<
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+ירידה בעצמה הנקלטת בקיטוב אנכי כתלות ברוחב מוליך הגלים.
+ רואים שני סטים של מדידות באותם התנאים.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
@@ -1649,6 +1778,43 @@ status open
 סיפורי התאבכות.
  קשה לומר איך נראית ההשפעה בזוויות שונות בלי פרופיל מלא.
  מערכת רחוקה יותר ממקורות החזרה תאפשר מדידה נקייה יותר.
+\end_layout
+
+\begin_layout Standard
+למה זה עובד גם בלי סינק.
+\end_layout
+
+\begin_layout Standard
+למעשה בדומה לניתוח שעשינו בסעיף ___, אנחנו מצפים שיהיו מודים נוספים שישרדו
+ את מוליך הגלים, כלומר, זוגות של גלים בזווית 
+\begin_inset Formula $\pm\theta_{n}$
+\end_inset
+
+ שיחד יקיימו את תנאי השפה.
+ המודים הללו יהיו עם פרופיל עצמה לרוחב מוליך הגלים שנראה כמו _____.
+ <<< כאשר 
+\begin_inset Formula $\lambda\approx w$
+\end_inset
+
+ מודים נעלמים.
+ הסבר לקפיצות.
+\end_layout
+
+\begin_layout Standard
+רעיון לניתוח: חישוב פרופיל עצמה ביציאה מהמוליך בתור סופר פוזיציה של המודים
+ ששורדים, ומשם לקדם בעזרת פרנל.
+\end_layout
+
+\begin_layout Standard
+רעיון נוסף: אולי לא צריך לעשות תיקון לפי העצמה באפקי אלא לפי הרוחב.
+ כלומר לפי השורש.
+\end_layout
+
+\begin_layout Standard
+רעיון ניתוח שכשל: אנכי, פירוק פרנהופר.
+ הסיבה שכשל היא שהמוד הראשון ששורד נמצא תמיד באותו מקום בסינק, תחת קירוב
+ זוויות קטנות.
+ ואולי טיפה יותר.
 \end_layout
 
 \begin_layout Part*
