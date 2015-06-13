@@ -84,6 +84,10 @@
 מה הניסוי מה התוצאות
 \end_layout
 
+\begin_layout Abstract
+לכתוב משהו אפי על המאבק שלנו באיתני הטבע
+\end_layout
+
 \begin_layout Standard
 מטרת הניסוי: _____________
 \end_layout
@@ -186,11 +190,17 @@
 \begin_layout Itemize
 ייצור גרף דעיכה, + כיוון מבטיח פקטור שורש - יש.
  + הערכת אצבע לרוחב הסינק.
- + הסבר למה זה עובד גם בלי.
+ + הסבר למה זה עובד גם בלי )להפיל(.
 \end_layout
 
 \begin_layout Itemize
 להכניס הגיגים דעיכה לסיכום ומסקנות והמשך.
+\end_layout
+
+\begin_layout Itemize
+עוד הגיגים דעיכה: מודים שונים משוואת גלים, סופר פוזיציה סינקים, סכימה כוללת
+ פאזות בזן.
+ ניסויים להמשך- זוויות שונות.
 \end_layout
 
 \begin_layout Itemize
@@ -796,10 +806,10 @@ status open
 \end_layout
 
 \begin_layout Standard
-בתחומי תדר שונים תופעות שונות גורמות לתופעה של לוחית גל )פירוט בהמשך(.
+בתחומי תדר שונים תופעות שונות גורמות לתופעה של לוחית גל:
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsubsection*
 לוחית גל במערכת אופטית:
 \end_layout
 
@@ -901,12 +911,12 @@ status open
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsubsection*
 לוחית גל במערכת גלי מיקרו:
 \end_layout
 
 \begin_layout Standard
-משתמשים במוליך גלים בעל צלעות מתכתיות אנכיות )ראה תמונה ___(.
+מוליך גלים בעל צלעות מתכתיות אנכיות )ראה תמונה ___( יוצר אפקט של לוחית גל.
  השדה ליד הצלעות מחויב לקיים את תנאי השפה: 
 \begin_inset Formula $E_{\perp}=\frac{\sigma}{\epsilon_{0}}$
 \end_inset
@@ -1021,8 +1031,12 @@ status open
 >>> תיקון: יש את הריבוע <<<
 \end_layout
 
+\begin_layout Subsubsection*
+בקיטוב האופקי
+\end_layout
+
 \begin_layout Standard
-בקיטוב האופקי, מוליך הגלים מהווה גם מחסום שחוסם חלק מהאנרגיה של הגל.
+מוליך הגלים מהווה גם מחסום שחוסם חלק מהאנרגיה של הגל.
  בהנחת שטף אנרגיה קבוע לאורך הכניסה למוליך הגלים, אפקט זה תורם תלות לינארית
  של 
 \begin_inset Formula $A$
@@ -1065,8 +1079,12 @@ status open
 .
 \end_layout
 
+\begin_layout Subsubsection*
+בקיטוב האנכי
+\end_layout
+
 \begin_layout Standard
-בקיטוב האנכי, אובדת חלק מהאנרגיה בגלל אפקט החסימה.
+אובדת חלק מהאנרגיה בגלל אפקט החסימה.
 \end_layout
 
 \begin_layout Standard
@@ -1762,11 +1780,20 @@ status open
 \end_layout
 
 \begin_layout Standard
-טיפול מסודר יותר בהתאבכויות )תיקנון לפי איכות שידור וקליטה בזוויות שונות(
+בדיקת פרופיל דעיכה ברזולוציית רוחב מוליך טובה יותר.
 \end_layout
 
 \begin_layout Standard
-מדידת השפעת החסימה ע"י שתי צלעות חוסמות ללא הצלעות שכופות תנאי שפה
+בדיקת האנרגיה הנפלטת בקיטוב אנכי בזוויות שונות.
+\end_layout
+
+\begin_layout Standard
+בדיקת שפיות: מדידת השפעת החסימה ע"י שתי צלעות חוסמות ללא הצלעות שכופות תנאי
+ שפה
+\end_layout
+
+\begin_layout Standard
+>>>להעיף
 \end_layout
 
 \begin_layout Standard
@@ -1779,13 +1806,17 @@ status open
 \end_layout
 
 \begin_layout Standard
-סיפורי התאבכות.
- קשה לומר איך נראית ההשפעה בזוויות שונות בלי פרופיל מלא.
- מערכת רחוקה יותר ממקורות החזרה תאפשר מדידה נקייה יותר.
+למה ההתקדמות המאוזנת עובדת גם בלי סינק.
 \end_layout
 
 \begin_layout Standard
-למה זה עובד גם בלי סינק.
+<<<
+\end_layout
+
+\begin_layout Standard
+סיפורי התאבכות.
+ קשה לומר איך נראית ההשפעה בזוויות שונות בלי פרופיל מלא.
+ מערכת רחוקה יותר ממקורות החזרה תאפשר מדידה נקייה יותר.
 \end_layout
 
 \begin_layout Standard
@@ -1802,6 +1833,7 @@ status open
 
  מודים נעלמים.
  הסבר לקפיצות.
+ לא הסבר
 \end_layout
 
 \begin_layout Standard
