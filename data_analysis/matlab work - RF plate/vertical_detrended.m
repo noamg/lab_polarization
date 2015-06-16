@@ -1,10 +1,10 @@
-% hampErrRel1 = hampErr1./hamp1;
-% vampErrRel1 = vampErr1./vamp1;
-% vampErrRel2 = vampErr2./vamp2;
-% 
-% hampN1 = hamp1/hampRef1;
-% vampN1 = vamp1/vampRef1;
-% vampN2 = vamp2/vampRef2;
+hampErrRel1 = hampErr1./hamp1;
+vampErrRel1 = vampErr1./vamp1;
+vampErrRel2 = vampErr2./vamp2;
+
+hampN1 = hamp1/hampRef1;
+vampN1 = vamp1/vampRef1;
+vampN2 = vamp2/vampRef2;
 dErrRel1 = 0.05./d1;
 dErrRel2 = 0.05./d2;
 
