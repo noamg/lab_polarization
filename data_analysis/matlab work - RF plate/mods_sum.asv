@@ -1,0 +1,32 @@
+L  = 15.8e-2;
+lambda0 = 2.85e-2;
+
+m1 = 100;
+m2 = 200;
+
+Ctheta = @(w,n) sqrt(1-(n*lambda0./w/2).^2); 
+
+f = @(x,w,n) sinc(n/4/pi)*cos(n*pi*x)*cos(2*pi/lambda0*Ctheta(w,n)*L);
+
+x = linspace(-1/2,1/2,m1);
+w = linspace(1.51*lambda0,7e-2,m2);
+
+A = zeros(m1,m2);
+B = zeros(m1,m2);
+for ind = 1:m1
+    for jnd = 1:m2
+        A(ind,jnd) = f(x(ind),w(jnd),1);%+f(x(ind),w(jnd),3);
+        B(ind,jnd) = f(x(ind),w(jnd),3);
+    end
+end
+
+close all
+surf(A)
+figure
+surf(B)
+figure
+surf(A+B)
+
+phaseN = @(w,n) 2*pi/lambda0*Ctheta(w,n)*L;
+deltawPh = @(w,n,m) phaseN(w,n)-phaseN(w,m);
+ampDif = @
