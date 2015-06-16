@@ -1008,7 +1008,7 @@ status open
 \end_layout
 
 \begin_layout Subsubsection*
-לוחית גל במערכת גלי מיקרו:
+מוליך גלים כלוחית גל במערכת גלי מיקרו:
 \end_layout
 
 \begin_layout Standard
@@ -1162,11 +1162,16 @@ status open
 \end_inset
 
  על הצלעות המתכתיות.
+ >>>מקור האיור <<<
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsubsection*
+ניתוח התקדמות גלי המיקרו בתוך מוליך הגלים ואחריו
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1311,9 +1316,9 @@ status open
 \begin_layout Standard
 קידום של מוד עצמי )שלא דעך( של מוליך הגלים יהיה: )בעזרת משפט הקונבולוציה(
 \begin_inset Formula 
-\[
-\psi_{vert}(\theta;z=L_{1}+L_{2})\propto\frac{1}{2}w\cdot cos(\frac{2\pi}{\lambda_{gn}}L_{1})\cdot[sinc(\frac{1}{2}\frac{w}{\lambda}tg(\theta)-n\cdot\frac{1}{2}\pi)+sinc(\frac{1}{2}\frac{w}{\lambda}tg(\theta)+n\cdot\frac{1}{2}\pi)]
-\]
+\begin{equation}
+\psi_{vert}(\theta;z=L_{1}+L_{2})\propto\frac{1}{2}w\cdot cos(\frac{2\pi}{\lambda_{gn}}L_{1})\cdot[sinc(\frac{1}{2}\frac{w}{\lambda}tg(\theta)-n\cdot\frac{1}{2}\pi)+sinc(\frac{1}{2}\frac{w}{\lambda}tg(\theta)+n\cdot\frac{1}{2}\pi)]\label{eq:fraunhofer-vert}
+\end{equation}
 
 \end_inset
 
@@ -1343,7 +1348,7 @@ status open
 
 \begin_layout Standard
 >>> דוגמא: גרף המוד הראשון <<< >>> כיתוב: רואים בצבע אחד את שני הסינקים,
- ובצבע אחר את סכומם <<<
+ ובצבע אחר את סכומם, רואים דחיסה של אונות הצד בגלל מרכיב הטנגנס <<<
 \end_layout
 
 \begin_layout Standard
@@ -1388,9 +1393,9 @@ reference "eq:fraunhofer"
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-\psi_{hor}(\theta;z=L_{1}+L_{2})\propto wsinc(\frac{1}{2}\frac{w}{\lambda}tg(\theta))
-\]
+\begin{equation}
+\psi_{hor}(\theta;z=L_{1}+L_{2})\propto wsinc(\frac{1}{2}\frac{w}{\lambda}tg(\theta))\label{eq:fraunhover-hor}
+\end{equation}
 
 \end_inset
 
@@ -1745,7 +1750,7 @@ reference "eq:fraunhofer"
 \end_layout
 
 \begin_layout Subsection*
-דעיכה בגלי מיקרו
+השפעת מוליך הגלים על עצמת גלי מיקרו
 \end_layout
 
 \begin_layout Standard
@@ -1768,79 +1773,14 @@ reference "eq:fraunhofer"
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Standard
->>> להכניס את הדיון על הזן, סכימת פאזות <<<
-\end_layout
-
-\begin_layout Standard
-מדוע מצפים לקשר ריבועי בין העצמה לבין הרוחב.
- >>> אופקי: הערכת אצבע לרוחב הסינק <<<
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-ירידה בעצמה הנקלטת בקיטוב אופקי כתלות ברוחב מוליך הגלים.
- כצפוי בסעיף ____ יש התאמה קוודרטית.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
->>><<<
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-ירידה בעצמה הנקלטת בקיטוב אנכי כתלות ברוחב מוליך הגלים.
- רואים שני סטים של מדידות באותם התנאים.
-\end_layout
+ גלי המיקרו משודרים מהמקור כגל מישורי, עוברים במוליך הגלים, ואז מתפזרים
+ בחלל חפשי.
+ אנטנת שופר מנתבת את הגל ממקטע מרחב מסוים למקלט, תוך שמירה על הפאזה היחסית
+ של הנקודות בו, והמקלט מודד את עצמת הקרינה בצורה של זרם:
+\begin_inset Formula 
+\begin{equation}
+Intensity\propto<|\int_{x'\in sensor}dx'\psi(x',t)|^{2}>_{t}\label{eq:receiver-feeder-integral}
+\end{equation}
 
 \end_inset
 
@@ -1968,7 +1908,110 @@ status open
 \end_layout
 
 \begin_layout Subsection*
-דעיכה מיקרו
+השפעת מוליך הגלים על עצמת גלי מיקרו
+\end_layout
+
+\begin_layout Subsubsection*
+קיטוב אופקי
+\end_layout
+
+\begin_layout Standard
+בתנאי מערכת הניסוי )
+\begin_inset Formula $L_{2}=???$
+\end_inset
+
+, 
+\begin_inset Formula $sensor-width=???$
+\end_inset
+
+, 
+\begin_inset Formula $\lambda=???$
+\end_inset
+
+( כל מרכיבי הגל הנדגמים ע"י המקלט נמצאים בתחום זוויות קטנות, ולכן מקיימים
+ לפי נוסחאת העקיפה 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:fraunhover-hor"
+
+\end_inset
+
+ ונוסחת הסכימה 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:receiver-feeder-integral"
+
+\end_inset
+
+:
+\begin_inset Formula $I_{hor}\propto w^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+ירידה בעצמה הנקלטת בקיטוב אופקי כתלות ברוחב מוליך הגלים.
+ כצפוי בסעיף ____ יש התאמה קוודרטית.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+קיטוב אנכי
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+ירידה בעצמה הנקלטת בקיטוב אנכי כתלות ברוחב מוליך הגלים.
+ רואים שני סטים של מדידות באותם התנאים.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
