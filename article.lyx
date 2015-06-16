@@ -903,7 +903,8 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
+גביש בעל שבירה כפולה מאלץ מהירות אור שונה בצירים שונים של הגביש, ויוצר לוחית
+ גל.
 \end_layout
 
 \end_inset
@@ -917,16 +918,19 @@ status open
 
 \begin_layout Standard
 מוליך גלים בעל צלעות מתכתיות אנכיות )ראה תמונה ___( יוצר אפקט של לוחית גל.
- השדה ליד הצלעות מחויב לקיים את תנאי השפה: 
-\begin_inset Formula $E_{\perp}=\frac{\sigma}{\epsilon_{0}}$
+ השדה ליד הצלעות מחויב לקיים את תנאי השפה
+\begin_inset Formula 
+\begin{equation}
+E_{\parallel}=0,E_{\perp}=\frac{\sigma}{\epsilon_{0}}
+\end{equation}
+
 \end_inset
 
-, 
-\begin_inset Formula $E_{\parallel}=0$
-\end_inset
 
-.
- מכאן גל מקוטב אופקית מאבד אנרגיה בגלל המחסום, אך פרט לכך ממשיך כרגיל.
+\end_layout
+
+\begin_layout Standard
+מכאן גל מקוטב אופקית מאבד אנרגיה בגלל המחסום, אך פרט לכך ממשיך כרגיל.
 \end_layout
 
 \begin_layout Standard
@@ -1000,9 +1004,9 @@ status open
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
+\begin{equation}
 \Delta\phi=???
-\]
+\end{equation}
 
 \end_inset
 
@@ -1033,6 +1037,11 @@ status open
 
 \begin_layout Subsubsection*
 בקיטוב האופקי
+\end_layout
+
+\begin_layout Standard
+בקצה מוליך הגלים ישנן צלעות מתכת הניצבות לכיוון התקדמות הגל )ראה איור >>><<<(.
+ 
 \end_layout
 
 \begin_layout Standard
