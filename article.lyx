@@ -198,9 +198,7 @@
 \end_layout
 
 \begin_layout Itemize
-עוד הגיגים דעיכה: מודים שונים משוואת גלים, סופר פוזיציה סינקים, סכימה כוללת
- פאזות בזן.
- ניסויים להמשך- זוויות שונות.
+עוד הגיגים דעיכה: מודים שונים משוואת גלים, סופר פוזיציה סינקים,..
 \end_layout
 
 \begin_layout Itemize
@@ -223,6 +221,14 @@
 
 \begin_layout Itemize
 חצי גל אופטי - להפיל
+\end_layout
+
+\begin_layout Itemize
+סגירה: להסיר >>><<<, ???, ___, להשלים הפניות לאיורים, קונסיסטנטיות 
+\begin_inset Formula $a,w$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1010,7 +1016,7 @@ status open
  השדה ליד הצלעות מחויב לקיים את תנאי השפה
 \begin_inset Formula 
 \begin{equation}
-E_{\parallel}=0,E_{\perp}=\frac{\sigma}{\epsilon_{0}}
+E_{\parallel}=0,E_{\perp}=\frac{\sigma}{\epsilon_{0}}\label{eq:boundry}
 \end{equation}
 
 \end_inset
@@ -1025,8 +1031,8 @@ E_{\parallel}=0,E_{\perp}=\frac{\sigma}{\epsilon_{0}}
 \begin_layout Standard
 לעומתו, גל מקוטב אנכית חייב להתאפס על צלעות המתכת.
  מובן שהגל לא מקיים זאת באופן מלא.
- כאשר שהגל מגיע למחסום הוא מתפרק לרכיבים לפי פרנל: גלים מישוריים המתקדמים
- בכיוונים שונים )אך קרובים לכיוון המקורי כיוון שרוחב המחסום 
+ כאשר שהגל מגיע למחסום הוא מתפרק לרכיבים: גלים מישוריים המתקדמים בכיוונים
+ שונים )אך קרובים לכיוון המקורי כיוון שרוחב המחסום 
 \begin_inset Formula $a$
 \end_inset
 
@@ -1064,7 +1070,7 @@ E_{\parallel}=0,E_{\perp}=\frac{\sigma}{\epsilon_{0}}
 
 \begin_layout Standard
 >>>הזווית המותרת 
-\begin_inset Formula $\lambda_{0}=2a\cdot sin(\theta)$
+\begin_inset Formula $sin(\theta_{1})=\frac{1}{2}\frac{\lambda}{a}$
 \end_inset
 
 <<<
@@ -1075,15 +1081,27 @@ E_{\parallel}=0,E_{\perp}=\frac{\sigma}{\epsilon_{0}}
 \begin_inset Formula $\pm\theta$
 \end_inset
 
-שקולים לגל בכיוון הציר הראשי, בעל תדירות 
+שקולים לגל בכיוון הציר הראשי 
+\begin_inset Formula $\hat{z}$
+\end_inset
+
+, בעל תדירות 
 \begin_inset Formula $\omega$
 \end_inset
 
 , אורך גל אפקטיבי 
-\begin_inset Formula $\lambda_{g}=\frac{\lambda_{0}}{cos(\theta)}$
+\begin_inset Formula $\lambda_{g1}=\frac{\lambda}{cos(\theta)}$
 \end_inset
 
-.ופרופיל עצמה לרוחב מוליך הגלים, כך שהוא מקסימלי במרכז ומתאפס על הצלעות.
+.ופרופיל עצמה לרוחב מוליך הגלים, כך שהוא מקסימלי במרכז ומתאפס על הצלעות:
+\begin_inset Formula 
+\[
+\psi_{1}\propto cos(\frac{2\pi}{\lambda_{g1}}z)\cdot cos(\pi\frac{x}{w})\cdot Rect(x;w)
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1094,7 +1112,7 @@ E_{\parallel}=0,E_{\perp}=\frac{\sigma}{\epsilon_{0}}
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\Delta\phi=???
+\Delta\phi=???\label{eq:phase_diff_hor_ver}
 \end{equation}
 
 \end_inset
@@ -1102,143 +1120,11 @@ E_{\parallel}=0,E_{\perp}=\frac{\sigma}{\epsilon_{0}}
 
 \end_layout
 
-\begin_layout Subsubsection*
-דעיכה / סינון במערכת לוחית גל של גלי מיקרו
-\end_layout
-
-\begin_layout Subsubsection*
->>> להבין מה מפה צריך להיות רקע תיאורטי ומה ניתוח אוחר.
- אני חושב שיהיה הרבה יותר קל להבין את ההסבר אחרי שרואים את מערכת הניסוי
- <<<
-\end_layout
-
-\begin_layout Standard
-מוליך הגלים יוצר אפקט נוסף של דעיכה בעצמת הגל העובר 
-\begin_inset Formula $A$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
->>> תיקון: יש את הריבוע <<<
-\end_layout
-
-\begin_layout Subsubsection*
-בקיטוב האופקי
-\end_layout
-
-\begin_layout Standard
-בקצה מוליך הגלים ישנן צלעות מתכת הניצבות לכיוון התקדמות הגל )ראה איור >>><<<(.
- 
-\end_layout
-
-\begin_layout Standard
-מוליך הגלים מהווה גם מחסום שחוסם חלק מהאנרגיה של הגל.
- בהנחת שטף אנרגיה קבוע לאורך הכניסה למוליך הגלים, אפקט זה תורם תלות לינארית
- של 
-\begin_inset Formula $A$
-\end_inset
-
- ב- 
-\begin_inset Formula $w$
-\end_inset
-
-.
- הגל הפוגע במחסום עובר עקיפה לפי מודל פרנהאופר ועצמתו כתלות בזווית נתונה
- לפי 
-\begin_inset Formula $w\cdot sinc(\frac{1}{2}\frac{w}{\lambda}\alpha)$
-\end_inset
-
-.
- ככל שהמוליך רחב יותר העצמה יותר מרוכזת בזוויות קטנות.
- הגלאי נמצא רחוק ממוליך הגלים, כך שהוא אוסף אנרגיה מזוויות שקרובות לשיא
- של ה- 
-\begin_inset Formula $sinc$
-\end_inset
-
- , כך שהעצמה הנקלטת 
-\begin_inset Formula $A$
-\end_inset
-
- מקבלת תלות לינארית נוספת ב- 
-\begin_inset Formula $w$
-\end_inset
-
- )גובה ה- 
-\begin_inset Formula $sinc$
-\end_inset
-
-(.
- בסופו של דבר 
-\begin_inset Formula $A_{horizontal}\propto w^{2}$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Subsubsection*
-בקיטוב האנכי
-\end_layout
-
-\begin_layout Standard
-אובדת חלק מהאנרגיה בגלל אפקט החסימה.
-\end_layout
-
-\begin_layout Standard
-בנוסף, הקיטוב האנכי מאבד הרבה מהרכיבים שלו בגלל תנאי השפה שכופות צלעות המתכת
- )כפי שהוסבר בפסקה הקודמת( כלומר, עובר סינון לפי כיוון התקדמות.
- למעשה, אילו המוליך היה באורך אינסופי, היה נשאר רק הרכיב בדיוק בזווית 
-\begin_inset Formula $\theta$
-\end_inset
-
-, שהוא רכיב דיסקרטי מתוך רצף של זוויות, ולכן לא נושא איתו אנרגיה כלל.
- אבל, כיוון שאורך המוליך סופי, יש טולרנס מסוים 
-\begin_inset Formula $\delta\theta$
-\end_inset
-
- סביב 
-\begin_inset Formula $\theta$
-\end_inset
-
-שבו רכיבי הגל שורדים ועוברת אנרגיה.
-\end_layout
-
-\begin_layout Standard
->>> לזרוק קומפלט
-\end_layout
-
-\begin_layout Standard
-הפירוק הפשוט ביותר הוא לגלים מישוריים בזוגות של זוויות שמקיימות את תנאי
- השפה.
- בצורה זו ישנה התקדמות בכיוון המקורי עם אורך גל (ולכן גם k) חדש.
- הפאזה עדיין מתקדמת באותו הכיוון אך ישנו פרופיל עוצמה שמתמקסם בין הלוחות
- ומתאפס על כל אחד מהם.
- פרופיל העוצמה צריך להיות תלוי בפירוק פורייה של המחסום בכניסה ללוחות כאשר
- כל רכיב מרחבי גם דועך במהלך ההתקדמות בלוחות (כפונקציה של המרחק בין הלוחות,
- אורך הגל ואורך הלוחות).
- עדיין לא ברור מדוע יש חוסר מונוטוניות בעוצמה של הגל במוצא ה"לוחית" - אולי
- התאבכות של רכיבים שונים? צריך לנסח את הנוסחא לזוויות המותרות.
-\end_layout
-
-\begin_layout Standard
-???כפי שתואר בסעיף ___, ההתקן מעכב הפאזה יוצר גם דעיכה.
- לדעיכה שני מרכיבים: 
-\end_layout
-
-\begin_layout Standard
-<<<
-\end_layout
-
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption
@@ -1259,7 +1145,7 @@ status open
 
 \begin_layout Plain Layout
 ניתוח של מעבר גל מקוטב אנכית במוליך גלים.
- הגל מתפרק לגלים מישוריים בכיוונים שונים )פירוק פרנל(.
+ הגל מתפרק לגלים מישוריים בכיוונים שונים.
  באיור מתוארים שני גלים המתקדמים בכיוונים 
 \begin_inset Formula $\pm\theta$
 \end_inset
@@ -1277,6 +1163,234 @@ status open
 
  על הצלעות המתכתיות.
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+דעיכה / סינון במערכת לוחית גל של גלי מיקרו
+\end_layout
+
+\begin_layout Subsubsection*
+>>> להבין מה מפה צריך להיות רקע תיאורטי ומה ניתוח אוחר.
+ אני חושב שיהיה הרבה יותר קל להבין את ההסבר אחרי שרואים את מערכת הניסוי
+ <<< >>> האם הכותרת של דעיכה / סינון מתאימה? למעשה אנחנו עושים פה ניתוח
+ יסודי של התנהגות גלים במערכת <<< >>> הרבה ממה שמוצג פה נעשה במונחים של
+ מערכת הניסוי <<<
+\end_layout
+
+\begin_layout Subsubsection*
+בקיטוב האנכי
+\end_layout
+
+\begin_layout Standard
+התפתחות הגל המקוטב אופקית במערכת מחולק לשלושה חלקים: התקדמות חופשית של גל
+ מישורי, מעבר במוליך הגלים, עקיפת פרנהופר במרחב חופשי.
+ כפי שראינו בניתוח השפעות לוחית הגל של מוליך הגלים, לא כל רכיבי הגל שורדים
+ במוליך.
+ אבל ישנן זוויות נוספות פרט לזווית 
+\begin_inset Formula $\theta_{1}$
+\end_inset
+
+ שמקיימות את תנאי השפה.
+ למשל:
+\end_layout
+
+\begin_layout Standard
+>>> דיאגרמה חזיתות גל של מוד
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+<<<
+\end_layout
+
+\begin_layout Standard
+למעשה הגל במוליך מקיים משוואת גלים מאולצת )האילוץ מגיע מהמשדר( עם תנאי שפה,
+ ולכן ניתן להציג אותו כסופר פוזיציה של מודים עצמיים 
+\begin_inset Formula $\psi=\sum\alpha_{n}\psi_{n}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\psi_{n}=cos(\frac{2\pi}{\lambda_{gn}}z)\cdot cos(n\cdot\pi\frac{x}{w})\cdot Rect(x;w)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר: 
+\begin_inset Formula $\lambda_{gn}=\frac{\lambda}{cos(\theta_{n})}$
+\end_inset
+
+, 
+\begin_inset Formula $sin(\theta_{n})=n\cdot\frac{1}{2}\frac{\lambda}{a}$
+\end_inset
+
+.
+ למעט מספר זוויות מסוים, כל הזוויות מדומות, כלומר, קשורות למודים עצמיים
+ שדועכים עם 
+\begin_inset Formula $z$
+\end_inset
+
+, דבר קונסיסטנטי עם הניתוח הפשוט יותר.
+ כאשר מגדילים את 
+\begin_inset Formula $w$
+\end_inset
+
+ "מעוררים" מודים שהופכים להיות לא דועכים.
+\end_layout
+
+\begin_layout Standard
+עם היציאה מהמוליך, הגלים עוברים למרחב פתוח, ורחוק מספיק ממנו >>><<< מקודמים
+ לפי פרנהופר:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\psi(\theta;z=L_{1}+L_{2})=Fourier[\psi(x,z=L_{1})](k_{x}=\frac{1}{\lambda}tg(\theta))\label{eq:fraunhofer}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קידום של מוד עצמי )שלא דעך( של מוליך הגלים יהיה: )בעזרת משפט הקונבולוציה(
+\begin_inset Formula 
+\[
+\psi_{vert}(\theta;z=L_{1}+L_{2})\propto\frac{1}{2}w\cdot cos(\frac{2\pi}{\lambda_{gn}}L_{1})\cdot[sinc(\frac{1}{2}\frac{w}{\lambda}tg(\theta)-n\cdot\frac{1}{2}\pi)+sinc(\frac{1}{2}\frac{w}{\lambda}tg(\theta)+n\cdot\frac{1}{2}\pi)]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עבור גל מקור המשדר גל מישורי, יופיעו בפירוק רק המודים הסימטריים ב- 
+\begin_inset Formula $x$
+\end_inset
+
+, כלומר 
+\begin_inset Formula $\psi_{n}$
+\end_inset
+
+ עבור 
+\begin_inset Formula $n$
+\end_inset
+
+ אי זוגי.
+ למשל: 
+\begin_inset Formula $\psi_{1},\psi_{3}$
+\end_inset
+
+ במישור המקלט:
+\end_layout
+
+\begin_layout Standard
+>>> דוגמא: גרף המוד הראשון <<< >>> כיתוב: רואים בצבע אחד את שני הסינקים,
+ ובצבע אחר את סכומם <<<
+\end_layout
+
+\begin_layout Standard
+>>> דוגמא: גרף המוד השלישי <<<
+\end_layout
+
+\begin_layout Subsubsection*
+בקיטוב האופקי
+\end_layout
+
+\begin_layout Standard
+גל מקוטב אופקית אינו מושפע מתנאי השפה שכופות צלעות המוליך )ע"י כך שנוצר
+ מטען מושרה 
+\begin_inset Formula $\sigma$
+\end_inset
+
+על הצלעות(, אבל בקצה מוליך הגלים ישנן צלעות "מחסום" מתכתיות הניצבות לכיוון
+ התקדמות הגל )ראה איור >>><<<(.
+ לפי תנאי השפה בנוסחא 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:boundry"
+
+\end_inset
+
+ צלעות המחסום מאפסות את שני הקיטובים.
+ כלומר, המוד המקוטב אופקית מתקדם בתור גל מישורי, הפוגע במחסום, ומשם יוצא
+ למרחב פתוח.
+ במרחק גדול מהמחסום 
+\begin_inset Formula $L$
+\end_inset
+
+ )>>><<<( נקבל לפי 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:fraunhofer"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\psi_{hor}(\theta;z=L_{1}+L_{2})\propto wsinc(\frac{1}{2}\frac{w}{\lambda}tg(\theta))
+\]
 
 \end_inset
 
@@ -1631,17 +1745,37 @@ status open
 \end_layout
 
 \begin_layout Subsection*
-דעיכה מיקרו
+דעיכה בגלי מיקרו
 \end_layout
 
 \begin_layout Standard
-בניסוי זה רצינו לאפיין באופן בסיסי את הדעיכה בהתקן מעכב הפאזה.
- בדקנו את העצמה המגיעה לגלאי בשני הצירים הראשיים כתלות במרחק בין הצלעות
- >>>
-\begin_inset Formula $?$
+>>> סכימה: מקור שופר, חזיתות גל מישוריות, מוליך גלים, שופר, מקלט.
+ תיאור אורכים 
+\begin_inset Formula $L_{1},L_{2}$
 \end_inset
 
-<<<.
+,
+\begin_inset Formula $w$
+\end_inset
+
+ <<<
+\end_layout
+
+\begin_layout Standard
+בניסוי זה רצינו לאפיין באופן בסיסי את איבוד העוצמה שנגרם ע"י מוליך הגלים.
+ לכל אחד מהקיטובים בדקנו את העצמה המגיעה לגלאי כתלות במרחק בין הצלעות 
+\begin_inset Formula $w$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+>>> להכניס את הדיון על הזן, סכימת פאזות <<<
+\end_layout
+
+\begin_layout Standard
+מדוע מצפים לקשר ריבועי בין העצמה לבין הרוחב.
  >>> אופקי: הערכת אצבע לרוחב הסינק <<<
 \end_layout
 
@@ -1951,6 +2085,15 @@ status open
  ואולי טיפה יותר.
 \end_layout
 
+\begin_layout Standard
+רעיון נוסף: לעשות פרופיל זוויות ולנסות למפות את המוד השלישי.
+\end_layout
+
+\begin_layout Standard
+רעיון נוסף: ברוחב מוליך פחות מחצי אורך גל אנחנו מצפים לדעיכה מלאה של כל
+ המודים האנכיים.
+\end_layout
+
 \begin_layout Part*
 נספח
 \end_layout
@@ -1988,6 +2131,123 @@ status open
 \noun default
 \color inherit
 רדיו נכשלו(.
+\end_layout
+
+\begin_layout Standard
+>>> לא נכון:
+\end_layout
+
+\begin_layout Standard
+מוליך הגלים מהווה גם מחסום שחוסם חלק מהאנרגיה של הגל.
+ בהנחת שטף אנרגיה קבוע לאורך הכניסה למוליך הגלים, אפקט זה תורם תלות לינארית
+ של 
+\begin_inset Formula $A$
+\end_inset
+
+ ב- 
+\begin_inset Formula $w$
+\end_inset
+
+.
+ הגל הפוגע במחסום עובר עקיפה לפי מודל פרנהאופר ועצמתו כתלות בזווית נתונה
+ לפי 
+\begin_inset Formula $w\cdot sinc(\frac{1}{2}\frac{w}{\lambda}\alpha)$
+\end_inset
+
+.
+ ככל שהמוליך רחב יותר העצמה יותר מרוכזת בזוויות קטנות.
+ הגלאי נמצא רחוק ממוליך הגלים, כך שהוא אוסף אנרגיה מזוויות שקרובות לשיא
+ של ה- 
+\begin_inset Formula $sinc$
+\end_inset
+
+ , כך שהעצמה הנקלטת 
+\begin_inset Formula $A$
+\end_inset
+
+ מקבלת תלות לינארית נוספת ב- 
+\begin_inset Formula $w$
+\end_inset
+
+ )גובה ה- 
+\begin_inset Formula $sinc$
+\end_inset
+
+(.
+ בסופו של דבר 
+\begin_inset Formula $A_{horizontal}\propto w^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+<<<
+\end_layout
+
+\begin_layout Standard
+>>> לא נכון:
+\end_layout
+
+\begin_layout Standard
+למעשה, אילו המוליך היה באורך אינסופי, היה נשאר רק הרכיב בדיוק בזווית 
+\begin_inset Formula $\theta$
+\end_inset
+
+, שהוא רכיב דיסקרטי מתוך רצף של זוויות, ולכן לא נושא איתו אנרגיה כלל.
+ אבל, כיוון שאורך המוליך סופי, יש טולרנס מסוים 
+\begin_inset Formula $\delta\theta$
+\end_inset
+
+ סביב 
+\begin_inset Formula $\theta$
+\end_inset
+
+שבו רכיבי הגל שורדים ועוברת אנרגיה.
+\end_layout
+
+\begin_layout Standard
+<<<
+\end_layout
+
+\begin_layout Standard
+>>> לא נכון:
+\end_layout
+
+\begin_layout Standard
+בנוסף, הקיטוב האנכי מאבד הרבה מהרכיבים שלו בגלל תנאי השפה שכופות צלעות המתכת
+ )כפי שהוסבר בפסקה הקודמת( כלומר, עובר סינון לפי כיוון התקדמות.
+ 
+\end_layout
+
+\begin_layout Standard
+>>> לזרוק קומפלט
+\end_layout
+
+\begin_layout Standard
+הפירוק הפשוט ביותר הוא לגלים מישוריים בזוגות של זוויות שמקיימות את תנאי
+ השפה.
+ בצורה זו ישנה התקדמות בכיוון המקורי עם אורך גל (ולכן גם k) חדש.
+ הפאזה עדיין מתקדמת באותו הכיוון אך ישנו פרופיל עוצמה שמתמקסם בין הלוחות
+ ומתאפס על כל אחד מהם.
+ פרופיל העוצמה צריך להיות תלוי בפירוק פורייה של המחסום בכניסה ללוחות כאשר
+ כל רכיב מרחבי גם דועך במהלך ההתקדמות בלוחות (כפונקציה של המרחק בין הלוחות,
+ אורך הגל ואורך הלוחות).
+ עדיין לא ברור מדוע יש חוסר מונוטוניות בעוצמה של הגל במוצא ה"לוחית" - אולי
+ התאבכות של רכיבים שונים? צריך לנסח את הנוסחא לזוויות המותרות.
+\end_layout
+
+\begin_layout Standard
+???כפי שתואר בסעיף ___, ההתקן מעכב הפאזה יוצר גם דעיכה.
+ לדעיכה שני מרכיבים: 
+\end_layout
+
+\begin_layout Standard
+<<<
+\end_layout
+
+\begin_layout Standard
+<<<
 \end_layout
 
 \end_body
