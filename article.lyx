@@ -731,7 +731,7 @@ status open
 \noun default
 \color inherit
 מקטבים: גל מקוטב לינארית פוגש בזה אחר זה שני מקטבים.
- המקטב השני ניצב לקיטוב הגל הנכנס.
+ המקטב הסופי ניצב למקטב הראשון.
  המקטב האמצעי מקוטב בזווית 
 \begin_inset Formula $\theta$
 \end_inset
@@ -766,7 +766,7 @@ status open
 \end_inset
 
 .
- >>>_____<<<
+ >>>כבר כתבנו בעצם שהוא בולע את רכיב הגל בכיוון מסויים_____<<<
 \end_layout
 
 \begin_layout Subsubsection*
@@ -801,11 +801,12 @@ status open
 \end_layout
 
 \begin_layout Standard
-בתחומי תדר שונים תופעות שונות גורמות לתופעה של לוחית גל:
+בתחומי תדר שונים תופעות שונות גורמות לתופעה של לוחית גל>>יישום שונה כתלות
+ בתדר<<:
 \end_layout
 
 \begin_layout Subsubsection*
-לוחית גל במערכת אופטית:
+>>>למחוק<<< לוחית גל במערכת אופטית:
 \end_layout
 
 \begin_layout Standard
@@ -914,7 +915,14 @@ status open
 \end_layout
 
 \begin_layout Standard
-מוליך גלים בעל צלעות מתכתיות אנכיות )ראה תמונה ___( יוצר אפקט של לוחית גל.
+מוליך גלים בעל צלעות מתכתיות אנכיות )ראה 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:wave guide system"
+
+\end_inset
+
+( יוצר אפקט של לוחית גל.
  השדה ליד הצלעות מחויב לקיים את תנאי השפה
 \begin_inset Formula 
 \begin{equation}
@@ -932,41 +940,31 @@ E_{\parallel}=0,E_{\perp}=\frac{\sigma}{\epsilon_{0}}\label{eq:boundry}
 
 \begin_layout Standard
 לעומתו, גל מקוטב אנכית חייב להתאפס על צלעות המתכת.
- מובן שהגל לא מקיים זאת באופן מלא.
- כאשר שהגל מגיע למחסום הוא מתפרק לרכיבים: גלים מישוריים המתקדמים בכיוונים
- שונים )אך קרובים לכיוון המקורי כיוון שרוחב המחסום 
-\begin_inset Formula $a$
-\end_inset
-
- גדול משמעותית מאורך הגל 
-\begin_inset Formula $\lambda$
-\end_inset
-
-(>>>פוריה, 
-\begin_inset Formula $cite$
-\end_inset
-
-???<<<.
+ באופן פשטני, כאשר הגל מגיע למחסום הוא מתפרק לרכיבים: גלים מישוריים המתקדמים
+ בכיוונים שונים.
  נבחן כעת זוג גלים כאלה המתקדמים בכיוונים 
 \begin_inset Formula $\pm\theta$
 \end_inset
 
-)ונקרא להם הרכיבים הימני והשמאלי( כפי שמופיע באיור >>>
-\numeric on
-3
-\numeric off
-<<<.
+)ונקרא להם הרכיבים הימני והשמאלי( כפי שמופיע באיור 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:wave_guide_1st_mode"
+
+\end_inset
+
+.
  רק זווית 
 \begin_inset Formula $\theta$
 \end_inset
 
-עבורה השיאים של הרכיב הימני חופפים בדיוק את השפלים של הרכיב השמאלי תקיים
- את תנאי השפה 
+עבורה, על השפה, השיאים של הרכיב הימני חופפים בדיוק את השפלים של הרכיב השמאלי
+ תקיים את תנאי השפה 
 \begin_inset Formula $E_{\parallel}=0$
 \end_inset
 
  על הצלעות המתכתיות.
- שאר אכיבי הגל )בזוויות שונות(, אינם מקיימים את תנאי השפה ודועכים.
+ שאר רכיבי הגל )בזוויות שונות(, אינם מקיימים את תנאי השפה ודועכים.
  )>>>לשים את האיור פה!!!<<<(
 \end_layout
 
@@ -1129,6 +1127,13 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/3rd_mode_in_wave_guide.png
+	lyxscale 60
+	scale 40
+
+\end_inset
+
 
 \end_layout
 
@@ -1585,6 +1590,13 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/rf-polarizer.gif
+	lyxscale 50
+	scale 50
+
+\end_inset
+
 
 \end_layout
 
@@ -1639,10 +1651,15 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/mallus_2.png
+	scale 70
+	BoundingBox 0bp 0bp 644bp 207bp
 
-\end_layout
+\end_inset
 
-\begin_layout Plain Layout
+
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -1724,6 +1741,14 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/mallus_3.png
+	scale 70
+	BoundingBox 0bp 0bp 647bp 180bp
+	clip
+
+\end_inset
+
 
 \end_layout
 
@@ -1816,9 +1841,25 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/wave_guide_setup.png
+	scale 60
+	BoundingBox 0bp 0bp 672bp 244bp
+	clip
+
+\end_inset
+
+
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:wave guide system"
+
+\end_inset
+
 
 \end_layout
 
@@ -1936,10 +1977,29 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "49col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/malus2RF_res.png
+	lyxscale 40
+	scale 42
+
+\end_inset
+
+
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -1951,8 +2011,54 @@ status open
 
 \end_layout
 
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "49col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
 \begin_layout Plain Layout
-לשים צד לצד את תוצאות האופטי והמיקרו
+\align center
+\begin_inset Graphics
+	filename figures/malus2laz_res.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+>>לשים צד לצד את תוצאות האופטי והמיקרו<<
 \end_layout
 
 \end_inset
@@ -2092,6 +2198,12 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/horiz-DistSquaredVsIntensity.png
+	scale 50
+
+\end_inset
+
 
 \end_layout
 
@@ -2107,7 +2219,7 @@ status open
 
 \begin_layout Plain Layout
 >>>האם כדאי לשים את הנתונים הגולמיים בגרף אחד, יותר קל להשוות זה לזה, יותר
- קשה להבין את הגרף עם ההתאמה<<<
+ קשה להבין את הגרף עם ההתאמה<<< >>להחליף מרחק לדאבליו<<
 \end_layout
 
 \end_inset
@@ -2143,6 +2255,14 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/vertical_intensityVsW.png
+	lyxscale 60
+	scale 50
+
+\end_inset
+
 
 \end_layout
 
@@ -2175,13 +2295,16 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/vertical-detrended.png
+	lyxscale 50
+	scale 35
+
+\end_inset
+
 
 \end_layout
 
@@ -2313,6 +2436,13 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/vertical-detrended-withExpectation.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
 
 \end_layout
 
