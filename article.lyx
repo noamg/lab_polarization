@@ -564,6 +564,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename figures/linear_circular_eliptic.jpeg
+	scale 70
 
 \end_inset
 
@@ -1284,7 +1285,7 @@ name "fig:lobe pattern"
 \begin_inset Formula $sinc$
 \end_inset
 
--ים נראים מעוותים כתוצאה מהפעלת 
+-ים נראים מעוותים כתוצאה מההרכבה על 
 \begin_inset Formula $\tan$
 \end_inset
 
