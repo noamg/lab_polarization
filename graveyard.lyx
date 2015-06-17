@@ -1,0 +1,550 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\lang hebrew
+חוק ברוסטר, יחסי פרנל, ללא תיאור המערכת.
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+תוצאות מאלוס )
+\numeric on
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+רדיו נכשלו(.
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+כל מיני דברים לזרוק:
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+>>> לא נכון:
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+מוליך הגלים מהווה גם מחסום שחוסם חלק מהאנרגיה של הגל.
+ בהנחת שטף אנרגיה קבוע לאורך הכניסה למוליך הגלים, אפקט זה תורם תלות לינארית
+ של 
+\begin_inset Formula $A$
+\end_inset
+
+ ב- 
+\begin_inset Formula $w$
+\end_inset
+
+.
+ הגל הפוגע במחסום עובר עקיפה לפי מודל פרנהאופר ועצמתו כתלות בזווית נתונה
+ לפי 
+\begin_inset Formula $w\cdot sinc(\frac{1}{2}\frac{w}{\lambda}\alpha)$
+\end_inset
+
+.
+ ככל שהמוליך רחב יותר העצמה יותר מרוכזת בזוויות קטנות.
+ הגלאי נמצא רחוק ממוליך הגלים, כך שהוא אוסף אנרגיה מזוויות שקרובות לשיא
+ של ה- 
+\begin_inset Formula $sinc$
+\end_inset
+
+ , כך שהעצמה הנקלטת 
+\begin_inset Formula $A$
+\end_inset
+
+ מקבלת תלות לינארית נוספת ב- 
+\begin_inset Formula $w$
+\end_inset
+
+ )גובה ה- 
+\begin_inset Formula $sinc$
+\end_inset
+
+(.
+ בסופו של דבר 
+\begin_inset Formula $A_{horizontal}\propto w^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+<<<
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+>>> לא נכון:
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+למעשה, אילו המוליך היה באורך אינסופי, היה נשאר רק הרכיב בדיוק בזווית 
+\begin_inset Formula $\theta$
+\end_inset
+
+, שהוא רכיב דיסקרטי מתוך רצף של זוויות, ולכן לא נושא איתו אנרגיה כלל.
+ אבל, כיוון שאורך המוליך סופי, יש טולרנס מסוים 
+\begin_inset Formula $\delta\theta$
+\end_inset
+
+ סביב 
+\begin_inset Formula $\theta$
+\end_inset
+
+שבו רכיבי הגל שורדים ועוברת אנרגיה.
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+<<<
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+>>> לא נכון:
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+בנוסף, הקיטוב האנכי מאבד הרבה מהרכיבים שלו בגלל תנאי השפה שכופות צלעות המתכת
+ )כפי שהוסבר בפסקה הקודמת( כלומר, עובר סינון לפי כיוון התקדמות.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+>>> לזרוק קומפלט
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+הפירוק הפשוט ביותר הוא לגלים מישוריים בזוגות של זוויות שמקיימות את תנאי
+ השפה.
+ בצורה זו ישנה התקדמות בכיוון המקורי עם אורך גל (ולכן גם k) חדש.
+ הפאזה עדיין מתקדמת באותו הכיוון אך ישנו פרופיל עוצמה שמתמקסם בין הלוחות
+ ומתאפס על כל אחד מהם.
+ פרופיל העוצמה צריך להיות תלוי בפירוק פורייה של המחסום בכניסה ללוחות כאשר
+ כל רכיב מרחבי גם דועך במהלך ההתקדמות בלוחות (כפונקציה של המרחק בין הלוחות,
+ אורך הגל ואורך הלוחות).
+ עדיין לא ברור מדוע יש חוסר מונוטוניות בעוצמה של הגל במוצא ה"לוחית" - אולי
+ התאבכות של רכיבים שונים? צריך לנסח את הנוסחא לזוויות המותרות.
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+???כפי שתואר בסעיף ___, ההתקן מעכב הפאזה יוצר גם דעיכה.
+ לדעיכה שני מרכיבים: 
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+<<<
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+<<<
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+>>> לא נכון
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+כיתוב: פרופיל איבוד עצמה בהתקן מעכב הפאזה.
+ כצפוי, הדעיכה בציר האנכי מונוטונית )כמעט לינארית >>>?<<<( לשטח החסום.
+ הדעיכה בציר האופקי תלויה גם בתדרים שאובדים בעקבות תנאי השפה שכופות צלעות
+ המתכת, ולכן מורכבת יותר.
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+<<<
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+>>>
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+>>>להעיף
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+השערה: הגל המישורי המגיע מתפרק פירוק פוריה לגלים מישוריים.
+ לפי 
+\begin_inset Formula $sinc$
+\end_inset
+
+ , אם האיפוס מגיע בזווית השורדת נצפה ששום דבר לא יעבור
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+למה ההתקדמות המאוזנת עובדת גם בלי סינק.
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+<<<
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+<<<
+\end_layout
+
+\begin_layout Enumerate
+
+\lang hebrew
+בדיקת שפיות: מדידת השפעת החסימה ע"י שתי צלעות חוסמות ללא הצלעות שכופות תנאי
+ שפה
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+למעשה בדומה לניתוח שעשינו בסעיף ___, אנחנו מצפים שיהיו מודים נוספים שישרדו
+ את מוליך הגלים, כלומר, זוגות של גלים בזווית 
+\begin_inset Formula $\pm\theta_{n}$
+\end_inset
+
+ שיחד יקיימו את תנאי השפה.
+ המודים הללו יהיו עם פרופיל עצמה לרוחב מוליך הגלים שנראה כמו _____.
+ <<< כאשר 
+\begin_inset Formula $\lambda\approx w$
+\end_inset
+
+ מודים נעלמים.
+ הסבר לקפיצות.
+ לא הסבר
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+רעיון לניתוח: חישוב פרופיל עצמה ביציאה מהמוליך בתור סופר פוזיציה של המודים
+ ששורדים, ומשם לקדם בעזרת פרנל.
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+רעיון נוסף: אולי לא צריך לעשות תיקון לפי העצמה באפקי אלא לפי הרוחב.
+ כלומר לפי השורש.
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+רעיון ניתוח שכשל: אנכי, פירוק פרנהופר.
+ הסיבה שכשל היא שהמוד הראשון ששורד נמצא תמיד באותו מקום בסינק, תחת קירוב
+ זוויות קטנות.
+ ואולי טיפה יותר.
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+רעיון נוסף: לעשות פרופיל זוויות ולנסות למפות את המוד השלישי.
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+רעיון נוסף: ברוחב מוליך פחות מחצי אורך גל אנחנו מצפים לדעיכה מלאה של כל
+ המודים האנכיים.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang hebrew
+קשה לומר איך נראית ההשפעה בזוויות שונות בלי פרופיל מלא.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang hebrew
+חצי גל אופטי - להפיל
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+לוחית חצי גל מיקרו.
+ תיקוף הדעיכה בצירים השונים.
+ סטייה מסוימת מהנוסחא.
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+בלור לוחית גל השתמשנו בצלעות מתכת כפי שמתואר בסעיף ____.
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+לוחית רבע גל מיקרו.
+ לא הצלחנו ליצור כזאת.
+ תיאור הניסויונות.
+ הפנייה לסיכום ומסקנות.
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+>>> להוסיף משהו: בדיקת שפיות ע"י לוחית חצי גל, מעביר לינארי ללינארי כצפוי
+ <<<
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+>>> להוסיף משפט על לוחית רבע גל, מה נעשה, מה חסר <<<
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+בניסוי זה כיוונו את מעכב הפאזה ללוחית חצי גל לפי נוסחא ____.
+ ניתחנו את השפעת הלוחית על גלים מקוטבים לינארית בזוויות שונות, תוך התייחסות
+ לדעיכה השונה בצירים הראשיים השונים.
+ נדרש כיוונון ידני שנתן סטייה קלה מהערך 
+\begin_inset Formula $d$
+\end_inset
+
+ בנוסחא עבור לוחית חצי גל.=======
+\end_layout
+
+\begin_layout Subsubsection*
+
+\lang hebrew
+>>>למחוק<<< לוחית גל במערכת אופטית:
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+המקור הפיסיקלי הוא שבירה כפולה )
+\begin_inset Formula $birefringence$
+\end_inset
+
+(: בגבישים לא איזוטרופיים מסוימים, כיוון הקיטוב של גל משפיע על מהירות ההתקדמות
+ שלו בתוך הגביש 
+\begin_inset Formula $c_{in}$
+\end_inset
+
+ )לינארית למקדם השבירה 
+\begin_inset Formula $n$
+\end_inset
+
+( )איור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+(.
+ גל שמקוטב בציר האופטי מתקדם לפי מקדם שבירה 
+\begin_inset Formula $n_{o}$
+\end_inset
+
+, וגל שמקוטב בציר הניצב לו מתקדם לפי מקדם שבירה 
+\begin_inset Formula $n_{e}$
+\end_inset
+
+.
+ בסה"כ שני רכיבי הקיטוב צוברים הפרש פאזה לפי:
+\begin_inset Formula 
+\[
+\Delta\phi=L\Delta k=L\frac{\omega}{c}\Delta n
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\lang hebrew
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang hebrew
+\begin_inset Graphics
+	filename figures/birefringence.jpg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang hebrew
+גביש בעל שבירה כפולה מאלץ מהירות אור שונה בצירים שונים של הגביש, ויוצר לוחית
+ גל.
+\end_layout
+
+\end_inset
+
+409248d11361c6c078a6ef6c48a4adab24a50dbb
+\end_layout
+
+\end_body
+\end_document

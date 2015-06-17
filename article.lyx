@@ -1502,15 +1502,22 @@ reference "eq:fraunhofer"
 \end_layout
 
 \begin_layout Itemize
-וידאנו את תקינות המקטבים וגם את העובדה שמקור הגל שידר גל מקוטב לינארית ע"י
- הגעה לעצמה אפסית בגלאי בזווית מסויימת של המקטב.
- העובדה שגל המקור היה מקוטב לינארית חסכה מקטב במהלך הניסוי.
+וידאנו את תקינות המקטבים )לחילופין, את העובדה שמקור הגל שידר גל מקוטב לינארית
+ בגלי הרדיו( ע"י הגעה לעצמה אפסית בגלאי בזווית מסויימת של המקטב.
 \end_layout
 
 \begin_layout Itemize
 אחד המקטבים בו השתמשנו היה בעייתי: חיבור מסוים היה חפשי מדי, ולכן במגמות
  סיבוב שונות, אותה זווית במד הזווית הייתה מתאימה לזוויות מעט שונות של המקטב.
- התמודדנו עם בעיה זו ע"י חזרה על המדידה בשתי מגמות הסיבוב, ומיצוע.
+ התמודדנו עם בעיה זו ע"י חזרה על המדידה בשתי מגמות הסיבוב, ומיצוע )כפי שניתן
+ לראות באיור 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:malus2las"
+
+\end_inset
+
+(.
 \end_layout
 
 \begin_layout Subsection*
@@ -1522,7 +1529,7 @@ reference "eq:fraunhofer"
 \begin_inset Formula $\lambda=2.86[cm]$
 \end_inset
 
-, משדר וגלאי בעלי אנטנת "שופר" מקטב לינארי מובנה.
+, משדר וגלאי בעלי אנטנת "שופר" )מקטב לינארי מובנה(.
  בתור מקטב שלישי השתמשנו בלוחית אלומיניום מחורצת כפי שרואים באיור 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1609,7 +1616,7 @@ name "fig:micro_polarizer"
 
 \begin_layout Plain Layout
 תרשים המציג מקטב של גלי מיקרו.
- הקיטוב ה>>>מקביל/מאונך<<< לחריצים יוצר במוליך זרמים נגדיים ומאפס את עצמו.
+ הקיטוב המקביל לחריצים יוצר במוליך זרמים ומתאפס.
 \end_layout
 
 \end_inset
@@ -1715,7 +1722,8 @@ status open
 \uwave default
 \noun default
 \color inherit
-מקטבים: המקור משדר גל מישורי מקוטב אנכית, העובר במקטב בזווית 
+מקטבים: המקור )+מקטב ראשון( משדר גל מישורי מקוטב אנכית, העובר במקטב בזווית
+ 
 \begin_inset Formula $\theta$
 \end_inset
 
@@ -1833,7 +1841,8 @@ status open
 \uwave default
 \noun default
 \color inherit
-מקטבים: המקור משדר גל מישורי מקוטב אנכית, העובר במקטב בזווית 
+מקטבים: המקור )+מקטב ראשון( משדר גל מישורי מקוטב אנכית, העובר במקטב בזווית
+ 
 \begin_inset Formula $\theta$
 \end_inset
 
@@ -1955,7 +1964,11 @@ name "fig:wave guide system"
 
 \begin_layout Standard
 בניסוי זה רצינו לאפיין באופן בסיסי את איבוד העוצמה שנגרם ע"י מוליך הגלים.
- לכל אחד מהקיטובים בדקנו את העצמה המגיעה לגלאי כתלות במרחק בין הצלעות 
+ לכל אחד מהקיטובים בדקנו את העצמה 
+\begin_inset Formula $I$
+\end_inset
+
+ המגיעה לגלאי כתלות במרחק בין הצלעות 
 \begin_inset Formula $w$
 \end_inset
 
@@ -1966,7 +1979,7 @@ name "fig:wave guide system"
  של הנקודות בו, והמקלט מודד את עצמת הקרינה בצורה של זרם:
 \begin_inset Formula 
 \begin{equation}
-Intensity\propto<|\int_{x'\in sensor}dx'\psi(x',t)|^{2}>_{t}\label{eq:receiver-feeder-integral}
+Intensity\propto<|\int_{x'\in sensor}d^{2}x'\psi(\boldsymbol{x}',t)|^{2}>_{t}\label{eq:receiver-feeder-integral}
 \end{equation}
 
 \end_inset
@@ -1976,18 +1989,6 @@ Intensity\propto<|\int_{x'\in sensor}dx'\psi(x',t)|^{2}>_{t}\label{eq:receiver-f
 
 \begin_layout Part*
 תוצאות
-\end_layout
-
-\begin_layout Standard
-תוצאות לפי המבנה של פרק מערכת הניסוי.
-\end_layout
-
-\begin_layout Standard
-לזכור גרפים פולאריים.
-\end_layout
-
-\begin_layout Standard
-לזכור תיאור מתחת לגרפים
 \end_layout
 
 \begin_layout Subsection*
@@ -2063,7 +2064,10 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-
+עוצמת קליטה כפונקציה של זווית בין המקטבים בגלי מיקרו.
+ העקומה הרציפה היא המודל התיאורטי ולא התאמה לנתונים, זאת כדי להדגיש שגיאה
+ סיסטמית הטמונה במדידה.
+ )ראה דיון בנוגע להתאבכות בפרק "פרמטרי תחום גלי המיקרו" תחת מערכת הניסוי(
 \end_layout
 
 \end_inset
@@ -2104,6 +2108,13 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
+עוצמת קליטה כפונקציה של זווית בין המקטבים באור נראה
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:malus2las"
+
+\end_inset
+
 
 \end_layout
 
@@ -2115,10 +2126,6 @@ status open
 \end_inset
 
 
-\end_layout
-
-\begin_layout Plain Layout
->>לשים צד לצד את תוצאות האופטי והמיקרו<<
 \end_layout
 
 \end_inset
@@ -2164,7 +2171,7 @@ status open
 \uwave off
 \noun off
 \color none
- אופטי, מיקרו
+ אופטי
 \end_layout
 
 \begin_layout Standard
@@ -2172,13 +2179,6 @@ status open
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -2191,12 +2191,15 @@ status open
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
+\begin_layout Plain Layout
+\begin_inset Caption
 
 \begin_layout Plain Layout
+עוצמת קליטה כפונקציה של זווית בין המקטב הראשון והאמצעי באור נראה
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
@@ -2215,33 +2218,41 @@ status open
 
 \begin_layout Standard
 בתנאי מערכת הניסוי )
-\begin_inset Formula $L_{2}=???$
+\begin_inset Formula $L_{2}=50cm$
 \end_inset
 
 , 
-\begin_inset Formula $sensor-width=???$
+\begin_inset Formula $sensor-width\approx10cm$
 \end_inset
 
 , 
-\begin_inset Formula $\lambda=???$
+\begin_inset Formula $\lambda=2.86cm$
 \end_inset
 
-( כל מרכיבי הגל הנדגמים ע"י המקלט נמצאים בתחום זוויות קטנות, ולכן מקיימים
- לפי נוסחאת העקיפה 
+( מתקיים 
+\begin_inset Formula $\boldsymbol{x}'\in sensor\Rightarrow\theta\ll1$
+\end_inset
+
+ולכן נוכל לסכום את 
+\begin_inset Formula $\psi$
+\end_inset
+
+ כפי שמופיע בנוסחאת העקיפה 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:fraunhover-hor"
 
 \end_inset
 
- ונוסחת הסכימה 
+, לפי נוסחת הסכימה 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:receiver-feeder-integral"
 
 \end_inset
 
-:
+.
+ ונקבל כי 
 \begin_inset Formula $I_{hor}\propto w^{2}$
 \end_inset
 
@@ -2273,13 +2284,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-ירידה בעצמה הנקלטת בקיטוב אופקי כתלות ברוחב מוליך הגלים.
- כצפוי בסעיף ____ יש התאמה קוודרטית.
-\end_layout
+ירידה בעצמה הנקלטת בקיטוב אופקי כתלות ברוחב מוליך הגלים )בריבוע(.
+ ניתן לראות כי אכן 
+\begin_inset Formula $I_{hor}\propto w^{2}$
+\end_inset
 
-\begin_layout Plain Layout
->>>האם כדאי לשים את הנתונים הגולמיים בגרף אחד, יותר קל להשוות זה לזה, יותר
- קשה להבין את הגרף עם ההתאמה<<< >>להחליף מרחק לדאבליו<<
+
 \end_layout
 
 \end_inset
@@ -2296,16 +2306,8 @@ status open
 \begin_inset Formula $I_{vert}(w)$
 \end_inset
 
- גולמיות, ומנורמלות לפי 
-\begin_inset Formula $I_{hor}(w)$
-\end_inset
-
-.
- מתרת הנירמול לקזז מראש את התלות ב- 
-\begin_inset Formula $w^{2}$
-\end_inset
-
- שראינו בסעיף הקודם.
+ גולמיות.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -2330,17 +2332,22 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
+עצמה הנקלטת בקיטוב אנכי כתלות ברוחב מוליך הגלים.
+ רואים שני סטים של מדידות 
+\begin_inset Formula $I_{vert}\left(w\right)$
+\end_inset
 
+ באותם התנאים.
+ העקומה השחורה הינה ההתאמה הקוודרטית מסעיף הקיטוב האופקי )התאמה ל-
+\begin_inset Formula $I_{hor}\left(w\right)$
+\end_inset
+
+(
 \end_layout
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Plain Layout
-ירידה בעצמה הנקלטת בקיטוב אנכי כתלות ברוחב מוליך הגלים.
- רואים שני סטים של מדידות באותם התנאים.
 \end_layout
 
 \end_inset
@@ -2349,44 +2356,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename figures/vertical-detrended.png
-	lyxscale 50
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-ירידה בעצמה הנקלטת בקיטוב אנכי כתלות ברוחב מוליך הגלים, מנורמל בעצמה הנקלטת
- בקיטוב אופקי.
- רואים שני סטים של מדידות באותם התנאים.
- >>> חץ מצביע על הקפיצה הראשונה <<<
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-העצמה )המנורמלת( הנקלטת בקיטוב אנכית בעלת קפיצות חדות וזה מפתיע.
+העצמה הנקלטת בקיטוב אנכי בעלת קפיצות חדות וזה מפתיע.
  תוצאה זו סותרת את המודל הפשטני לפיו עובר את המוליך רק המוד הראשון
 \begin_inset Formula $\psi_{1}$
 \end_inset
@@ -2398,17 +2368,12 @@ reference "eq:fraunhofer-vert"
 
 \end_inset
 
- ואיור >>><<< ...
+.
 \end_layout
 
 \begin_layout Standard
->>> לוותר על השערות של התאבכות סינקים, לוותר על דחיסת אונות, ברקע התיאורטי
- כבר מובהק שהם לא מתאימים, אבל במצגת כן נכניס אותם <<<
-\end_layout
-
-\begin_layout Standard
-הקפיצה הראשונה מתחילה ב- 
-\begin_inset Formula $sin(\theta_{3})\approx1\Leftarrow w=???$
+הקפיצות מתחילות ב- 
+\begin_inset Formula $sin(\theta_{3})\approx1\Leftarrow w\approx4.5\left[cm\right]$
 \end_inset
 
 , כלומר, כאשר המוד השלישי של מוליך הגלים "מתעורר": הופך מממוד דועך למוד
@@ -2416,12 +2381,8 @@ reference "eq:fraunhofer-vert"
 \end_layout
 
 \begin_layout Standard
->>> כפי שרואים משהו.....<<<
-\end_layout
-
-\begin_layout Standard
 הפרש הפאזות בין המודים:
-\begin_inset Formula $\Delta\phi=2\pi\frac{L_{1}}{\lambda}[cos(\theta_{3})-cos(\theta_{1})]$
+\begin_inset Formula $\Delta\phi_{1-3}=2\pi\frac{L_{1}}{\lambda}[cos(\theta_{3})-cos(\theta_{1})]$
 \end_inset
 
 )כאשר הזוויות תלויות ברוחב 
@@ -2435,7 +2396,7 @@ reference "eq:theta_n_lambda_g_n"
 
 \end_inset
 
-
+(
 \end_layout
 
 \begin_layout Standard
@@ -2462,7 +2423,7 @@ status open
 
 \begin_layout Plain Layout
 הפרש הפאזות 
-\begin_inset Formula $\Delta\phi$
+\begin_inset Formula $\Delta\phi_{1-3}$
 \end_inset
 
  בין המודים 
@@ -2483,6 +2444,7 @@ status open
 \end_layout
 
 \begin_layout Standard
+>>>מלים<<<
 \begin_inset Float figure
 wide false
 sideways false
@@ -2532,22 +2494,6 @@ status open
 
 \end_layout
 
-\begin_layout Subsection*
-לוחית חצי גל מיקרו
-\end_layout
-
-\begin_layout Standard
->>> גרף היטל על ציר 
-\begin_inset Formula $x$
-\end_inset
-
-נכנס לעומת יוצא, היטל על ציר 
-\begin_inset Formula $y$
-\end_inset
-
-נכנס לעומת יוצא, להכניס את הצפי לפי דעיכה והסטת פאזה <<<
-\end_layout
-
 \begin_layout Part*
 סיכום ומסקנות
 \end_layout
@@ -2585,7 +2531,7 @@ status open
 \begin_inset Formula $\psi_{3}$
 \end_inset
 
- .
+ )ומודים נוספים( .
 \end_layout
 
 \begin_layout Enumerate
@@ -2606,370 +2552,70 @@ status open
  מערכת רחוקה יותר ממקורות החזרה תאפשר מדידה נקייה יותר.
 \end_layout
 
-\begin_layout Enumerate
->>><<<ניתוח נתונים דעיכה חצי גל - נספח, בעיקרו בדיקת שפיות.
- + להוסיף משפט שעשינו בדיקת שפיות כזאת.
- 
-\end_layout
-
 \begin_layout Part*
 נספח
 \end_layout
 
-\begin_layout Standard
-חוק ברוסטר, יחסי פרנל, ללא תיאור המערכת.
+\begin_layout Subsection*
+יחסי פרנל וזווית ברוסטר
 \end_layout
 
 \begin_layout Standard
-תוצאות מאלוס )
-\numeric on
-3
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-רדיו נכשלו(.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Standard
-כל מיני דברים לזרוק:
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+תוצאות פרנל
 \end_layout
 
-\begin_layout Standard
->>> לא נכון:
-\end_layout
-
-\begin_layout Standard
-מוליך הגלים מהווה גם מחסום שחוסם חלק מהאנרגיה של הגל.
- בהנחת שטף אנרגיה קבוע לאורך הכניסה למוליך הגלים, אפקט זה תורם תלות לינארית
- של 
-\begin_inset Formula $A$
 \end_inset
 
- ב- 
-\begin_inset Formula $w$
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 
-.
- הגל הפוגע במחסום עובר עקיפה לפי מודל פרנהאופר ועצמתו כתלות בזווית נתונה
- לפי 
-\begin_inset Formula $w\cdot sinc(\frac{1}{2}\frac{w}{\lambda}\alpha)$
+
+\end_layout
+
+\begin_layout Subsection*
+לוחית רבע גל
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+פולרי מעגלי
+\end_layout
+
 \end_inset
 
-.
- ככל שהמוליך רחב יותר העצמה יותר מרוכזת בזוויות קטנות.
- הגלאי נמצא רחוק ממוליך הגלים, כך שהוא אוסף אנרגיה מזוויות שקרובות לשיא
- של ה- 
-\begin_inset Formula $sinc$
-\end_inset
 
- , כך שהעצמה הנקלטת 
-\begin_inset Formula $A$
-\end_inset
-
- מקבלת תלות לינארית נוספת ב- 
-\begin_inset Formula $w$
-\end_inset
-
- )גובה ה- 
-\begin_inset Formula $sinc$
-\end_inset
-
-(.
- בסופו של דבר 
-\begin_inset Formula $A_{horizontal}\propto w^{2}$
-\end_inset
-
-.
 \end_layout
-
-\begin_layout Standard
-<<<
-\end_layout
-
-\begin_layout Standard
->>> לא נכון:
-\end_layout
-
-\begin_layout Standard
-למעשה, אילו המוליך היה באורך אינסופי, היה נשאר רק הרכיב בדיוק בזווית 
-\begin_inset Formula $\theta$
-\end_inset
-
-, שהוא רכיב דיסקרטי מתוך רצף של זוויות, ולכן לא נושא איתו אנרגיה כלל.
- אבל, כיוון שאורך המוליך סופי, יש טולרנס מסוים 
-\begin_inset Formula $\delta\theta$
-\end_inset
-
- סביב 
-\begin_inset Formula $\theta$
-\end_inset
-
-שבו רכיבי הגל שורדים ועוברת אנרגיה.
-\end_layout
-
-\begin_layout Standard
-<<<
-\end_layout
-
-\begin_layout Standard
->>> לא נכון:
-\end_layout
-
-\begin_layout Standard
-בנוסף, הקיטוב האנכי מאבד הרבה מהרכיבים שלו בגלל תנאי השפה שכופות צלעות המתכת
- )כפי שהוסבר בפסקה הקודמת( כלומר, עובר סינון לפי כיוון התקדמות.
- 
-\end_layout
-
-\begin_layout Standard
->>> לזרוק קומפלט
-\end_layout
-
-\begin_layout Standard
-הפירוק הפשוט ביותר הוא לגלים מישוריים בזוגות של זוויות שמקיימות את תנאי
- השפה.
- בצורה זו ישנה התקדמות בכיוון המקורי עם אורך גל (ולכן גם k) חדש.
- הפאזה עדיין מתקדמת באותו הכיוון אך ישנו פרופיל עוצמה שמתמקסם בין הלוחות
- ומתאפס על כל אחד מהם.
- פרופיל העוצמה צריך להיות תלוי בפירוק פורייה של המחסום בכניסה ללוחות כאשר
- כל רכיב מרחבי גם דועך במהלך ההתקדמות בלוחות (כפונקציה של המרחק בין הלוחות,
- אורך הגל ואורך הלוחות).
- עדיין לא ברור מדוע יש חוסר מונוטוניות בעוצמה של הגל במוצא ה"לוחית" - אולי
- התאבכות של רכיבים שונים? צריך לנסח את הנוסחא לזוויות המותרות.
-\end_layout
-
-\begin_layout Standard
-???כפי שתואר בסעיף ___, ההתקן מעכב הפאזה יוצר גם דעיכה.
- לדעיכה שני מרכיבים: 
-\end_layout
-
-\begin_layout Standard
-<<<
-\end_layout
-
-\begin_layout Standard
-<<<
-\end_layout
-
-\begin_layout Standard
->>> לא נכון
-\end_layout
-
-\begin_layout Standard
-כיתוב: פרופיל איבוד עצמה בהתקן מעכב הפאזה.
- כצפוי, הדעיכה בציר האנכי מונוטונית )כמעט לינארית >>>?<<<( לשטח החסום.
- הדעיכה בציר האופקי תלויה גם בתדרים שאובדים בעקבות תנאי השפה שכופות צלעות
- המתכת, ולכן מורכבת יותר.
-\end_layout
-
-\begin_layout Standard
-<<<
-\end_layout
-
-\begin_layout Standard
->>>
-\end_layout
-
-\begin_layout Standard
->>>להעיף
-\end_layout
-
-\begin_layout Standard
-השערה: הגל המישורי המגיע מתפרק פירוק פוריה לגלים מישוריים.
- לפי 
-\begin_inset Formula $sinc$
-\end_inset
-
- , אם האיפוס מגיע בזווית השורדת נצפה ששום דבר לא יעבור
-\end_layout
-
-\begin_layout Standard
-למה ההתקדמות המאוזנת עובדת גם בלי סינק.
-\end_layout
-
-\begin_layout Standard
-<<<
-\end_layout
-
-\begin_layout Standard
-<<<
-\end_layout
-
-\begin_layout Enumerate
-בדיקת שפיות: מדידת השפעת החסימה ע"י שתי צלעות חוסמות ללא הצלעות שכופות תנאי
- שפה
-\end_layout
-
-\begin_layout Standard
-למעשה בדומה לניתוח שעשינו בסעיף ___, אנחנו מצפים שיהיו מודים נוספים שישרדו
- את מוליך הגלים, כלומר, זוגות של גלים בזווית 
-\begin_inset Formula $\pm\theta_{n}$
-\end_inset
-
- שיחד יקיימו את תנאי השפה.
- המודים הללו יהיו עם פרופיל עצמה לרוחב מוליך הגלים שנראה כמו _____.
- <<< כאשר 
-\begin_inset Formula $\lambda\approx w$
-\end_inset
-
- מודים נעלמים.
- הסבר לקפיצות.
- לא הסבר
-\end_layout
-
-\begin_layout Standard
-רעיון לניתוח: חישוב פרופיל עצמה ביציאה מהמוליך בתור סופר פוזיציה של המודים
- ששורדים, ומשם לקדם בעזרת פרנל.
-\end_layout
-
-\begin_layout Standard
-רעיון נוסף: אולי לא צריך לעשות תיקון לפי העצמה באפקי אלא לפי הרוחב.
- כלומר לפי השורש.
-\end_layout
-
-\begin_layout Standard
-רעיון ניתוח שכשל: אנכי, פירוק פרנהופר.
- הסיבה שכשל היא שהמוד הראשון ששורד נמצא תמיד באותו מקום בסינק, תחת קירוב
- זוויות קטנות.
- ואולי טיפה יותר.
-\end_layout
-
-\begin_layout Standard
-רעיון נוסף: לעשות פרופיל זוויות ולנסות למפות את המוד השלישי.
-\end_layout
-
-\begin_layout Standard
-רעיון נוסף: ברוחב מוליך פחות מחצי אורך גל אנחנו מצפים לדעיכה מלאה של כל
- המודים האנכיים.
-\end_layout
-
-\begin_layout Enumerate
-קשה לומר איך נראית ההשפעה בזוויות שונות בלי פרופיל מלא.
- 
-\end_layout
-
-\begin_layout Itemize
-חצי גל אופטי - להפיל
-\end_layout
-
-HEAD
-\begin_layout Standard
-לוחית חצי גל מיקרו.
- תיקוף הדעיכה בצירים השונים.
- סטייה מסוימת מהנוסחא.
-\end_layout
-
-\begin_layout Standard
-בלור לוחית גל השתמשנו בצלעות מתכת כפי שמתואר בסעיף ____.
-\end_layout
-
-\begin_layout Standard
-לוחית רבע גל מיקרו.
- לא הצלחנו ליצור כזאת.
- תיאור הניסויונות.
- הפנייה לסיכום ומסקנות.
-\end_layout
-
-\begin_layout Standard
->>> להוסיף משהו: בדיקת שפיות ע"י לוחית חצי גל, מעביר לינארי ללינארי כצפוי
- <<<
-\end_layout
-
-\begin_layout Standard
->>> להוסיף משפט על לוחית רבע גל, מה נעשה, מה חסר <<<
-\end_layout
-
-\begin_layout Standard
-בניסוי זה כיוונו את מעכב הפאזה ללוחית חצי גל לפי נוסחא ____.
- ניתחנו את השפעת הלוחית על גלים מקוטבים לינארית בזוויות שונות, תוך התייחסות
- לדעיכה השונה בצירים הראשיים השונים.
- נדרש כיוונון ידני שנתן סטייה קלה מהערך 
-\begin_inset Formula $d$
-\end_inset
-
- בנוסחא עבור לוחית חצי גל.
-=======
-\begin_layout Subsubsection*
->>>למחוק<<< לוחית גל במערכת אופטית:
-\end_layout
-
-\begin_layout Standard
-המקור הפיסיקלי הוא שבירה כפולה )
-\begin_inset Formula $birefringence$
-\end_inset
-
-(: בגבישים לא איזוטרופיים מסוימים, כיוון הקיטוב של גל משפיע על מהירות ההתקדמות
- שלו בתוך הגביש 
-\begin_inset Formula $c_{in}$
-\end_inset
-
- )לינארית למקדם השבירה 
-\begin_inset Formula $n$
-\end_inset
-
-( )איור
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2
-\numeric off
-(.
- גל שמקוטב בציר האופטי מתקדם לפי מקדם שבירה 
-\begin_inset Formula $n_{o}$
-\end_inset
-
-, וגל שמקוטב בציר הניצב לו מתקדם לפי מקדם שבירה 
-\begin_inset Formula $n_{e}$
-\end_inset
-
-.
- בסה"כ שני רכיבי הקיטוב צוברים הפרש פאזה לפי:
-\begin_inset Formula 
-\[
-\Delta\phi=L\Delta k=L\frac{\omega}{c}\Delta n
-\]
 
 \end_inset
 
@@ -2983,17 +2629,14 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename figures/birefringence.jpg
-	lyxscale 40
-	scale 40
-
-\end_inset
-
-
+פולרי אליפטי
 \end_layout
 
 \end_inset
@@ -3002,14 +2645,16 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-גביש בעל שבירה כפולה מאלץ מהירות אור שונה בצירים שונים של הגביש, ויוצר לוחית
- גל.
+
 \end_layout
 
 \end_inset
 
 
-409248d11361c6c078a6ef6c48a4adab24a50dbb
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \end_body
