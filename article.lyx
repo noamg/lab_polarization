@@ -1014,7 +1014,7 @@ E_{\parallel}=0,E_{\perp}=\frac{\sigma}{\epsilon_{0}}\label{eq:boundry}
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\Delta\phi=???\label{eq:phase_diff_hor_ver}
+\Delta\phi=2\pi\frac{L_{1}}{\lambda}\left[1-\sqrt{1-\left(\frac{\frac{1}{2}\lambda}{w}\right){}^{2}}\right]\label{eq:phase_diff_hor_ver}
 \end{equation}
 
 \end_inset
