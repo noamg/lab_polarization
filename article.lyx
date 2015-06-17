@@ -660,9 +660,9 @@ status open
 
 לכיוון הקיטוב, יחס העצמות יהיה:
 \begin_inset Formula 
-\[
-\frac{I_{out}}{I_{in}}=cos^{2}(\theta)
-\]
+\begin{equation}
+\frac{I_{out}}{I_{in}}=cos^{2}(\theta)\label{eq:mallus_2}
+\end{equation}
 
 \end_inset
 
@@ -742,9 +742,9 @@ status open
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-\frac{I_{out}}{I_{in}}=\frac{1}{4}sin^{2}(2\theta)
-\]
+\begin{equation}
+\frac{I_{out}}{I_{in}}=\frac{1}{4}sin^{2}(2\theta)\label{eq:mallus_3}
+\end{equation}
 
 \end_inset
 
@@ -1138,11 +1138,30 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-דיאגרמה חזיתות גל של המוד 
+דיאגרמה חזיתות הגל המרכיבות את מוד 
 \begin_inset Formula $\psi_{3}$
 \end_inset
 
+.
+ בדומה לאיור 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:wave_guide_1st_mode"
 
+\end_inset
+
+, מתוארים שיאים ושפלים של זוג גלים המתקדמים בכיוונים סימטריים.
+ במקרה זה בכיוונים 
+\begin_inset Formula $\pm\theta_{3}$
+\end_inset
+
+.
+ השיאים של הגל הימני והשפלים של הגל השמאלי מאפסים זה את זה על דפנות מוליך
+ הגלים, ומקיימים את תנאי השפה 
+\begin_inset Formula $E_{\parallel}=0$
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1478,10 +1497,6 @@ reference "eq:fraunhofer"
 \end_layout
 
 \begin_layout Standard
->>> תמונה <<<
-\end_layout
-
-\begin_layout Standard
 השתמשנו בגל מיקרו 
 \begin_inset Formula $\lambda=?$
 \end_inset
@@ -1556,6 +1571,38 @@ reference "eq:fraunhofer"
 >>> להוסיף משפט על לוחית רבע גל, מה נעשה, מה חסר <<<
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+תרשים המציג מקטב של גלי מיקרו.
+ הקיטוב ה>>>מקביל/מאונך<<< לחריצים יוצר במוליך זרמים נגדיים ומאפס את עצמו.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection*
 מאלוס
 \family roman
@@ -1586,7 +1633,59 @@ reference "eq:fraunhofer"
 \end_layout
 
 \begin_layout Standard
->>> סכימה: מקור, מקטב, גלאי<<<
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+סכימה מאלוס
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
@@ -1619,7 +1718,59 @@ reference "eq:fraunhofer"
 \end_layout
 
 \begin_layout Standard
->>> סכימה, מקור, מקטב, מקטב, גלאי <<<
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+סכימה מאלוס
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
@@ -1655,16 +1806,35 @@ reference "eq:fraunhofer"
 \end_layout
 
 \begin_layout Standard
->>> סכימה: מקור שופר, חזיתות גל מישוריות, מוליך גלים, שופר, מקלט.
- תיאור אורכים 
-\begin_inset Formula $L_{1},L_{2}$
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 
-,
-\begin_inset Formula $w$
+
+\end_layout
+
+\begin_layout Plain Layout
+סכימה במבט על של המערכת לניתוח השפעת מוליך הגלים על עצמת גלי המיקרו.
+ >>>עוד משהו?<<<
+\end_layout
+
 \end_inset
 
- <<<
+
 \end_layout
 
 \begin_layout Standard
@@ -1760,7 +1930,34 @@ Intensity\propto<|\int_{x'\in sensor}dx'\psi(x',t)|^{2}>_{t}\label{eq:receiver-f
 \end_layout
 
 \begin_layout Standard
->>> גרף <<<
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+לשים צד לצד את תוצאות האופטי והמיקרו
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
@@ -1805,7 +2002,41 @@ Intensity\propto<|\int_{x'\in sensor}dx'\psi(x',t)|^{2}>_{t}\label{eq:receiver-f
 \end_layout
 
 \begin_layout Standard
->>> גרף <<<
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/malus3laz_res.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
