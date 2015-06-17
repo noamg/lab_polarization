@@ -102,10 +102,6 @@
 \end_layout
 
 \begin_layout Itemize
-גרפים )דן(, תיאור מערכות )נועם(
-\end_layout
-
-\begin_layout Itemize
 ברוסטר.
 \end_layout
 
@@ -115,109 +111,12 @@
 \end_layout
 
 \begin_layout Itemize
-לסגור מלל, לגרש רקע תיאורטי לא נחוץ )לוחית גל אופטי(
+לסגור מלל
 \end_layout
 
 \begin_layout Itemize
-סגירה: להסיר >>><<<, ???, ___, להשלים הפניות לאיורים, קונסיסטנטיות 
-\begin_inset Formula $a,w$
-\end_inset
-
-, לארגן את התמונות והגרפים כך שלא יתפסו אינסוף מקום, כנראה לסלק חלק מהניסויים
- הפחות מעניינים.
-\end_layout
-
-\begin_layout Itemize
-מסאז' נתונים מודל ע"י פיט.
-\end_layout
-
-\begin_layout Standard
-גרפים חסרים:
-\end_layout
-
-\begin_layout Itemize
-אונה מוד ראשון - סינק ימין, שמאל, סכום.
- כתוב: רואים שזה אחיד בלה בלה, סכימה לזן של המקלט.....
-\end_layout
-
-\begin_layout Itemize
-מוד שלישי - שני הסינקים שלו.
-\end_layout
-
-\begin_layout Itemize
-פאזה יחסית
-\end_layout
-
-\begin_layout Itemize
-עצמה כוללת - על המידע + גרף שני עם מסאג'.
- כיתוב: להזכיר את השאלה לגבי הנירמול )שיאים ושפלים(
-\end_layout
-
-\begin_layout Itemize
-עצמה פרנהופר )ניסיון הראשון נועם(
-\end_layout
-
-\begin_layout Itemize
-דיאגרמה שמבהירה מוד שלישי
-\end_layout
-
-\begin_layout Itemize
-דיאגרמה מערכת ניסוי )קיטוב, מיקרו(
-\end_layout
-
-\begin_layout Itemize
-אי התאמה בין הוריזונטלי לורטיקלי.
- + פקטור
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-איכה? - הטנגנס אשם
+סגירה: להסיר >>><<<, ???, ___, להשלים הפניות לאיורים, לארגן את התמונות והגרפים
+ כך שלא יתפסו אינסוף מקום
 \end_layout
 
 \begin_layout Part*
@@ -2306,8 +2205,7 @@ status open
 \begin_inset Formula $I_{vert}(w)$
 \end_inset
 
- גולמיות.
- 
+ גולמיות:
 \end_layout
 
 \begin_layout Standard
@@ -2378,6 +2276,19 @@ reference "eq:fraunhofer-vert"
 
 , כלומר, כאשר המוד השלישי של מוליך הגלים "מתעורר": הופך מממוד דועך למוד
  אוסילטורי.
+ לפיכך, נכניס למודל גם את 
+\begin_inset Formula $\psi_{3}$
+\end_inset
+
+, תוך התחשבות במקדמים השונים 
+\begin_inset Formula $\alpha_{1},\alpha_{3}$
+\end_inset
+
+ המופיעים בפירוק 
+\begin_inset Formula $\psi=\sum\alpha_{n}\psi_{n}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -2396,68 +2307,49 @@ reference "eq:theta_n_lambda_g_n"
 
 \end_inset
 
-(
+(.
+ בדומה לניתוח של העצמה בקיטוב האופקי, לפי נוסחאת העקיפה 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:fraunhofer-vert"
+
+\end_inset
+
+ונוסאת הסכימה 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:receiver-feeder-integral"
+
+\end_inset
+
+נוכל לקבל צפי תיאורטי לעצמה הנקלטת:
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula 
+\[
+I_{vert}\propto w^{2}\left(1+\left(\frac{\alpha_{3}}{\alpha_{1}}\right)^{2}+2\cdot\frac{\alpha_{3}}{\alpha_{1}}cos(\Delta\phi_{1-3})\right)
+\]
+
+\end_inset
+
+
 \begin_inset Float figure
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-הפרש הפאזות 
-\begin_inset Formula $\Delta\phi_{1-3}$
-\end_inset
-
- בין המודים 
-\begin_inset Formula $\psi_{1},\psi_{3}$
-\end_inset
-
- במישור המסך, כתלות ב- 
-\begin_inset Formula $w$
-\end_inset
-
-.
- 
-\end_layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:I_vert_by_w_plus_model"
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
->>>מלים<<<
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
 \begin_inset Graphics
 	filename figures/vertical-detrended-withExpectation.png
 	lyxscale 50
@@ -2474,19 +2366,26 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-עצמה נקלטת מנורמלת בקיטוב אנכי, עם צפי תיאורטי לפי התחשבות ב- 
+השוואה בין מדידות 
+\begin_inset Formula $I_{vert}(w)$
+\end_inset
+
+ לבין המודל התיאורטי הכולל את המודים 
 \begin_inset Formula $\psi_{1},\psi_{3}$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
->>> אולי אפשר לעשות התאמת עקומה ולהשאיר כמה פרמטרים פתוחים: 
-\begin_inset Formula $L_{2},$
+.
+ הנקודות האדומות והכחולות מייצגות את העצמה הנקלטת בקיטוב אנכי, עם צפי תיאורטי
+ לפי התחשבות ב- 
+\begin_inset Formula $\psi_{1},\psi_{3}$
 \end_inset
 
-....<<<
+.
+ להדגשת ההתאמה, גם המדידות וגם המודל מנורמלים לפי 
+\begin_inset Formula $w^{2}$
+\end_inset
+
+.
 \end_layout
 
 \end_inset
