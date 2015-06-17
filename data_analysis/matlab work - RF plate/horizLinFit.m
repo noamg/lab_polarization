@@ -27,4 +27,13 @@ xlabel('distance^2 [cm^2]','fontsize',15)
 ylabel('intensity (relative to no plate) [AU]','fontsize',15)
 legend('linear fit','data')
 grid('on')
-herrorbar(d1.^2,hampN1,d1/10,'.')
+herrorbar(d1.^2,hampN1,2*d1/10,'.')
+
+% H(3) = gca;
+% 
+% herrorbar(d1.^2,vampN1,2*d1/10,'.')
+% H(1)= errorbar(d1.^2,vampN1,vampErrRel1.*hampN1,'.');
+% herrorbar(d2.^2,vampN2,2*d2/10,'.r')
+% H(2) = errorbar(d2.^2,vampN2,vampErrRel2.*vampN2,'.r');
+% legend('off')
+% legend(H,'a','b','c')

@@ -34,3 +34,15 @@ herrorbar(d2,vampD2,ones(length(d2),1)*0.05,'.r')
 legend(h,'data series 1','data series 2')
 grid('on')
 set(h,'MarkerSize',14)
+
+
+figure
+hold on
+h(3) = ezplot(f,[d1(1),d1(end)]);
+h(1) = errorbar(d1,vampN1,vampErrRel1.*vampN1,'.');
+herrorbar(d1,vampN1,ones(length(d1),1)*0.05,'.')
+h(2) = errorbar(d2,vampN2,vampErrRel2.*vampN2,'.r');
+herrorbar(d2,vampN2,ones(length(d2),1)*0.05,'.r')
+set(h(3),'Color','black')
+xlim([1.9,7.1])
+legend(h,'data series 1','data series 2','quadratic fit for horizontal component')
