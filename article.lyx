@@ -1369,12 +1369,12 @@ reference "eq:fraunhofer"
 \end_layout
 
 \begin_layout Standard
-בניסוי זה חקרנו תופעות קיטוב גלים אלקטרומגנטיים בשני תחומי תדר: תחום אופטי
- ותחום גלי רדיו 
+בחלק זה של הניסוי חקרנו תופעות קיטוב גלים אלקטרומגנטיים בשני תחומי תדר:
+ תחום אופטי ותחום גלי רדיו 
 \begin_inset Formula $(RF)$
 \end_inset
 
-.
+ בתחום המיקרו.
  בשתי המערכות בדקנו את תורת הקיטוב ע"י ניסוי מאלוס
 \family roman
 \series medium
@@ -1425,7 +1425,7 @@ reference "eq:fraunhofer"
 \uwave default
 \noun default
 \color inherit
-מקטבים, מאלוס
+מקטבים ומאלוס
 \family roman
 \series medium
 \shape up
@@ -1475,21 +1475,13 @@ reference "eq:fraunhofer"
 \uwave default
 \noun default
 \color inherit
-והתנהגות לוחיות גל .להלן יתוארו המאפיינים של מערכות הניסוי בכל תחום תדר,
- ולאחר מכן יתוארו הניסויים שבוצעו במערכות אלה.
-\end_layout
-
-\begin_layout Standard
->>> אולי אנחנו רוצים לגרש חלק מהתוצאות פה לנספח כי הן לא כ"כ מעניינות???
- <<<
+מקטבים.
+ להלן יתוארו המאפיינים של מערכות הניסוי בכל תחום תדר, ולאחר מכן יתוארו הניסויים
+ שבוצעו במערכות אלה.
 \end_layout
 
 \begin_layout Subsection*
-הנה העולם האופטי
-\end_layout
-
-\begin_layout Standard
->>> תמונה <<<
+פרמטרי התחום האופטי
 \end_layout
 
 \begin_layout Standard
@@ -1497,11 +1489,7 @@ reference "eq:fraunhofer"
 \begin_inset Formula $\lambda=632.8[nm]$
 \end_inset
 
-, מקטבים ולוחיות גל 
-\begin_inset Formula $(\frac{\lambda}{2},\frac{\lambda}{4})$
-\end_inset
-
- המתאימים לאורך הגל 
+, ומקטבים המתאימים לאורך הגל 
 \begin_inset Formula $\lambda$
 \end_inset
 
@@ -1525,38 +1513,25 @@ reference "eq:fraunhofer"
  התמודדנו עם בעיה זו ע"י חזרה על המדידה בשתי מגמות הסיבוב, ומיצוע.
 \end_layout
 
-\begin_layout Itemize
-מצאנו את הצירים הראשיים של לוחיות הגל ע"י מדידה העצמה במערכת מקור-לוחית-מקטב-גלא
-י כך שמקטב מקביל לקיטוב המקור, עצמה מרבית מתקבלת בצירים הראשיים של לוחית
- הגל.
-\end_layout
-
-\begin_layout Itemize
-וידאנו את תקינות לוחית הגל 
-\begin_inset Formula $\frac{\lambda}{4}$
-\end_inset
-
- ע"י כך שקיבלנו קיטוב מעגלי בזווית הגעה של 
-\begin_inset Formula $\theta=\frac{1}{4}\pi$
-\end_inset
-
-.
-\end_layout
-
 \begin_layout Subsection*
-הנה עולם המיקרו
+פרמטרי תחום גלי המיקרו
 \end_layout
 
 \begin_layout Standard
 השתמשנו בגל מיקרו 
-\begin_inset Formula $\lambda=?$
+\begin_inset Formula $\lambda=2.86[cm]$
+\end_inset
+
+, משדר וגלאי בעלי אנטנת "שופר" מקטב לינארי מובנה.
+ בתור מקטב שלישי השתמשנו בלוחית אלומיניום מחורצת כפי שרואים באיור 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:micro_polarizer"
+
 \end_inset
 
 .
- גל המקור וגם הגלאי היו בגלי מקטב לינארי מובנה.
- בתור מקטב שלישי השתמשנו בלוחית אלומיניום מחורצת כפי שרואים באיור ____.
- בלור לוחית גל השתמשנו בצלעות מתכת כפי שמתואר בסעיף ____.
- במערכת גלי מיקרו נתקלנו במספר תופעות שדרשו טיפול:
+ במערכת גלי מיקרו נדרשנו להתמודד עם כמה תופעות:
 \end_layout
 
 \begin_layout Itemize
@@ -1588,38 +1563,12 @@ reference "eq:fraunhofer"
 \end_layout
 
 \begin_layout Itemize
-בזמנים ארוכים )דקות אחדות( הגלאי שינה את הקריאה שלו למרות שלו היה שינוי
- במערכת.
- כדי להתמודד עם בעיה זו, לפני כל סדרת ניסויים לקחנו מדידת כיול ותיקננו את
- המדידות לפיה.
-\end_layout
+בזמנים ארוכים )
+\begin_inset Formula $T\approx3[min]$
+\end_inset
 
-\begin_layout Itemize
-על מנת לקבל לוחיות גל משתמשים בהתקן חסימה עם צלעות מתכת, כמתואר בסעיף ___.
- כמתואר לעיל, ההתקן יוצר דעיכה בהתקן מעכב פאזה )מיקרו( >>> מה בעצם אנחנו
- רוצים להגיד כאן?<<<
-\end_layout
-
-\begin_layout Standard
-לוחית חצי גל מיקרו.
- תיקוף הדעיכה בצירים השונים.
- סטייה מסוימת מהנוסחא.
-\end_layout
-
-\begin_layout Standard
-לוחית רבע גל מיקרו.
- לא הצלחנו ליצור כזאת.
- תיאור הניסויונות.
- הפנייה לסיכום ומסקנות.
-\end_layout
-
-\begin_layout Standard
->>> להוסיף משהו: בדיקת שפיות ע"י לוחית חצי גל, מעביר לינארי ללינארי כצפוי
- <<<
-\end_layout
-
-\begin_layout Standard
->>> להוסיף משפט על לוחית רבע גל, מה נעשה, מה חסר <<<
+( הגלאי נתן קריאות שונות לאותה מערכת.
+ לכן, לפני כל סדרת ניסויים לקחנו מדידת כיול.
 \end_layout
 
 \begin_layout Standard
@@ -1636,6 +1585,13 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:micro_polarizer"
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename figures/rf-polarizer.gif
 	lyxscale 50
@@ -1709,16 +1665,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-סכימה מאלוס
+תרשים מערכת לניסוי מאלוס
 \family roman
 \series medium
 \shape up
@@ -1744,6 +1691,40 @@ status open
 \noun default
 \color inherit
 2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מקטבים: המקור משדר גל מישורי מקוטב אנכית, העובר במקטב בזווית 
+\begin_inset Formula $\theta$
+\end_inset
+
+ ונכנס לגלאי.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1802,16 +1783,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-סכימה מאלוס
+תרשים מערכת לניסוי מאלוס
 \family roman
 \series medium
 \shape up
@@ -1837,6 +1809,40 @@ status open
 \noun default
 \color inherit
 3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מקטבים: המקור משדר גל מישורי מקוטב אנכית, העובר במקטב בזווית 
+\begin_inset Formula $\theta$
+\end_inset
+
+, מקטב אופקי, ונכנס לגלאי.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1845,31 +1851,55 @@ status open
 \end_layout
 
 \begin_layout Subsection*
-לוחית חצי גל אופטי
-\end_layout
-
-\begin_layout Subsection*
-לוחית רבע גל אופטי
+לוחית גל במערכת גלי מיקרו
 \end_layout
 
 \begin_layout Standard
->>> סכימה: מקור, לוחית, מקטב, גלאי <<<
-\end_layout
+על מנת לקבל לוחיות גל השתמשנו במוליך גלים מתכתי כמתואר באיור 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:wave_guide_1st_mode"
 
-\begin_layout Standard
-עיגול: 
-\begin_inset Formula $\theta=\frac{1}{2}\pi$
 \end_inset
 
-
+.
+ בתור בדיקת שפיות של המערכת, בדקנו את העצמה העוברת את המוליך בכל אחד מהקיטובים.
+ התברר שמוליך הגלים מנחית יותר את הקיטוב האנכי, נושא שחקרנו בהרחבה בהמשך.
 \end_layout
 
 \begin_layout Standard
-אליפסה: בחרנו 
-\begin_inset Formula $\theta=?$
+כיוונון מוליך הגלים להיות לוחית 
+\begin_inset Formula $\frac{\lambda}{2}$
 \end_inset
 
+ עפ"י נוסחא 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:phase_diff_hor_ver"
 
+\end_inset
+
+ אכן הפך קיטובים לינאריים ללינאריים, כפי שצופה התיאוריה, אך הכניס גם את
+ מרכיב ההנחתה שנמדד.
+\end_layout
+
+\begin_layout Standard
+כיוונון מוליך הגלים להיות לוחית 
+\begin_inset Formula $\frac{\lambda}{4}$
+\end_inset
+
+ עפ"י נוסחא 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:phase_diff_hor_ver"
+
+\end_inset
+
+ לא נתן לוחית 
+\begin_inset Formula $\frac{\lambda}{4}$
+\end_inset
+
+ אפקטיבית בגלל השפעת ההנחתה.
 \end_layout
 
 \begin_layout Subsection*
@@ -1915,8 +1945,7 @@ name "fig:wave guide system"
 \end_layout
 
 \begin_layout Plain Layout
-סכימה במבט על של המערכת לניתוח השפעת מוליך הגלים על עצמת גלי המיקרו.
- >>>עוד משהו?<<<
+תרשים במבט מלמעלה של המערכת לניתוח השפעת מוליך הגלים על עצמת גלי המיקרו.
 \end_layout
 
 \end_inset
@@ -1943,21 +1972,6 @@ Intensity\propto<|\int_{x'\in sensor}dx'\psi(x',t)|^{2}>_{t}\label{eq:receiver-f
 \end_inset
 
 
-\end_layout
-
-\begin_layout Subsection*
-לוחית חצי גל מיקרו
-\end_layout
-
-\begin_layout Standard
-בניסוי זה כיוונו את מעכב הפאזה ללוחית חצי גל לפי נוסחא ____.
- ניתחנו את השפעת הלוחית על גלים מקוטבים לינארית בזוויות שונות, תוך התייחסות
- לדעיכה השונה בצירים הראשיים השונים.
- נדרש כיוונון ידני שנתן סטייה קלה מהערך 
-\begin_inset Formula $d$
-\end_inset
-
- בנוסחא עבור לוחית חצי גל.
 \end_layout
 
 \begin_layout Part*
@@ -2859,6 +2873,43 @@ status open
 חצי גל אופטי - להפיל
 \end_layout
 
+HEAD
+\begin_layout Standard
+לוחית חצי גל מיקרו.
+ תיקוף הדעיכה בצירים השונים.
+ סטייה מסוימת מהנוסחא.
+\end_layout
+
+\begin_layout Standard
+בלור לוחית גל השתמשנו בצלעות מתכת כפי שמתואר בסעיף ____.
+\end_layout
+
+\begin_layout Standard
+לוחית רבע גל מיקרו.
+ לא הצלחנו ליצור כזאת.
+ תיאור הניסויונות.
+ הפנייה לסיכום ומסקנות.
+\end_layout
+
+\begin_layout Standard
+>>> להוסיף משהו: בדיקת שפיות ע"י לוחית חצי גל, מעביר לינארי ללינארי כצפוי
+ <<<
+\end_layout
+
+\begin_layout Standard
+>>> להוסיף משפט על לוחית רבע גל, מה נעשה, מה חסר <<<
+\end_layout
+
+\begin_layout Standard
+בניסוי זה כיוונו את מעכב הפאזה ללוחית חצי גל לפי נוסחא ____.
+ ניתחנו את השפעת הלוחית על גלים מקוטבים לינארית בזוויות שונות, תוך התייחסות
+ לדעיכה השונה בצירים הראשיים השונים.
+ נדרש כיוונון ידני שנתן סטייה קלה מהערך 
+\begin_inset Formula $d$
+\end_inset
+
+ בנוסחא עבור לוחית חצי גל.
+=======
 \begin_layout Subsubsection*
 >>>למחוק<<< לוחית גל במערכת אופטית:
 \end_layout
@@ -2958,6 +3009,7 @@ status open
 \end_inset
 
 
+409248d11361c6c078a6ef6c48a4adab24a50dbb
 \end_layout
 
 \end_body
