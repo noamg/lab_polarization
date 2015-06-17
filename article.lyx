@@ -24,11 +24,12 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
+\float_placement H
 \paperfontsize default
 \spacing single
 \use_hyperref false
 \papersize default
-\use_geometry false
+\use_geometry true
 \use_amsmath 1
 \use_esint 1
 \use_mhchem 1
@@ -43,6 +44,10 @@
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 3cm
+\topmargin 2cm
+\rightmargin 3cm
+\bottommargin 2cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -97,122 +102,7 @@
 \end_layout
 
 \begin_layout Itemize
-גניתוח נתונים - מאלוס
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2
-\numeric off
-,
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-3
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-שניהם -------------------
-\end_layout
-
-\begin_layout Itemize
-מלל של הדוח.
- לעבור על הדוח ועל דוח חברים ולהוסיף בשר, להסביר את כל לוחית הגל, והדעיכה.
- ----------------
-\end_layout
-
-\begin_layout Itemize
-גרפים -------------
-\end_layout
-
-\begin_layout Itemize
-ייצור גרף דעיכה, + כיוון מבטיח פקטור שורש - יש.
- + הערכת אצבע לרוחב הסינק.
- + הסבר למה זה עובד גם בלי )להפיל(.
-\end_layout
-
-\begin_layout Itemize
-להכניס הגיגים דעיכה לסיכום ומסקנות והמשך.
-\end_layout
-
-\begin_layout Itemize
-עוד הגיגים דעיכה: מודים שונים משוואת גלים, סופר פוזיציה סינקים,..
-\end_layout
-
-\begin_layout Itemize
-ניתוח נתונים דעיכה חצי גל - נספח, בעיקרו בדיקת שפיות.
- + להוסיף משפט שעשינו בדיקת שפיות כזאת.
- 
-\end_layout
-
-\begin_layout Itemize
-ניתוח נתונים רבע גל אופטי + פיתוח תיאורטי קל
-\end_layout
-
-\begin_layout Itemize
-לסגור מלל
+גרפים )דן(, תיאור מערכות )נועם(
 \end_layout
 
 \begin_layout Itemize
@@ -220,7 +110,12 @@
 \end_layout
 
 \begin_layout Itemize
-חצי גל אופטי - להפיל
+מגרשים את האליפסה לנספח.
+ ניתוח נתונים רבע גל אופטי
+\end_layout
+
+\begin_layout Itemize
+לסגור מלל, לגרש רקע תיאורטי לא נחוץ )לוחית גל אופטי(
 \end_layout
 
 \begin_layout Itemize
@@ -228,7 +123,12 @@
 \begin_inset Formula $a,w$
 \end_inset
 
+, לארגן את התמונות והגרפים כך שלא יתפסו אינסוף מקום, כנראה לסלק חלק מהניסויים
+ הפחות מעניינים.
+\end_layout
 
+\begin_layout Itemize
+מסאז' נתונים מודל ע"י פיט.
 \end_layout
 
 \begin_layout Standard
@@ -1124,6 +1024,7 @@ E_{\parallel}=0,E_{\perp}=\frac{\sigma}{\epsilon_{0}}\label{eq:boundry}
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1644,6 +1545,15 @@ reference "eq:fraunhofer"
  לא הצלחנו ליצור כזאת.
  תיאור הניסויונות.
  הפנייה לסיכום ומסקנות.
+\end_layout
+
+\begin_layout Standard
+>>> להוסיף משהו: בדיקת שפיות ע"י לוחית חצי גל, מעביר לינארי ללינארי כצפוי
+ <<<
+\end_layout
+
+\begin_layout Standard
+>>> להוסיף משפט על לוחית רבע גל, מה נעשה, מה חסר <<<
 \end_layout
 
 \begin_layout Subsection*
@@ -2275,6 +2185,12 @@ status open
  מערכת רחוקה יותר ממקורות החזרה תאפשר מדידה נקייה יותר.
 \end_layout
 
+\begin_layout Enumerate
+>>><<<ניתוח נתונים דעיכה חצי גל - נספח, בעיקרו בדיקת שפיות.
+ + להוסיף משפט שעשינו בדיקת שפיות כזאת.
+ 
+\end_layout
+
 \begin_layout Part*
 נספח
 \end_layout
@@ -2530,6 +2446,10 @@ status open
 \begin_layout Enumerate
 קשה לומר איך נראית ההשפעה בזוויות שונות בלי פרופיל מלא.
  
+\end_layout
+
+\begin_layout Itemize
+חצי גל אופטי - להפיל
 \end_layout
 
 \end_body
