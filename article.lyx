@@ -986,6 +986,8 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename figures/birefringence.jpg
+	lyxscale 40
+	scale 40
 
 \end_inset
 
@@ -1132,6 +1134,15 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename figures/phase_delay_micro_trim.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:wave_guide_1st_mode"
 
 \end_inset
 
@@ -1204,57 +1215,38 @@ status open
 \end_layout
 
 \begin_layout Standard
->>> דיאגרמה חזיתות גל של מוד
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-3
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-<<<
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+דיאגרמה חזיתות גל של המוד 
+\begin_inset Formula $\psi_{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1266,8 +1258,16 @@ status open
 :
 \begin_inset Formula 
 \[
-\psi_{n}=cos(\frac{2\pi}{\lambda_{gn}}z)\cdot cos(n\cdot\pi\frac{x}{w})\cdot Rect(x;w)
+\psi_{n}=cos(\frac{2\pi}{\lambda_{gn}}z+\omega t)\cdot cos(n\cdot\pi\frac{x}{w})\cdot Rect(x;w)
 \]
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+sin(\theta_{n})=n\cdot\frac{1}{2}\frac{\lambda}{a};\lambda_{gn}=\frac{\lambda}{cos(\theta_{n})}\label{eq:theta_n_lambda_g_n}
+\end{equation}
 
 \end_inset
 
@@ -1275,17 +1275,8 @@ status open
 \end_layout
 
 \begin_layout Standard
-כאשר: 
-\begin_inset Formula $\lambda_{gn}=\frac{\lambda}{cos(\theta_{n})}$
-\end_inset
-
-, 
-\begin_inset Formula $sin(\theta_{n})=n\cdot\frac{1}{2}\frac{\lambda}{a}$
-\end_inset
-
-.
- למעט מספר זוויות מסוים, כל הזוויות מדומות, כלומר, קשורות למודים עצמיים
- שדועכים עם 
+למעט מספר זוויות מסוים, כל הזוויות מדומות, כלומר, קשורות למודים עצמיים שדועכים
+ עם 
 \begin_inset Formula $z$
 \end_inset
 
@@ -1317,7 +1308,7 @@ status open
 קידום של מוד עצמי )שלא דעך( של מוליך הגלים יהיה: )בעזרת משפט הקונבולוציה(
 \begin_inset Formula 
 \begin{equation}
-\psi_{vert}(\theta;z=L_{1}+L_{2})\propto\frac{1}{2}w\cdot cos(\frac{2\pi}{\lambda_{gn}}L_{1})\cdot[sinc(\frac{1}{2}\frac{w}{\lambda}tg(\theta)-n\cdot\frac{1}{2}\pi)+sinc(\frac{1}{2}\frac{w}{\lambda}tg(\theta)+n\cdot\frac{1}{2}\pi)]\label{eq:fraunhofer-vert}
+\psi_{vert}(\theta;z=L_{1}+L_{2})\propto\frac{1}{2}w\cdot cos(\frac{2\pi}{\lambda_{gn}}L_{1}+\omega t)\cdot[sinc(\frac{1}{2}\frac{w}{\lambda}tg(\theta)-n\cdot\frac{1}{2}\pi)+sinc(\frac{1}{2}\frac{w}{\lambda}tg(\theta)+n\cdot\frac{1}{2}\pi)]\label{eq:fraunhofer-vert}
 \end{equation}
 
 \end_inset
@@ -1343,7 +1334,7 @@ status open
 \begin_inset Formula $\psi_{1},\psi_{3}$
 \end_inset
 
- במישור המקלט:
+ במישור המקלט: >>> אולי לשים את הגרפים זה לצד זה <<<
 \end_layout
 
 \begin_layout Standard
@@ -1951,10 +1942,6 @@ reference "eq:receiver-feeder-integral"
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1977,6 +1964,11 @@ status open
  כצפוי בסעיף ____ יש התאמה קוודרטית.
 \end_layout
 
+\begin_layout Plain Layout
+>>>האם כדאי לשים את הנתונים הגולמיים בגרף אחד, יותר קל להשוות זה לזה, יותר
+ קשה להבין את הגרף עם ההתאמה<<<
+\end_layout
+
 \end_inset
 
 
@@ -1987,10 +1979,31 @@ status open
 \end_layout
 
 \begin_layout Standard
+להלן תוצאות 
+\begin_inset Formula $I_{vert}(w)$
+\end_inset
+
+ גולמיות, ומנורמלות לפי 
+\begin_inset Formula $I_{hor}(w)$
+\end_inset
+
+.
+ מתרת הנירמול לקזז מראש את התלות ב- 
+\begin_inset Formula $w^{2}$
+\end_inset
+
+ שראינו בסעיף הקודם.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
 status open
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption
@@ -2015,18 +2028,177 @@ status open
 \end_layout
 
 \begin_layout Standard
->>> גרף - דעיכה אופקי , אנכי <<<
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+ירידה בעצמה הנקלטת בקיטוב אנכי כתלות ברוחב מוליך הגלים, מנורמל בעצמה הנקלטת
+ בקיטוב אופקי.
+ רואים שני סטים של מדידות באותם התנאים.
+ >>> חץ מצביע על הקפיצה הראשונה <<<
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
->>>גרף - דעיכה אנכי מתוקנן באופקי <<<
+העצמה )המנורמלת( הנקלטת בקיטוב אנכית בעלת קפיצות חדות וזה מפתיע.
+ תוצאה זו סותרת את המודל הפשטני לפיו עובר את המוליך רק המוד הראשון
+\begin_inset Formula $\psi_{1}$
+\end_inset
+
+: כפי שעולה מנוסחא 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:fraunhofer-vert"
+
+\end_inset
+
+ ואיור >>><<< ...
 \end_layout
 
 \begin_layout Standard
-כיתוב: פרופיל איבוד עצמה בהתקן מעכב הפאזה.
- כצפוי, הדעיכה בציר האנכי מונוטונית )כמעט לינארית >>>?<<<( לשטח החסום.
- הדעיכה בציר האופקי תלויה גם בתדרים שאובדים בעקבות תנאי השפה שכופות צלעות
- המתכת, ולכן מורכבת יותר.
+>>> לוותר על השערות של התאבכות סינקים, לוותר על דחיסת אונות, ברקע התיאורטי
+ כבר מובהק שהם לא מתאימים, אבל במצגת כן נכניס אותם <<<
+\end_layout
+
+\begin_layout Standard
+הקפיצה הראשונה מתחילה ב- 
+\begin_inset Formula $sin(\theta_{3})\approx1\Leftarrow w=???$
+\end_inset
+
+, כלומר, כאשר המוד השלישי של מוליך הגלים "מתעורר": הופך מממוד דועך למוד
+ אוסילטורי.
+\end_layout
+
+\begin_layout Standard
+>>> כפי שרואים משהו.....<<<
+\end_layout
+
+\begin_layout Standard
+הפרש הפאזות בין המודים:
+\begin_inset Formula $\Delta\phi=2\pi\frac{L_{1}}{\lambda}[cos(\theta_{3})-cos(\theta_{1})]$
+\end_inset
+
+)כאשר הזוויות תלויות ברוחב 
+\begin_inset Formula $w$
+\end_inset
+
+ לפי נוסחא 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:theta_n_lambda_g_n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+הפרש הפאזות 
+\begin_inset Formula $\Delta\phi$
+\end_inset
+
+ בין המודים 
+\begin_inset Formula $\psi_{1},\psi_{3}$
+\end_inset
+
+ במישור המסך, כתלות ב- 
+\begin_inset Formula $w$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+עצמה נקלטת מנורמלת בקיטוב אנכי, עם צפי תיאורטי לפי התחשבות ב- 
+\begin_inset Formula $\psi_{1},\psi_{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+>>> אולי אפשר לעשות התאמת עקומה ולהשאיר כמה פרמטרים פתוחים: 
+\begin_inset Formula $L_{2},$
+\end_inset
+
+....<<<
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
@@ -2049,92 +2221,58 @@ status open
 סיכום ומסקנות
 \end_layout
 
-\begin_layout Standard
-כיוונים להמשך: גלי מיקרו.
- בדיקת פרופיל דעיכה במרחקים שונים
+\begin_layout Subsubsection*
+דעיכה במוליך הגלים )גלי מיקרו(
 \end_layout
 
 \begin_layout Standard
-בדיקת פרופיל דעיכה ברזולוציית רוחב מוליך טובה יותר.
+תוצאות מפתיעות במדידת העצמה העוברת את מוליך הגלים ומגיעה למקלט הובילו למודל
+ טוב יותר של התנהגות הגל בתוך מוליך הגלים.
+ ישנם מספר כיוונים לטייב תוצאות ניסוי זה, ולהמשיכו:
 \end_layout
 
-\begin_layout Standard
-בדיקת האנרגיה הנפלטת בקיטוב אנכי בזוויות שונות.
-\end_layout
-
-\begin_layout Standard
-בדיקת שפיות: מדידת השפעת החסימה ע"י שתי צלעות חוסמות ללא הצלעות שכופות תנאי
- שפה
-\end_layout
-
-\begin_layout Standard
->>>להעיף
-\end_layout
-
-\begin_layout Standard
-השערה: הגל המישורי המגיע מתפרק פירוק פוריה לגלים מישוריים.
- לפי 
-\begin_inset Formula $sinc$
+\begin_layout Enumerate
+ביצוע הניסוי עם מערכת בה ניתן לקבוע את רוחב המוליך 
+\begin_inset Formula $w$
 \end_inset
 
- , אם האיפוס מגיע בזווית השורדת נצפה ששום דבר לא יעבור
+ ברזולוצייה טובה יותר.
 \end_layout
 
-\begin_layout Standard
-למה ההתקדמות המאוזנת עובדת גם בלי סינק.
+\begin_layout Enumerate
+בדיקת פרופיל דעיכה במרחקים שונים מהמוליך 
+\begin_inset Formula $L_{2}$
+\end_inset
+
+.
 \end_layout
 
-\begin_layout Standard
-<<<
+\begin_layout Enumerate
+בדיקה מלאה של עקום הקרינה של הגל היוצא ממוליך הגלים, ע"י מדידת האנרגיה הנקלטת
+ בזוויות שונות.
+ מדידה זו תוכל לתקף באופן נוסף את קיומו של המוד 
+\begin_inset Formula $\psi_{3}$
+\end_inset
+
+ .
 \end_layout
 
-\begin_layout Standard
-סיפורי התאבכות.
- קשה לומר איך נראית ההשפעה בזוויות שונות בלי פרופיל מלא.
+\begin_layout Enumerate
+בדיקה האם 
+\begin_inset Formula $w<\frac{1}{2}\lambda$
+\end_inset
+
+ גורם לדעיכה גם של המוד 
+\begin_inset Formula $\psi_{1}$
+\end_inset
+
+ ולמעשה מסנן את הקיטוב האנכי.
+\end_layout
+
+\begin_layout Enumerate
+במערכת גלי מיקרו הייתה השפעה לא זניחה של התאבכות של החזרות הגלים מחפצים
+ קרובים.
  מערכת רחוקה יותר ממקורות החזרה תאפשר מדידה נקייה יותר.
-\end_layout
-
-\begin_layout Standard
-למעשה בדומה לניתוח שעשינו בסעיף ___, אנחנו מצפים שיהיו מודים נוספים שישרדו
- את מוליך הגלים, כלומר, זוגות של גלים בזווית 
-\begin_inset Formula $\pm\theta_{n}$
-\end_inset
-
- שיחד יקיימו את תנאי השפה.
- המודים הללו יהיו עם פרופיל עצמה לרוחב מוליך הגלים שנראה כמו _____.
- <<< כאשר 
-\begin_inset Formula $\lambda\approx w$
-\end_inset
-
- מודים נעלמים.
- הסבר לקפיצות.
- לא הסבר
-\end_layout
-
-\begin_layout Standard
-רעיון לניתוח: חישוב פרופיל עצמה ביציאה מהמוליך בתור סופר פוזיציה של המודים
- ששורדים, ומשם לקדם בעזרת פרנל.
-\end_layout
-
-\begin_layout Standard
-רעיון נוסף: אולי לא צריך לעשות תיקון לפי העצמה באפקי אלא לפי הרוחב.
- כלומר לפי השורש.
-\end_layout
-
-\begin_layout Standard
-רעיון ניתוח שכשל: אנכי, פירוק פרנהופר.
- הסיבה שכשל היא שהמוד הראשון ששורד נמצא תמיד באותו מקום בסינק, תחת קירוב
- זוויות קטנות.
- ואולי טיפה יותר.
-\end_layout
-
-\begin_layout Standard
-רעיון נוסף: לעשות פרופיל זוויות ולנסות למפות את המוד השלישי.
-\end_layout
-
-\begin_layout Standard
-רעיון נוסף: ברוחב מוליך פחות מחצי אורך גל אנחנו מצפים לדעיכה מלאה של כל
- המודים האנכיים.
 \end_layout
 
 \begin_layout Part*
@@ -2174,6 +2312,10 @@ status open
 \noun default
 \color inherit
 רדיו נכשלו(.
+\end_layout
+
+\begin_layout Standard
+כל מיני דברים לזרוק:
 \end_layout
 
 \begin_layout Standard
@@ -2291,6 +2433,103 @@ status open
 
 \begin_layout Standard
 <<<
+\end_layout
+
+\begin_layout Standard
+>>> לא נכון
+\end_layout
+
+\begin_layout Standard
+כיתוב: פרופיל איבוד עצמה בהתקן מעכב הפאזה.
+ כצפוי, הדעיכה בציר האנכי מונוטונית )כמעט לינארית >>>?<<<( לשטח החסום.
+ הדעיכה בציר האופקי תלויה גם בתדרים שאובדים בעקבות תנאי השפה שכופות צלעות
+ המתכת, ולכן מורכבת יותר.
+\end_layout
+
+\begin_layout Standard
+<<<
+\end_layout
+
+\begin_layout Standard
+>>>
+\end_layout
+
+\begin_layout Standard
+>>>להעיף
+\end_layout
+
+\begin_layout Standard
+השערה: הגל המישורי המגיע מתפרק פירוק פוריה לגלים מישוריים.
+ לפי 
+\begin_inset Formula $sinc$
+\end_inset
+
+ , אם האיפוס מגיע בזווית השורדת נצפה ששום דבר לא יעבור
+\end_layout
+
+\begin_layout Standard
+למה ההתקדמות המאוזנת עובדת גם בלי סינק.
+\end_layout
+
+\begin_layout Standard
+<<<
+\end_layout
+
+\begin_layout Standard
+<<<
+\end_layout
+
+\begin_layout Enumerate
+בדיקת שפיות: מדידת השפעת החסימה ע"י שתי צלעות חוסמות ללא הצלעות שכופות תנאי
+ שפה
+\end_layout
+
+\begin_layout Standard
+למעשה בדומה לניתוח שעשינו בסעיף ___, אנחנו מצפים שיהיו מודים נוספים שישרדו
+ את מוליך הגלים, כלומר, זוגות של גלים בזווית 
+\begin_inset Formula $\pm\theta_{n}$
+\end_inset
+
+ שיחד יקיימו את תנאי השפה.
+ המודים הללו יהיו עם פרופיל עצמה לרוחב מוליך הגלים שנראה כמו _____.
+ <<< כאשר 
+\begin_inset Formula $\lambda\approx w$
+\end_inset
+
+ מודים נעלמים.
+ הסבר לקפיצות.
+ לא הסבר
+\end_layout
+
+\begin_layout Standard
+רעיון לניתוח: חישוב פרופיל עצמה ביציאה מהמוליך בתור סופר פוזיציה של המודים
+ ששורדים, ומשם לקדם בעזרת פרנל.
+\end_layout
+
+\begin_layout Standard
+רעיון נוסף: אולי לא צריך לעשות תיקון לפי העצמה באפקי אלא לפי הרוחב.
+ כלומר לפי השורש.
+\end_layout
+
+\begin_layout Standard
+רעיון ניתוח שכשל: אנכי, פירוק פרנהופר.
+ הסיבה שכשל היא שהמוד הראשון ששורד נמצא תמיד באותו מקום בסינק, תחת קירוב
+ זוויות קטנות.
+ ואולי טיפה יותר.
+\end_layout
+
+\begin_layout Standard
+רעיון נוסף: לעשות פרופיל זוויות ולנסות למפות את המוד השלישי.
+\end_layout
+
+\begin_layout Standard
+רעיון נוסף: ברוחב מוליך פחות מחצי אורך גל אנחנו מצפים לדעיכה מלאה של כל
+ המודים האנכיים.
+\end_layout
+
+\begin_layout Enumerate
+קשה לומר איך נראית ההשפעה בזוויות שונות בלי פרופיל מלא.
+ 
 \end_layout
 
 \end_body
