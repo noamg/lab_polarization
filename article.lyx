@@ -535,10 +535,6 @@
 \end_layout
 
 \begin_layout Standard
->>>אליפסת הקיטוב???? כנראה להוריד<<<
-\end_layout
-
-\begin_layout Standard
 וקטורי 
 \begin_inset Formula $\vec{E_{+}}$
 \end_inset
@@ -593,8 +589,8 @@ status open
 \end_layout
 
 \begin_layout Standard
-מקטב )לינארי(: מכשיר אופטי הבולע את הקיטוב בציר מסוים ומעביר אותו בציר הניצב
- לו.
+מקטב )לינארי(: מכשיר אופטי הבולע את הקיטוב )רכיב השדה החשמלי( בציר מסוים
+ ומעביר אותו בציר הניצב לו.
  מתמטית מתואר בתור הטלה 
 \begin_inset Formula $(projection)$
 \end_inset
@@ -760,15 +756,6 @@ status open
  אך גם בה לא מועברת כל האנרגיה.
 \end_layout
 
-\begin_layout Standard
-כיצד בנוי מקטב?: מקטב מבוסס על חוסר סימטריה בין צירים ניצבים 
-\begin_inset Formula $x,y$
-\end_inset
-
-.
- >>>כבר כתבנו בעצם שהוא בולע את רכיב הגל בכיוון מסויים_____<<<
-\end_layout
-
 \begin_layout Subsubsection*
 לוחית גל
 \end_layout
@@ -801,113 +788,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-בתחומי תדר שונים תופעות שונות גורמות לתופעה של לוחית גל>>יישום שונה כתלות
- בתדר<<:
-\end_layout
-
-\begin_layout Subsubsection*
->>>למחוק<<< לוחית גל במערכת אופטית:
-\end_layout
-
-\begin_layout Standard
-המקור הפיסיקלי הוא שבירה כפולה )
-\begin_inset Formula $birefringence$
-\end_inset
-
-(: בגבישים לא איזוטרופיים מסוימים, כיוון הקיטוב של גל משפיע על מהירות ההתקדמות
- שלו בתוך הגביש 
-\begin_inset Formula $c_{in}$
-\end_inset
-
- )לינארית למקדם השבירה 
-\begin_inset Formula $n$
-\end_inset
-
-( )איור
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2
-\numeric off
-(.
- גל שמקוטב בציר האופטי מתקדם לפי מקדם שבירה 
-\begin_inset Formula $n_{o}$
-\end_inset
-
-, וגל שמקוטב בציר הניצב לו מתקדם לפי מקדם שבירה 
-\begin_inset Formula $n_{e}$
-\end_inset
-
-.
- בסה"כ שני רכיבי הקיטוב צוברים הפרש פאזה לפי:
-\begin_inset Formula 
-\[
-\Delta\phi=L\Delta k=L\frac{\omega}{c}\Delta n
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename figures/birefringence.jpg
-	lyxscale 40
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-גביש בעל שבירה כפולה מאלץ מהירות אור שונה בצירים שונים של הגביש, ויוצר לוחית
- גל.
-\end_layout
-
-\end_inset
-
-
+צורת היישום משתנה בין תחומי תדר שונים:
 \end_layout
 
 \begin_layout Subsubsection*
@@ -915,7 +796,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-מוליך גלים בעל צלעות מתכתיות אנכיות )ראה 
+מוליך גלים בעל צלעות מתכתיות אנכיות )ראה איור 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:wave guide system"
@@ -965,15 +846,15 @@ reference "fig:wave_guide_1st_mode"
 
  על הצלעות המתכתיות.
  שאר רכיבי הגל )בזוויות שונות(, אינם מקיימים את תנאי השפה ודועכים.
- )>>>לשים את האיור פה!!!<<<(
-\end_layout
-
-\begin_layout Standard
->>>הזווית המותרת 
-\begin_inset Formula $sin(\theta_{1})=\frac{1}{2}\frac{\lambda}{a}$
+ את 
+\begin_inset Formula $\theta$
 \end_inset
 
-<<<
+ מוצאים בעזרת הנוסחא 
+\begin_inset Formula $sin(\theta)=\frac{1}{2}\frac{\lambda}{a}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -990,7 +871,7 @@ reference "fig:wave_guide_1st_mode"
 \end_inset
 
 , אורך גל אפקטיבי 
-\begin_inset Formula $\lambda_{g1}=\frac{\lambda}{cos(\theta)}$
+\begin_inset Formula $\lambda_{g}=\frac{\lambda}{cos(\theta)}$
 \end_inset
 
 .ופרופיל עצמה לרוחב מוליך הגלים, כך שהוא מקסימלי במרכז ומתאפס על הצלעות:
@@ -1032,7 +913,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename figures/phase_delay_micro_trim.png
+	filename figures/phase_delay_micro_trim_a--w.png
 	lyxscale 40
 	scale 40
 
@@ -1072,7 +953,11 @@ name "fig:wave_guide_1st_mode"
 \end_inset
 
  על הצלעות המתכתיות.
- >>>מקור האיור <<<
+ מקור - 
+\begin_inset Formula $Portis\, A.,Young\, H.-Berkeley\, physics\, laboratory-McGraw-Hill(1971),\, p.28\, section-MO-4\, fig.19$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1085,32 +970,26 @@ name "fig:wave_guide_1st_mode"
 \end_layout
 
 \begin_layout Subsubsection*
-דעיכה / סינון במערכת לוחית גל של גלי מיקרו
-\end_layout
-
-\begin_layout Subsubsection*
->>> להבין מה מפה צריך להיות רקע תיאורטי ומה ניתוח אוחר.
- אני חושב שיהיה הרבה יותר קל להבין את ההסבר אחרי שרואים את מערכת הניסוי
- <<< >>> האם הכותרת של דעיכה / סינון מתאימה? למעשה אנחנו עושים פה ניתוח
- יסודי של התנהגות גלים במערכת <<< >>> הרבה ממה שמוצג פה נעשה במונחים של
- מערכת הניסוי <<<
-\end_layout
-
-\begin_layout Subsubsection*
 בקיטוב האנכי
 \end_layout
 
 \begin_layout Standard
 התפתחות הגל המקוטב אופקית במערכת מחולק לשלושה חלקים: התקדמות חופשית של גל
  מישורי, מעבר במוליך הגלים, עקיפת פרנהופר במרחב חופשי.
- כפי שראינו בניתוח השפעות לוחית הגל של מוליך הגלים, לא כל רכיבי הגל שורדים
+\end_layout
+
+\begin_layout Standard
+כפי שראינו בניתוח השפעות לוחית הגל של מוליך הגלים, לא כל רכיבי הגל שורדים
  במוליך.
- אבל ישנן זוויות נוספות פרט לזווית 
-\begin_inset Formula $\theta_{1}$
+ אבל, זוג הזוויות 
+\begin_inset Formula $\pm\theta$
 \end_inset
 
- שמקיימות את תנאי השפה.
- למשל:
+ הנ"ל אינו היחיד למשל, אם ניקח 
+\begin_inset Formula $sin(\theta_{3})=\frac{3}{2}\frac{\lambda}{a}$
+\end_inset
+
+:
 \end_layout
 
 \begin_layout Standard
@@ -1128,7 +1007,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename figures/3rd_mode_in_wave_guide.png
+	filename figures/3rd_mode_in_wave_guide_axis.png
 	lyxscale 60
 	scale 40
 
@@ -1191,7 +1070,7 @@ reference "fig:wave_guide_1st_mode"
 
 \begin_inset Formula 
 \begin{equation}
-sin(\theta_{n})=n\cdot\frac{1}{2}\frac{\lambda}{a};\lambda_{gn}=\frac{\lambda}{cos(\theta_{n})}\label{eq:theta_n_lambda_g_n}
+sin(\theta_{n})=n\cdot\frac{1}{2}\frac{\lambda}{a};\:\lambda_{gn}=\frac{\lambda}{cos(\theta_{n})}\label{eq:theta_n_lambda_g_n}
 \end{equation}
 
 \end_inset
@@ -1214,8 +1093,8 @@ sin(\theta_{n})=n\cdot\frac{1}{2}\frac{\lambda}{a};\lambda_{gn}=\frac{\lambda}{c
 \end_layout
 
 \begin_layout Standard
-עם היציאה מהמוליך, הגלים עוברים למרחב פתוח, ורחוק מספיק ממנו >>><<< מקודמים
- לפי פרנהופר:
+עם היציאה מהמוליך, הגלים עוברים למרחב פתוח, ורחוק מספיק ממנו מקודמים לפי
+ פרנהופר:
 \end_layout
 
 \begin_layout Standard
@@ -1242,7 +1121,8 @@ sin(\theta_{n})=n\cdot\frac{1}{2}\frac{\lambda}{a};\lambda_{gn}=\frac{\lambda}{c
 \end_layout
 
 \begin_layout Standard
-עבור גל מקור המשדר גל מישורי, יופיעו בפירוק רק המודים הסימטריים ב- 
+עבור גל מישורי בכניסה למוליך הגלים, יופיעו בפירוק רק המודים הסימטריים ב-
+ 
 \begin_inset Formula $x$
 \end_inset
 
@@ -1259,16 +1139,178 @@ sin(\theta_{n})=n\cdot\frac{1}{2}\frac{\lambda}{a};\lambda_{gn}=\frac{\lambda}{c
 \begin_inset Formula $\psi_{1},\psi_{3}$
 \end_inset
 
- במישור המקלט: >>> אולי לשים את הגרפים זה לצד זה <<<
+.
+ בקירוב שדה רחוק )פראונהופר( ניתן
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לשרטט את אמפליטודת הגל בכל זווית כפי שניתן לראות באיור 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:lobe pattern"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
->>> דוגמא: גרף המוד הראשון <<< >>> כיתוב: רואים בצבע אחד את שני הסינקים,
- ובצבע אחר את סכומם, רואים דחיסה של אונות הצד בגלל מרכיב הטנגנס <<<
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/lobes-noRec.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
->>> דוגמא: גרף המוד השלישי <<<
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+עוצמת הגל כתלות בכיוון בקירוב שדה רחוק עבור מודים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו-
+\numeric on
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+במוצא מוליך הגלים
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:lobe pattern"
+
+\end_inset
+
+.
+ ה-
+\begin_inset Formula $sinc$
+\end_inset
+
+-ים נראים מעוותים כתוצאה מהפעלת 
+\begin_inset Formula $\tan$
+\end_inset
+
+ כדי לעבור מ-
+\begin_inset Formula $k$
+\end_inset
+
+ ל-
+\begin_inset Formula $\theta$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1282,7 +1324,14 @@ sin(\theta_{n})=n\cdot\frac{1}{2}\frac{\lambda}{a};\lambda_{gn}=\frac{\lambda}{c
 \end_inset
 
 על הצלעות(, אבל בקצה מוליך הגלים ישנן צלעות "מחסום" מתכתיות הניצבות לכיוון
- התקדמות הגל )ראה איור >>><<<(.
+ התקדמות הגל )ראה איור 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:wave guide system"
+
+\end_inset
+
+(.
  לפי תנאי השפה בנוסחא 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1293,11 +1342,7 @@ reference "eq:boundry"
  צלעות המחסום מאפסות את שני הקיטובים.
  כלומר, המוד המקוטב אופקית מתקדם בתור גל מישורי, הפוגע במחסום, ומשם יוצא
  למרחב פתוח.
- במרחק גדול מהמחסום 
-\begin_inset Formula $L$
-\end_inset
-
- )>>><<<( נקבל לפי 
+ במרחק גדול מהמחסום נקבל לפי 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:fraunhofer"
@@ -2811,6 +2856,107 @@ status open
 
 \begin_layout Itemize
 חצי גל אופטי - להפיל
+\end_layout
+
+\begin_layout Subsubsection*
+>>>למחוק<<< לוחית גל במערכת אופטית:
+\end_layout
+
+\begin_layout Standard
+המקור הפיסיקלי הוא שבירה כפולה )
+\begin_inset Formula $birefringence$
+\end_inset
+
+(: בגבישים לא איזוטרופיים מסוימים, כיוון הקיטוב של גל משפיע על מהירות ההתקדמות
+ שלו בתוך הגביש 
+\begin_inset Formula $c_{in}$
+\end_inset
+
+ )לינארית למקדם השבירה 
+\begin_inset Formula $n$
+\end_inset
+
+( )איור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+(.
+ גל שמקוטב בציר האופטי מתקדם לפי מקדם שבירה 
+\begin_inset Formula $n_{o}$
+\end_inset
+
+, וגל שמקוטב בציר הניצב לו מתקדם לפי מקדם שבירה 
+\begin_inset Formula $n_{e}$
+\end_inset
+
+.
+ בסה"כ שני רכיבי הקיטוב צוברים הפרש פאזה לפי:
+\begin_inset Formula 
+\[
+\Delta\phi=L\Delta k=L\frac{\omega}{c}\Delta n
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/birefringence.jpg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+גביש בעל שבירה כפולה מאלץ מהירות אור שונה בצירים שונים של הגביש, ויוצר לוחית
+ גל.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
