@@ -66,7 +66,7 @@
 \begin_body
 
 \begin_layout Title
-קיטוב
+קיטוב והתנהגות גלי מיקרו במוליך גלים
 \end_layout
 
 \begin_layout Author
@@ -91,28 +91,6 @@
 \end_layout
 
 \begin_layout Part*
-משימות
-\end_layout
-
-\begin_layout Itemize
-ברוסטר.
-\end_layout
-
-\begin_layout Itemize
-מגרשים את האליפסה לנספח.
- ניתוח נתונים רבע גל אופטי
-\end_layout
-
-\begin_layout Itemize
-לסגור מלל
-\end_layout
-
-\begin_layout Itemize
-סגירה: להסיר >>><<<, ???, ___, להשלים הפניות לאיורים, לארגן את התמונות והגרפים
- כך שלא יתפסו אינסוף מקום
-\end_layout
-
-\begin_layout Part*
 רקע תיאורטי
 \end_layout
 
@@ -125,7 +103,10 @@
 \begin_inset Formula $\vec{E}$
 \end_inset
 
- המתפשטת במרחב לפי משוואת הגלים: 
+ המתפשטת במרחב לפי משוואת הגלים:
+\end_layout
+
+\begin_layout Standard
 \begin_inset Formula $\frac{\partial^{2}\vec{\psi}}{\partial t^{2}}=c^{2}\nabla^{2}\vec{\psi}$
 \end_inset
 
@@ -159,7 +140,7 @@
 \begin_inset Formula $\vec{E}$
 \end_inset
 
-ניצב לכיוון התקדמות הגל 
+ ניצב לכיוון התקדמות הגל 
 \begin_inset Formula $\vec{k}$
 \end_inset
 
@@ -744,7 +725,7 @@ reference "fig:wave_guide_1st_mode"
 \end_inset
 
  מוצאים בעזרת הנוסחא 
-\begin_inset Formula $sin(\theta)=\frac{1}{2}\frac{\lambda}{a}$
+\begin_inset Formula $sin(\theta)=\frac{1}{2}\frac{\lambda}{w}$
 \end_inset
 
 .
@@ -879,7 +860,7 @@ name "fig:wave_guide_1st_mode"
 \end_inset
 
  הנ"ל אינו היחיד למשל, אם ניקח 
-\begin_inset Formula $sin(\theta_{3})=\frac{3}{2}\frac{\lambda}{a}$
+\begin_inset Formula $sin(\theta_{3})=\frac{3}{2}\frac{\lambda}{w}$
 \end_inset
 
 :
@@ -963,7 +944,7 @@ reference "fig:wave_guide_1st_mode"
 
 \begin_inset Formula 
 \begin{equation}
-sin(\theta_{n})=n\cdot\frac{1}{2}\frac{\lambda}{a};\:\lambda_{gn}=\frac{\lambda}{cos(\theta_{n})}\label{eq:theta_n_lambda_g_n}
+sin(\theta_{n})=n\cdot\frac{1}{2}\frac{\lambda}{w};\:\lambda_{gn}=\frac{\lambda}{cos(\theta_{n})}\label{eq:theta_n_lambda_g_n}
 \end{equation}
 
 \end_inset
@@ -1138,6 +1119,30 @@ status open
 \uwave default
 \noun default
 \color inherit
+)בכחול(
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
 ו-
 \numeric on
 3
@@ -1165,7 +1170,7 @@ status open
 \uwave default
 \noun default
 \color inherit
-במוצא מוליך הגלים
+)בירוק( במוצא מוליך הגלים
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:lobe pattern"
@@ -1233,9 +1238,8 @@ reference "eq:boundry"
 \end_inset
 
  צלעות המחסום מאפסות את שני הקיטובים.
- כלומר, המוד המקוטב אופקית מתקדם בתור גל מישורי, הפוגע במחסום, ומשם יוצא
- למרחב פתוח.
- במרחק גדול מהמחסום נקבל לפי 
+ כלומר, המוד המקוטב אופקית מתקדם בתור גל מישורי, הפוגע במחסום, ומבצע עקיפת
+ פראונהופר, במרחק גדול מהמחסום נקבל לפי נוסחא 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:fraunhofer"
@@ -1543,6 +1547,31 @@ name "fig:micro_polarizer"
 \noun default
 \color inherit
 2
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מקטבים
 \end_layout
 
 \begin_layout Standard
@@ -1659,6 +1688,31 @@ status open
 \noun default
 \color inherit
 3
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מקטבים
 \end_layout
 
 \begin_layout Standard
@@ -1865,13 +1919,13 @@ name "fig:wave guide system"
 \end_inset
 
 .
- גלי המיקרו משודרים מהמקור כגל מישורי, עוברים במוליך הגלים, ואז מתפזרים
+ גלי המיקרו משודרים מהמקור בקירוב כגל מישורי, עוברים במוליך הגלים, ואז מתפזרים
  בחלל חפשי.
  אנטנת שופר מנתבת את הגל ממקטע מרחב מסוים למקלט, תוך שמירה על הפאזה היחסית
  של הנקודות בו, והמקלט מודד את עצמת הקרינה בצורה של זרם:
 \begin_inset Formula 
 \begin{equation}
-Intensity\propto<|\int_{x'\in sensor}d^{2}x'\psi(\boldsymbol{x}',t)|^{2}>_{t}\label{eq:receiver-feeder-integral}
+Intensity\propto<\left|\int_{x'\in sensor}d^{2}x'\psi(\boldsymbol{x}',t)\right|{}^{2}>_{t}\label{eq:receiver-feeder-integral}
 \end{equation}
 
 \end_inset
@@ -1898,9 +1952,9 @@ Intensity\propto<|\int_{x'\in sensor}d^{2}x'\psi(\boldsymbol{x}',t)|^{2}>_{t}\la
 \color none
  
 \family default
-\series medium
+\series default
 \shape default
-\size normal
+\size default
 \emph default
 \numeric on
 \bar default
@@ -1911,9 +1965,35 @@ Intensity\propto<|\int_{x'\in sensor}d^{2}x'\psi(\boldsymbol{x}',t)|^{2}>_{t}\la
 \color inherit
 2
 \family roman
+\series bold
 \shape up
+\size large
 \emph off
 \numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מקטבים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
 \bar no
 \strikeout off
 \uuline off
@@ -2063,6 +2143,30 @@ name "fig:malus2las"
 \uwave off
 \noun off
 \color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מקטבים
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
  אופטי
 \end_layout
 
@@ -2114,7 +2218,7 @@ status open
 \end_inset
 
 , 
-\begin_inset Formula $sensor-width\approx10cm$
+\begin_inset Formula $sensor\, width\approx10cm$
 \end_inset
 
 , 
@@ -2125,7 +2229,7 @@ status open
 \begin_inset Formula $\boldsymbol{x}'\in sensor\Rightarrow\theta\ll1$
 \end_inset
 
-ולכן נוכל לסכום את 
+ ולכן נוכל לסכום את 
 \begin_inset Formula $\psi$
 \end_inset
 
@@ -2308,14 +2412,14 @@ reference "eq:fraunhofer-vert"
 
 \end_inset
 
-ונוסאת הסכימה 
+ ונוסאת הסכימה 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:receiver-feeder-integral"
 
 \end_inset
 
-נוכל לקבל צפי תיאורטי לעצמה הנקלטת:
+ נוכל לקבל צפי תיאורטי לעצמה הנקלטת:
 \end_layout
 
 \begin_layout Standard
@@ -2379,6 +2483,7 @@ name "fig:I_vert_by_w_plus_model"
 \end_inset
 
 .
+ תקריב של המידע עם התחזית בנספח.
 \end_layout
 
 \end_inset
@@ -2417,8 +2522,11 @@ name "fig:I_vert_by_w_plus_model"
 \end_layout
 
 \begin_layout Enumerate
-בדיקה מלאה של עקום הקרינה של הגל היוצא ממוליך הגלים, ע"י מדידת האנרגיה הנקלטת
- בזוויות שונות.
+בדיקה מלאה של עקום הקרינה )
+\lang english
+Radiation Pattern
+\lang hebrew
+( של הגל היוצא ממוליך הגלים, ע"י מדידת האנרגיה הנקלטת בזוויות שונות.
  מדידה זו תוכל לתקף באופן נוסף את קיומו של המוד 
 \begin_inset Formula $\psi_{3}$
 \end_inset
@@ -2449,6 +2557,59 @@ name "fig:I_vert_by_w_plus_model"
 \end_layout
 
 \begin_layout Subsection*
+השפעת מוליך הגלים על עצמת גלי מיקרו - תוספת
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/vertical-detrended-withExpectation_zoom.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+תקריב של איור 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:I_vert_by_w_plus_model"
+
+\end_inset
+
+ באזור 
+\begin_inset Formula $w\in\left(4,7.5\right)\left[cm\right]$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
 יחסי פרנל וזווית ברוסטר
 \end_layout
 
@@ -2463,10 +2624,28 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/bruster.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
 \begin_inset Caption
 
 \begin_layout Plain Layout
-תוצאות פרנל
+בניסוי זה נמדדה עצמת גל האור המוחזר מלוחית פרספקס )
+\begin_inset Formula $n=1.49-1.55$
+\end_inset
+
+ עפ"י מספר מקורות( כתלות בזווית, עבור הקיטוב האפקי והאנכי.
+ ניתן לראות התאמה מצוינת לתיאוריה בכלל, ובפרט בזווית ברוסטר )אין החזרה בקיטוב
+ 
+\begin_inset Formula $p$
+\end_inset
+
+(
 \end_layout
 
 \end_inset
@@ -2494,6 +2673,13 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/qwp_circ_lazer.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
 
 \end_layout
 
@@ -2501,7 +2687,8 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-פולרי מעגלי
+במערכת של אור מקוטב אלכסונית העובר דרך לוחית גל, כצפוי, מתקבל קיטוב מעגלי
+ )נראה בגרף לפי העצמה השווה של הגל בכל קיטוב לינארי(
 \end_layout
 
 \end_inset
@@ -2521,6 +2708,13 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/qwp_elipc_lazer.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
 
 \end_layout
 
@@ -2528,7 +2722,58 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-פולרי אליפטי
+במערכת של אור מקוטב בזווית
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+30
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מעלות העובר דרך לוחית גל, כצפוי, מתקבל קיטוב אליפטי )נראה בגרף לפי העצמה
+ הלא שווה אך לא מתאפסת של הגל בכל קיטוב לינארי(
 \end_layout
 
 \end_inset
@@ -2542,10 +2787,6 @@ status open
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 
