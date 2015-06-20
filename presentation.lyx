@@ -1,0 +1,717 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass beamer
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+דעיכה במוליך גלים או משהו
+\end_layout
+
+\begin_layout Author
+דן וקסלר ונועם גביש, בהנחיית נגה וייס
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\backslash
+setbeamercolor{background canvas}{bg=}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\backslash
+setbeamertemplate{background}{
+\backslash
+includegraphics[width=1.0
+\backslash
+paperwidth,height=1.0
+\backslash
+paperheight]{600px-Doppler_effect_svg.png}}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+תקציר
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+במהלך ניסוי במוליך גלים נתגלה אפקט דעיכה ששיבש את תוצאות הניסוי
+\end_layout
+
+\begin_layout Itemize
+תוצאות אפקט הדעיכה היו מפתיעות
+\end_layout
+
+\begin_layout Itemize
+ניתוח מלא של התנהגות הגלים במוליך הגלים הסביר את התוצאות
+\end_layout
+
+\begin_layout Itemize
+להגיד בע"פ שאנחנו שומרים על המתח
+\end_layout
+
+\begin_layout BeginFrame
+רקע תיאורטי: עקיפת פרנהאופר
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+איור עקיפה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lambda L>>?$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\psi(\theta;z=L_{1}+L_{2})=Fourier[\psi(x,z=L_{1})](k_{x}=\frac{1}{\lambda}tg(\theta))\label{eq:fraunhofer}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+רקע תיאורטי: קיטוב
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+משפט הגדרה
+\end_layout
+
+\begin_layout Standard
+תמונה קיטובים
+\end_layout
+
+\begin_layout BeginFrame
+רקע תיאורטי: מוליך גלים
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "40col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+תנאי שפה:
+\end_layout
+
+\begin_layout Plain Layout
+בקיטוב האופקטי שורדת זווית אחת 
+\begin_inset Formula $\theta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+גל אפקטיבי
+\end_layout
+
+\begin_layout Plain Layout
+נוסחאת הפרש פאזה
+\end_layout
+
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\:$
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "40col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/phase_delay_micro_trim_a--w.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+מוטיבציה לניסוי: נתגלה אפקט נוסף
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+לא הצלחנו לשחזר לוחית רבע גל וליצור קיטוב מעגלי
+\end_layout
+
+\begin_layout Itemize
+במוליך הגל נתגלה אפקט נוסף: דעיכה מוגברת של הקיטוב האנכי
+\end_layout
+
+\begin_layout Itemize
+בדיקת הדעיכה כתלות ברוחב 
+\begin_inset Formula $w$
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+מערכת הניסוי
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/wave_guide_setup.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+תוצאות
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+תוצאות.
+ איזה כדאי?
+\end_layout
+
+\begin_layout Plain Layout
+האם בכלל להזכיר את התוצאות של הקיטוב האופקי? לכל הפחות במשפט ולומר שהן נראות
+ כצפוי כמו עקיפת סדק
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+מודל
+\family sans
+\series bold
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color blue
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+תמונה של סינק
+\end_layout
+
+\begin_layout Standard
+נוסחאת פרנהופר
+\end_layout
+
+\begin_layout Standard
+לא עובד: תמיד באותו מקום
+\end_layout
+
+\begin_layout BeginFrame
+מודל
+\family sans
+\series bold
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color blue
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+,
+\family sans
+\series bold
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color blue
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+תמונה פרופיל העצמה ביציאה מהמוליך, חץ עם כותרת פרנהופר, תמונת מוד ראשון
+ במישור המסך
+\end_layout
+
+\begin_layout Standard
+צריך להזכיר כאן את סכימת הפאזות בזן
+\end_layout
+
+\begin_layout BeginFrame
+ניתוח: מודים עצמיים במוליך הגלים
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אומרים בעל פה: עכשיו ניתוח רציני יותר...
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\partial^{2}\psi}{\partial t^{2}}=c^{2}\nabla^{2}\psi;\:\:\:\psi(x=\pm\frac{1}{2}w)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נוסחאת פיתרונות? אולי עדיף תיאור גרפי כלשהו
+\end_layout
+
+\begin_layout Standard
+אולי פה את תמונת חזיתות גל של המוד השלישי?
+\end_layout
+
+\begin_layout BeginFrame
+המוד השלישי
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+תמונת פרופיל עצמה ביציאה, חץ, במישור המסך
+\end_layout
+
+\begin_layout Standard
+אולי תמונה של חזיתות הגל?
+\end_layout
+
+\begin_layout BeginFrame
+מודל מנצח
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נוסחא כלשהי של הפרש פאזות בין המודים
+\end_layout
+
+\begin_layout Standard
+גרף מנצח
+\end_layout
+
+\begin_layout BeginFrame
+סיכום ורעיונות המשך
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+אפקט מפתיע
+\end_layout
+
+\begin_layout Itemize
+תואר באופן מלא
+\end_layout
+
+\begin_layout Itemize
+רזולוצית 
+\begin_inset Formula $w$
+\end_inset
+
+טובה יותר
+\end_layout
+
+\begin_layout Itemize
+בדיקה ב- 
+\begin_inset Formula $L$
+\end_inset
+
+ שונים, בזוויות שונות
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\end_body
+\end_document
