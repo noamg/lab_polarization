@@ -169,10 +169,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Box Frameless
 position "t"
 hor_pos "c"
@@ -267,6 +263,10 @@ hfill
 \end_layout
 
 \begin_layout Standard
+תמונה קיטובים
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -276,7 +276,7 @@ status open
 \begin_inset Graphics
 	filename figures/linear_circular_eliptic.jpeg
 	lyxscale 50
-	scale 60
+	scale 50
 
 \end_inset
 
@@ -289,7 +289,7 @@ status open
 \end_layout
 
 \begin_layout BeginFrame
-רקע תיאורטי: קיטוב אנכי במוליך גלים
+רקע תיאורטי: מוליך גלים
 \begin_inset ERT
 status open
 
@@ -319,43 +319,30 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "50col%"
+width "40col%"
 special "none"
 height "1in"
 height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
-תנאי שפה: 
-\begin_inset Formula $E_{\parallel}=0$
+תנאי שפה:
+\end_layout
+
+\begin_layout Plain Layout
+בקיטוב האופקטי שורדת זווית אחת 
+\begin_inset Formula $\theta$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula $\theta_{1}=\pm arcsin(\frac{1}{2}\frac{\lambda}{w})$
-\end_inset
-
-
+גל אפקטיבי
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula $\psi_{eff}\propto cos(\frac{2\pi}{\lambda_{g1}}z)\cdot cos(\pi\frac{x}{w})$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-לוחית גל אפקטיבית עם:
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula $\Delta\phi=2\pi\frac{L_{1}}{\lambda}\left[1-\sqrt{1-\left(\frac{\frac{1}{2}\lambda}{w}\right){}^{2}}\right]$
-\end_inset
-
-
+נוסחאת הפרש פאזה
 \end_layout
 
 \end_inset
@@ -407,6 +394,10 @@ status open
 
 \end_layout
 
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 
 
@@ -438,7 +429,7 @@ hfill
 \end_layout
 
 \begin_layout Itemize
-מטרה: בדיקת הדעיכה כתלות ברוחב 
+בדיקת הדעיכה כתלות ברוחב 
 \begin_inset Formula $w$
 \end_inset
 
@@ -475,7 +466,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename figures/wave_guide_setup.png
-	scale 60
+	scale 40
 
 \end_inset
 
@@ -492,31 +483,7 @@ status open
 \end_layout
 
 \begin_layout BeginFrame
-תוצאות גולמיות
-\family sans
-\series bold
-\shape up
-\size largest
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color blue
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-
+תוצאות
 \begin_inset ERT
 status open
 
@@ -549,17 +516,23 @@ status open
 
 \end_layout
 
+\begin_layout Plain Layout
+תוצאות.
+ איזה כדאי?
+\end_layout
+
+\begin_layout Plain Layout
+האם בכלל להזכיר את התוצאות של הקיטוב האופקי? לכל הפחות במשפט ולומר שהן נראות
+ כצפוי כמו עקיפת סדק
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
-להזכיר במשפט את תוצאות הקיטוב האופקי: מסתדרות עם עקיפת סדק
-\end_layout
-
 \begin_layout BeginFrame
-תוצאות מנורמלות
+תוצאות
 \begin_inset ERT
 status open
 
@@ -585,7 +558,7 @@ status open
 \begin_inset Graphics
 	filename figures/vertical-detrended.png
 	lyxscale 50
-	scale 35
+	scale 25
 
 \end_inset
 
@@ -677,51 +650,15 @@ hfill
 \end_layout
 
 \begin_layout Standard
-נפרק את הגל הנכנס למוליך הגלים לרכיבים מישוריים: מה האמפליטודה של שנושא
- הרכיב 
-\begin_inset Formula $\theta_{1}$
-\end_inset
-
-?
-\begin_inset Formula 
-\[
-Amp_{1}\overset{?}{=}w\cdot sinc(\frac{1}{2}\frac{w}{\lambda}tg\theta)|_{\theta_{1}}=w\cdot sinc\left(\frac{1}{4}\cdot\left[1-\left(\frac{\lambda}{w}\right)^{2}\right]^{-\frac{1}{2}}\right)
-\]
-
-\end_inset
-
-
+תמונה של סינק
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-תמונת סינק
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
+נוסחאת פרנהופר
 \end_layout
 
 \begin_layout Standard
-לא עובד: ארגומנט ה- 
-\begin_inset Formula $sinc$
-\end_inset
-
- נמצא באותו אזור תמיד
+לא עובד: תמיד באותו מקום
 \end_layout
 
 \begin_layout BeginFrame
@@ -796,108 +733,12 @@ hfill
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "35col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-תמונה: פרופיל שני סינקים במישור המסך )הסנסור(, עם הדגשה על התחום )הצר( של
- הסנסור
-\end_layout
-
-\end_inset
-
-
-\begin_inset Formula $\quad$
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "10col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-\begin_inset Formula $\Rightarrow$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula $ferhaufer$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset Formula $\hspace{1em}$
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "35col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-תמונה פרופיל עצמה 
-\begin_inset Formula $cos(\pi x)$
-\end_inset
-
-ביציאה מהמוליך
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
+תמונה פרופיל העצמה ביציאה מהמוליך, חץ עם כותרת פרנהופר, תמונת מוד ראשון
+ במישור המסך
 \end_layout
 
 \begin_layout Standard
-בע"פ: צריך להזכיר כאן את סכימת הפאזות בזן של הסנסור
+צריך להזכיר כאן את סכימת הפאזות בזן
 \end_layout
 
 \begin_layout BeginFrame
@@ -918,124 +759,22 @@ hfill
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "50col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
 אומרים בעל פה: עכשיו ניתוח רציני יותר...
 \end_layout
 
-\begin_layout Plain Layout
-משוואת גלים עם שפה: 
-\end_layout
-
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Formula $\frac{\partial^{2}\psi}{\partial t^{2}}=c^{2}\nabla^{2}\psi;\:\:\:\psi(x=\pm\frac{1}{2}w)=0$
 \end_inset
 
 
 \end_layout
 
-\begin_layout Plain Layout
-מודים עצמיים:
+\begin_layout Standard
+נוסחאת פיתרונות? אולי עדיף תיאור גרפי כלשהו
 \end_layout
 
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\begin_inset Formula $\psi_{n}=cos(\frac{2\pi}{\lambda_{gn}}z+\omega t)\cdot cos(n\cdot\pi\frac{x}{w})$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula $sin(\theta_{n})=n\cdot\frac{1}{2}\frac{\lambda}{w};\:\lambda_{gn}=\frac{\lambda}{cos(\theta_{n})}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-עבור 
-\begin_inset Formula $\theta_{n}$
-\end_inset
-
-מרוכב המודים דועכים
-\end_layout
-
-\end_inset
-
-
-\begin_inset Formula $\:$
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "30col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename figures/3rd_mode_in_wave_guide.png
-	scale 30
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
+\begin_layout Standard
+אולי פה את תמונת חזיתות גל של המוד השלישי?
 \end_layout
 
 \begin_layout BeginFrame
@@ -1056,108 +795,15 @@ hfill
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "40col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-תמונה: פרופיל שני סינקים במישור המסך )הסנסור(, עם הדגשה על התחום )הצר( של
- הסנסור
+תמונת פרופיל עצמה ביציאה, חץ, במישור המסך
 \end_layout
 
-\end_inset
-
-
-\begin_inset Formula $\:$
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "10col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-\begin_inset Formula $\Rightarrow$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula $fraunhofer$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset Formula $\;$
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "40col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-תמונה פרופיל עצמה 
-\begin_inset Formula $cos(3\pi x)$
-\end_inset
-
-ביציאה מהמוליך
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+\begin_layout Standard
+אולי תמונה של חזיתות הגל?
 \end_layout
 
 \begin_layout BeginFrame
-מודל מנצח: התאבכות 
-\begin_inset Formula $\psi_{1},\psi_{3}$
-\end_inset
-
-
+מודל מנצח
 \begin_inset ERT
 status open
 
@@ -1174,40 +820,11 @@ hfill
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\Delta\phi_{1-3}=2\pi\frac{L_{1}}{\lambda}[cos(\theta_{3})-cos(\theta_{1})]$
-\end_inset
-
-
+נוסחא כלשהי של הפרש פאזות בין המודים
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename figures/vertical-detrended-withExpectation_zoom.png
-	lyxscale 40
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
+גרף מנצח
 \end_layout
 
 \begin_layout BeginFrame
