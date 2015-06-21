@@ -129,7 +129,8 @@ hfill
 \end_layout
 
 \begin_layout Itemize
-במהלך ניסוי במוליך גלים נתגלה אפקט דעיכה ששיבש את תוצאות הניסוי
+במהלך ניסוי בלוחית גל בתדר מיקרו )מוליך גלים( נתגלה אפקט דעיכה ששיבש את
+ תוצאות הניסוי
 \end_layout
 
 \begin_layout Itemize
@@ -145,7 +146,7 @@ hfill
 \end_layout
 
 \begin_layout BeginFrame
-רקע תיאורטי: עקיפת פרנהאופר
+רקע תיאורטי: עקיפת פראונהופר
 \begin_inset ERT
 status open
 
@@ -162,21 +163,82 @@ hfill
 \end_layout
 
 \begin_layout Standard
-איור עקיפה
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Standard
-\begin_inset Formula $\lambda L>>?$
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\lambda L\gg w^{2}$
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/diffraction_twoSlits.jpg
+	lyxscale 40
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Formula 
 \begin{equation}
-\psi(\theta;z=L_{1}+L_{2})=Fourier[\psi(x,z=L_{1})](k_{x}=\frac{1}{\lambda}tg(\theta))\label{eq:fraunhofer}
+\psi(\theta;z=L)\propto\mathcal{F}[\psi(x,z=0)](k_{x}=\frac{1}{\lambda}tg(\theta))\label{eq:fraunhofer}
 \end{equation}
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -208,6 +270,28 @@ hfill
 תמונה קיטובים
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/linear_circular_eliptic.jpeg
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout BeginFrame
 רקע תיאורטי: מוליך גלים
 \begin_inset ERT
@@ -230,10 +314,6 @@ hfill
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Box Frameless
@@ -272,6 +352,10 @@ status open
 \end_inset
 
 
+\begin_inset space \hfill{}
+\end_inset
+
+
 \family roman
 \series medium
 \shape up
@@ -284,12 +368,8 @@ status open
 \noun off
 \color none
 
-\begin_inset Formula $\:$
-\end_inset
-
-
 \begin_inset Box Frameless
-position "t"
+position "c"
 hor_pos "c"
 has_inner_box 1
 inner_pos "t"
@@ -302,6 +382,7 @@ height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
+\align left
 \begin_inset Graphics
 	filename figures/phase_delay_micro_trim_a--w.png
 	lyxscale 40
@@ -389,6 +470,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename figures/wave_guide_setup.png
+	scale 40
 
 \end_inset
 
@@ -428,6 +510,13 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/vertical_intensityVsW.png
+	lyxscale 70
+	scale 50
+
+\end_inset
+
 
 \end_layout
 
@@ -439,6 +528,80 @@ status open
 \begin_layout Plain Layout
 האם בכלל להזכיר את התוצאות של הקיטוב האופקי? לכל הפחות במשפט ולומר שהן נראות
  כצפוי כמו עקיפת סדק
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+תוצאות
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/vertical-detrended.png
+	lyxscale 50
+	scale 25
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+>>לייבל ציר
+\family sans
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+x
+\lang hebrew
+<<
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
