@@ -353,7 +353,7 @@ status open
 \begin_inset Formula $\theta_{1}=\pm arcsin(\frac{1}{2}\frac{\lambda}{w})$
 \end_inset
 
-
+ להעיף
 \end_layout
 
 \begin_layout Plain Layout
@@ -368,7 +368,7 @@ status open
 \begin_inset Formula $\psi\propto cos(\frac{2\pi}{\lambda_{g1}}z)\cdot cos(\pi\frac{x}{w})$
 \end_inset
 
-
+ 
 \end_layout
 
 \begin_layout Plain Layout
@@ -386,7 +386,7 @@ status open
 \begin_inset Formula $\Delta\phi=2\pi\frac{L_{1}}{\lambda}\left[1-\sqrt{1-\left(\frac{\frac{1}{2}\lambda}{w}\right)^{2}}\right]$
 \end_inset
 
-
+ להעיף
 \end_layout
 
 \end_inset
@@ -464,20 +464,12 @@ hfill
 
 \end_layout
 
-\begin_layout Standard
->>>אפשר לוותר על שקופית?<<<
+\begin_layout Itemize
+במהלך ניסוי מקדים נתגלה אפקט נוסף: דעיכה מוגברת של הקיטוב האנכי
 \end_layout
 
 \begin_layout Itemize
-לא הצלחנו לשחזר לוחית רבע גל וליצור קיטוב מעגלי
-\end_layout
-
-\begin_layout Itemize
-במוליך הגל נתגלה אפקט נוסף: דעיכה מוגברת של הקיטוב האנכי
-\end_layout
-
-\begin_layout Itemize
-בדיקת הדעיכה כתלות ברוחב 
+הניסוי: בדיקת הדעיכה כתלות ברוחב 
 \begin_inset Formula $w$
 \end_inset
 
@@ -680,7 +672,7 @@ Amp_{1}\overset{?}{=}w\cdot sinc(\frac{1}{2}\frac{w}{\lambda}tg\theta)|_{\theta_
 
 \end_inset
 
-
+ לפרק נוסחא )או להעיף את סופה(
 \end_layout
 
 \begin_layout Standard
@@ -995,6 +987,10 @@ status open
 מרוכב המודים דועכים
 \end_layout
 
+\begin_layout Plain Layout
+להעיף משוואות
+\end_layout
+
 \end_inset
 
 
@@ -1022,7 +1018,7 @@ status open
 
 \end_inset
 
-
+לסובב
 \end_layout
 
 \end_inset
@@ -1207,7 +1203,7 @@ status open
 \lang english
 fit
 \lang hebrew
-?<<<
+<<<
 \end_layout
 
 \begin_layout Plain Layout
