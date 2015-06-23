@@ -263,6 +263,10 @@ hfill
 \end_layout
 
 \begin_layout Standard
+>>>אפשר לוותר על שקופית?<<<
+\end_layout
+
+\begin_layout Standard
 משפט הגדרה
 \end_layout
 
@@ -323,7 +327,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "40col%"
+width "55col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -338,8 +342,22 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-שורד רכיבים בזווית 
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+שורד רכיב בזווית 
 \begin_inset Formula $\theta_{1}=\pm arcsin(\frac{1}{2}\frac{\lambda}{w})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
 \end_inset
 
 
@@ -354,8 +372,18 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-לוחית גל אפקטיבית עם: 
-\begin_inset Formula $\Delta\phi=2\pi\frac{L_{1}}{\lambda}\left[1-\sqrt{1-\left(\frac{\frac{1}{2}\lambda}{w}\right){}^{2}}\right]$
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+לוחית גל אפקטיבית עם:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Delta\phi=2\pi\frac{L_{1}}{\lambda}\left[1-\sqrt{1-\left(\frac{\frac{1}{2}\lambda}{w}\right)^{2}}\right]$
 \end_inset
 
 
@@ -384,7 +412,7 @@ status open
 position "c"
 hor_pos "c"
 has_inner_box 1
-inner_pos "t"
+inner_pos "c"
 use_parbox 0
 use_makebox 0
 width "40col%"
@@ -398,7 +426,7 @@ status open
 \begin_inset Graphics
 	filename figures/phase_delay_micro_trim_a--w.png
 	lyxscale 40
-	scale 40
+	scale 34
 
 \end_inset
 
@@ -434,6 +462,10 @@ hfill
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+>>>אפשר לוותר על שקופית?<<<
 \end_layout
 
 \begin_layout Itemize
@@ -523,7 +555,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename figures/vertical_intensityVsW.png
+	filename figures/vertical_intensityVsW_prsntn.png
 	lyxscale 70
 	scale 50
 
@@ -572,44 +604,13 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename figures/vertical-detrended.png
+	filename figures/vertical-detrended_prsntn.png
 	lyxscale 50
 	scale 25
 
 \end_inset
 
  
-\end_layout
-
-\begin_layout Plain Layout
->>לייבל ציר
-\family sans
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-x
-\lang hebrew
-<<
 \end_layout
 
 \begin_layout Plain Layout
@@ -666,8 +667,8 @@ hfill
 \end_layout
 
 \begin_layout Standard
-נפרק את הגל הנכנס למוליך הגלים לרכיבים מישוריים: מה האמפליטודה של שנושא
- הרכיב 
+נפרק את הגל הנכנס למוליך הגלים לרכיבים מישוריים: מה האמפליטודה שנושא הרכיב
+ 
 \begin_inset Formula $\theta_{1}$
 \end_inset
 
@@ -694,6 +695,17 @@ status open
 
 \begin_layout Plain Layout
 תמונת סינק?
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/sinc_prsntn.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -1006,6 +1018,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename figures/3rd_mode_in_wave_guide.png
+	scale 40
 
 \end_inset
 
@@ -1182,7 +1195,7 @@ status open
 \begin_inset Graphics
 	filename figures/vertical-detrended-withExpectation_zoom.png
 	lyxscale 40
-	scale 60
+	scale 40
 
 \end_inset
 
