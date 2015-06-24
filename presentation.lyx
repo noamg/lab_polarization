@@ -24,7 +24,7 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
-\paperfontsize default
+\paperfontsize 12
 \spacing single
 \use_hyperref false
 \papersize default
@@ -61,7 +61,7 @@
 \begin_body
 
 \begin_layout Title
-דעיכה במוליך גלים או משהו
+וואריאציות עצמה במוליך גלים
 \end_layout
 
 \begin_layout Author
@@ -129,8 +129,7 @@ hfill
 \end_layout
 
 \begin_layout Itemize
-במהלך ניסוי בלוחית גל בתדר מיקרו )מוליך גלים( נתגלה אפקט דעיכה ששיבש את
- תוצאות הניסוי
+נתגלה אפקט של שינויי עוצמה ששיבש ניסוי מקדים במוליך גלים
 \end_layout
 
 \begin_layout Standard
@@ -141,7 +140,7 @@ hfill
 \end_layout
 
 \begin_layout Itemize
-תוצאות אפקט הדעיכה היו מפתיעות
+קיום ואופי האפקט היו מפתיעים
 \end_layout
 
 \begin_layout Standard
@@ -190,14 +189,54 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "45col%"
+width "50col%"
 special "none"
 height "1in"
 height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Formula $\psi_{0}\left(x\right)=\psi\left(x,z=0\right)\Rightarrow\psi\left(x,L\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+מרחב חופשי
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Formula $\lambda L\gg w^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\mathcal{F}\left[\psi_{0}\left(x\right)\right]=\tilde{\psi}_{0}\left(k_{x}\right)$
 \end_inset
 
 
@@ -241,9 +280,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Formula 
-\begin{equation}
-\psi(\theta;z=L)\propto\mathcal{F}[\psi(x,z=0)](k_{x}=\frac{1}{\lambda}tg(\theta))\label{eq:fraunhofer}
-\end{equation}
+\[
+\psi(\theta;z=L)\propto\tilde{\psi}_{0}(k_{x}=\frac{1}{\lambda}tg(\theta))
+\]
 
 \end_inset
 
@@ -273,15 +312,15 @@ hfill
 \end_layout
 
 \begin_layout Standard
->>>אפשר לוותר על שקופית?<<<
+קיטוב: כיוון התנודדות 
+\begin_inset Formula $\vec{E}$
+\end_inset
+
+ לאורך ציר ההתקדמות
 \end_layout
 
 \begin_layout Standard
-משפט הגדרה
-\end_layout
-
-\begin_layout Standard
-תמונה קיטובים
+קיטוב אנכי ואופקי:
 \end_layout
 
 \begin_layout Standard
@@ -292,7 +331,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename figures/linear_circular_eliptic.jpeg
+	filename figures/polarization_VH.JPG
 	lyxscale 50
 	scale 50
 
@@ -359,8 +398,22 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-גל אפקטיבי: 
-\begin_inset Formula $\psi\propto cos(\frac{2\pi}{\lambda_{g1}}z)\cdot cos(\pi\frac{x}{w})$
+זוג הרכיבים המישוריים 
+\begin_inset Formula $\pm\theta_{1}$
+\end_inset
+
+ מקיימים תנאי שפה
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\psi_{1}\propto cos(\frac{2\pi}{\lambda}\cos\left(\theta_{1}\right)z)\cdot cos(\pi\frac{x}{w})$
 \end_inset
 
  
@@ -368,6 +421,18 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+צבירת הפאזה בכיוון 
+\begin_inset Formula $z$
+\end_inset
+
+ מואטת פי 
+\begin_inset Formula $\cos\left(\theta_{1}\right)$
 \end_inset
 
 
@@ -419,10 +484,6 @@ status open
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -563,6 +624,10 @@ hfill
 \end_layout
 
 \begin_layout Standard
+האפקט המפתיע: חוסר מונוטוניות של העצמה
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -616,7 +681,11 @@ status open
 \color inherit
 1
 \numeric off
-: 
+: מה האמפליטודה שנושא הרכיב 
+\begin_inset Formula $\theta_{1}$
+\end_inset
+
+?
 \begin_inset ERT
 status open
 
@@ -633,15 +702,7 @@ hfill
 \end_layout
 
 \begin_layout Standard
-נפרק את הגל הנכנס למוליך הגלים לרכיבים מישוריים:
-\end_layout
-
-\begin_layout Standard
-מה האמפליטודה שנושא הרכיב 
-\begin_inset Formula $\theta_{1}$
-\end_inset
-
-?
+הגל הנכנס מתפרק לגלים מישוריים בזוויות שונות
 \end_layout
 
 \begin_layout Standard
@@ -686,10 +747,10 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $w\cdot sinc\left(\frac{1}{4}\cdot\left[1-\left(\frac{\lambda}{w}\right)^{2}\right]^{-\frac{1}{2}}\right)$
+\begin_inset Formula $\Rightarrow w\cdot sinc\left(\frac{1}{4}\cdot\left[1-\left(\frac{\lambda}{w}\right)^{2}\right]^{-\frac{1}{2}}\right)$
 \end_inset
 
- <<<להוריד?>>>
+ 
 \end_layout
 
 \begin_layout BeginFrame
@@ -718,36 +779,9 @@ status open
 \uwave default
 \noun default
 \color inherit
-2
+2,3
 \numeric off
-,
-\family sans
-\series bold
-\shape up
-\size largest
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color blue
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-3
-\numeric off
-
+: התאבכות רכיבי הגל המרחביים באזור הסנסור
 \begin_inset ERT
 status open
 
@@ -887,10 +921,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Box Frameless
 position "t"
 hor_pos "c"
@@ -905,48 +935,11 @@ height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
-משוואת גלים עם שפה: 
-\end_layout
+\begin_inset Graphics
+	filename figures/presentation_normalMods_text.PNG
+	lyxscale 50
+	scale 25
 
-\begin_layout Plain Layout
-\begin_inset Formula $\frac{\partial^{2}\psi}{\partial t^{2}}=c^{2}\nabla^{2}\psi;\:\:\:\psi(x=\pm\frac{1}{2}w)=0$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-מודים עצמיים:
-\end_layout
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\begin_inset Formula $\psi_{n}=cos(\frac{2\pi}{\lambda_{gn}}z+\omega t)\cdot cos(n\cdot\pi\frac{x}{w})$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset space ~
 \end_inset
 
 
@@ -955,7 +948,7 @@ status open
 \end_inset
 
 
-\begin_inset Formula $\:$
+\begin_inset space \hfill{}
 \end_inset
 
 
@@ -963,7 +956,7 @@ status open
 position "c"
 hor_pos "c"
 has_inner_box 1
-inner_pos "t"
+inner_pos "b"
 use_parbox 0
 use_makebox 0
 width "30col%"
@@ -1197,7 +1190,7 @@ hfill
 \begin_inset Formula $w$
 \end_inset
 
-טובה יותר
+ טובה יותר
 \end_layout
 
 \begin_layout Itemize
