@@ -222,6 +222,7 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+מסך רחוק: 
 \begin_inset Formula $\lambda L\gg w^{2}$
 \end_inset
 
@@ -568,7 +569,7 @@ status open
 \end_layout
 
 \begin_layout BeginFrame
-תוצאות
+תוצאות גולמיות
 \begin_inset ERT
 status open
 
@@ -607,7 +608,7 @@ status open
 \end_layout
 
 \begin_layout BeginFrame
-תוצאות
+תוצאות מנורמלות
 \begin_inset ERT
 status open
 

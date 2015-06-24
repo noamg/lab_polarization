@@ -1,0 +1,261 @@
+%% LyX 2.0.7 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[12pt,english,hebrew]{beamer}
+\usepackage[T1]{fontenc}
+\usepackage[latin9,cp1255]{inputenc}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+ % this default might be overridden by plain title style
+ \newcommand\makebeamertitle{\frame{\maketitle}}%
+ \AtBeginDocument{
+   \let\origtableofcontents=\tableofcontents
+   \def\tableofcontents{\@ifnextchar[{\origtableofcontents}{\gobbletableofcontents}}
+   \def\gobbletableofcontents#1{\origtableofcontents}
+ }
+ \long\def\lyxframe#1{\@lyxframe#1\@lyxframestop}%
+ \def\@lyxframe{\@ifnextchar<{\@@lyxframe}{\@@lyxframe<*>}}%
+ \def\@@lyxframe<#1>{\@ifnextchar[{\@@@lyxframe<#1>}{\@@@lyxframe<#1>[]}}
+ \def\@@@lyxframe<#1>[{\@ifnextchar<{\@@@@@lyxframe<#1>[}{\@@@@lyxframe<#1>[<*>][}}
+ \def\@@@@@lyxframe<#1>[#2]{\@ifnextchar[{\@@@@lyxframe<#1>[#2]}{\@@@@lyxframe<#1>[#2][]}}
+ \long\def\@@@@lyxframe<#1>[#2][#3]#4\@lyxframestop#5\lyxframeend{%
+   \frame<#1>[#2][#3]{\frametitle{#4}#5}}
+ \def\lyxframeend{} % In case there is a superfluous frame end
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+
+\title{וואריאציות עצמה במוליך גלים}
+
+
+\author{דן וקסלר ונועם גביש, בהנחיית נגה וייס}
+
+\makebeamertitle
+\selectlanguage{english}%
+\inputencoding{latin9}%\setbeamercolor{background canvas}{bg=}
+
+%\setbeamertemplate{background}{\includegraphics[width=1.0\paperwidth,height=1.0\paperheight]{600px-Doppler_effect_svg.png}}
+
+
+
+\selectlanguage{hebrew}%
+\inputencoding{cp1255}%
+
+\lyxframeend{}\lyxframe{תקציר\hfill}
+\begin{itemize}
+\item נתגלה אפקט של שינויי עוצמה ששיבש ניסוי מקדים במוליך גלים
+\end{itemize}
+~
+\begin{itemize}
+\item קיום ואופי האפקט היו מפתיעים
+\end{itemize}
+~
+\begin{itemize}
+\item ניתוח מלא של התנהגות הגלים במוליך הגלים הסביר את התוצאות
+\end{itemize}
+
+\lyxframeend{}\lyxframe{רקע תיאורטי: עקיפת פראונהופר\hfill}
+
+\begin{figure}
+
+
+\begin{minipage}[t]{0.5\columnwidth}%
+\begin{center}
+\L{$\psi_{0}\left(x\right)=\psi\left(x,z=0\right)\Rightarrow\psi\left(x,L\right)$}
+\par\end{center}
+
+~
+
+מרחב חופשי
+
+~
+
+\L{$\lambda L\gg w^{2}$}
+
+~
+
+\L{$\mathcal{F}\left[\psi_{0}\left(x\right)\right]=\tilde{\psi}_{0}\left(k_{x}\right)$}%
+\end{minipage}\hfill{}%
+\begin{minipage}[c][1\totalheight][t]{0.45\columnwidth}%
+\L{\includegraphics[scale=0.3]{figures/diffraction_twoSlits}}%
+\end{minipage}
+
+\L{
+\[
+\psi(\theta;z=L)\propto\tilde{\psi}_{0}(k_{x}=\frac{1}{\lambda}tg(\theta))
+\]
+}
+\end{figure}
+
+
+
+\lyxframeend{}\lyxframe{רקע תיאורטי: קיטוב\hfill}
+
+קיטוב: כיוון התנודדות \L{$\vec{E}$} לאורך ציר ההתקדמות
+
+קיטוב אנכי ואופקי:
+
+\begin{figure}
+\L{\includegraphics[scale=0.5]{figures/polarization_VH.JPG}}
+\end{figure}
+
+
+
+\lyxframeend{}\lyxframe{רקע תיאורטי: קיטוב אנכי במוליך גלים\hfill}
+
+\begin{figure}
+\begin{minipage}[t]{0.55\columnwidth}%
+תנאי שפה: \L{$E_{\parallel}=0$}
+
+~
+
+זוג הרכיבים המישוריים \L{$\pm\theta_{1}$} מקיימים תנאי שפה
+
+~
+
+\L{$\psi_{1}\propto cos(\frac{2\pi}{\lambda}\cos\left(\theta_{1}\right)z)\cdot cos(\pi\frac{x}{w})$} 
+
+~
+
+צבירת הפאזה בכיוון \L{$z$} מואטת פי \L{$\cos\left(\theta_{1}\right)$}%
+\end{minipage}\hfill{}\textrm{}%
+\begin{minipage}[c]{0.4\columnwidth}%
+\begin{flushright}
+\L{\includegraphics[scale=0.34]{figures/phase_delay_micro_trim_a--w}}
+\par\end{flushright}%
+\end{minipage}
+\end{figure}
+
+
+
+\lyxframeend{}\lyxframe{מוטיבציה לניסוי: נתגלה אפקט נוסף\hfill}
+\begin{itemize}
+\item במהלך ניסוי מקדים נתגלה אפקט נוסף: דעיכה מוגברת של הקיטוב האנכי
+\item הניסוי: בדיקת הדעיכה כתלות ברוחב \L{$w$}
+\end{itemize}
+
+\lyxframeend{}\lyxframe{מערכת הניסוי\hfill}
+
+\begin{figure}
+
+
+\L{\includegraphics[scale=0.6]{figures/wave_guide_setup}}
+
+\end{figure}
+
+
+
+\lyxframeend{}\lyxframe{תוצאות\hfill}
+
+\begin{figure}
+\L{\includegraphics[scale=0.4]{figures/vertical_intensityVsW_prsntn}}
+\end{figure}
+
+
+
+\lyxframeend{}\lyxframe{תוצאות\hfill}
+
+האפקט המפתיע: חוסר מונוטוניות של העצמה
+
+\begin{figure}
+\L{\includegraphics[scale=0.35]{figures/vertical-detrended_prsntn}} 
+
+\end{figure}
+
+
+
+\lyxframeend{}\lyxframe{מודל {\beginL 1\endL}: מה האמפליטודה שנושא הרכיב \L{$\theta_{1}$}?\hfill}
+
+הגל הנכנס מתפרק לגלים מישוריים בזוויות שונות
+
+\L{$Amp_{1}\overset{}{=}w\cdot sinc(\frac{1}{2}\frac{w}{\lambda}tg\theta)|_{\theta_{1}}$}
+
+\begin{figure}
+\L{\includegraphics[scale=0.28]{figures/sinc_prsntn}}
+
+\end{figure}
+
+
+לא עובד: ארגומנט ה- \L{$sinc$} נמצא באותו אזור תמיד
+
+\L{$\Rightarrow w\cdot sinc\left(\frac{1}{4}\cdot\left[1-\left(\frac{\lambda}{w}\right)^{2}\right]^{-\frac{1}{2}}\right)$} 
+
+
+\lyxframeend{}\lyxframe{מודל {\beginL 2,3\endL}: התאבכות רכיבי הגל המרחביים באזור הסנסור\hfill}
+
+\begin{figure}
+\begin{minipage}[c][1\totalheight][t]{0.45\columnwidth}%
+\L{\includegraphics[scale=0.22]{figures/1stModAmpProfileTheta}}%
+\end{minipage}\L{$\:$}%
+\begin{minipage}[t]{0.12\columnwidth}%
+\begin{flushleft}
+\L{$\overset{Fraunhofer}{\Longrightarrow}$}
+\par\end{flushleft}%
+\end{minipage}\L{$\,$}%
+\begin{minipage}[c][1\totalheight][t]{0.4\columnwidth}%
+\L{\includegraphics[scale=0.27]{figures/1stModAmpProfileX}}%
+\end{minipage}
+\end{figure}
+
+
+
+\lyxframeend{}\lyxframe{ניתוח: מודים עצמיים במוליך הגלים\hfill}
+
+\begin{figure}
+\begin{minipage}[t]{0.5\columnwidth}%
+\L{\includegraphics[scale=0.25]{figures/presentation_normalMods_text.PNG}}%
+\end{minipage}\hfill{}%
+\begin{minipage}[c][1\totalheight][b]{0.3\columnwidth}%
+\L{\includegraphics[scale=0.4]{figures/3rd_mode_in_wave_guide_axis_prsntn}}%
+\end{minipage}
+\end{figure}
+
+
+
+\lyxframeend{}\lyxframe{המוד השלישי\hfill}
+
+\begin{figure}
+\begin{minipage}[c][1\totalheight][t]{0.4\columnwidth}%
+\L{\includegraphics[scale=0.22]{figures/3rdModAmpProfileTheta}}%
+\end{minipage}\L{$\:$}%
+\begin{minipage}[t]{0.12\columnwidth}%
+\begin{flushleft}
+\L{$\overset{Fraunhofer}{\Longrightarrow}$}
+\par\end{flushleft}%
+\end{minipage}\L{$\,$}%
+\begin{minipage}[c][1\totalheight][t]{0.42\columnwidth}%
+\L{\includegraphics[scale=0.22]{figures/3rdModAmpProfileX}}%
+\end{minipage}
+\end{figure}
+
+
+
+\lyxframeend{}\lyxframe{מודל מנצח: התאבכות \L{$\psi_{1},\psi_{3}$}\hfill}
+
+\L{$\Delta\phi_{1-3}=2\pi\frac{L_{1}}{\lambda}[cos(\theta_{3})-cos(\theta_{1})]$}
+
+\begin{figure}
+
+
+\L{\includegraphics[scale=0.3]{figures/vertical-detrended-withExpectation_zoom_prsntn}}
+
+\end{figure}
+
+
+
+\lyxframeend{}\lyxframe{סיכום ורעיונות המשך\hfill}
+\begin{itemize}
+\item אפקט מפתיע
+\item תואר באופן מלא
+\item רזולוצית \L{$w$} טובה יותר
+\item בדיקה ב- \L{$L$} שונים, בזוויות שונות
+\end{itemize}
+
+\lyxframeend{}
+\end{document}
