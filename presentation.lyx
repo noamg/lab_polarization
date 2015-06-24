@@ -133,16 +133,26 @@ hfill
  תוצאות הניסוי
 \end_layout
 
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
 \begin_layout Itemize
 תוצאות אפקט הדעיכה היו מפתיעות
 \end_layout
 
-\begin_layout Itemize
-ניתוח מלא של התנהגות הגלים במוליך הגלים הסביר את התוצאות
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
-להגיד בע"פ שאנחנו שומרים על המתח
+ניתוח מלא של התנהגות הגלים במוליך הגלים הסביר את התוצאות
 \end_layout
 
 \begin_layout BeginFrame
@@ -349,21 +359,6 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-שורד רכיב בזווית 
-\begin_inset Formula $\theta_{1}=\pm arcsin(\frac{1}{2}\frac{\lambda}{w})$
-\end_inset
-
- להעיף
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
 גל אפקטיבי: 
 \begin_inset Formula $\psi\propto cos(\frac{2\pi}{\lambda_{g1}}z)\cdot cos(\pi\frac{x}{w})$
 \end_inset
@@ -376,17 +371,6 @@ status open
 \end_inset
 
 
-\end_layout
-
-\begin_layout Plain Layout
-לוחית גל אפקטיבית עם:
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula $\Delta\phi=2\pi\frac{L_{1}}{\lambda}\left[1-\sqrt{1-\left(\frac{\frac{1}{2}\lambda}{w}\right)^{2}}\right]$
-\end_inset
-
- להעיף
 \end_layout
 
 \end_inset
@@ -549,21 +533,11 @@ status open
 \begin_inset Graphics
 	filename figures/vertical_intensityVsW_prsntn.png
 	lyxscale 70
-	scale 50
+	scale 40
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Plain Layout
-תוצאות.
- איזה כדאי?
-\end_layout
-
-\begin_layout Plain Layout
-האם בכלל להזכיר את התוצאות של הקיטוב האופקי? לכל הפחות במשפט ולומר שהן נראות
- כצפוי כמו עקיפת סדק
 \end_layout
 
 \end_inset
@@ -598,7 +572,7 @@ status open
 \begin_inset Graphics
 	filename figures/vertical-detrended_prsntn.png
 	lyxscale 50
-	scale 25
+	scale 35
 
 \end_inset
 
@@ -659,20 +633,22 @@ hfill
 \end_layout
 
 \begin_layout Standard
-נפרק את הגל הנכנס למוליך הגלים לרכיבים מישוריים: מה האמפליטודה שנושא הרכיב
- 
+נפרק את הגל הנכנס למוליך הגלים לרכיבים מישוריים:
+\end_layout
+
+\begin_layout Standard
+מה האמפליטודה שנושא הרכיב 
 \begin_inset Formula $\theta_{1}$
 \end_inset
 
 ?
-\begin_inset Formula 
-\[
-Amp_{1}\overset{?}{=}w\cdot sinc(\frac{1}{2}\frac{w}{\lambda}tg\theta)|_{\theta_{1}}=w\cdot sinc\left(\frac{1}{4}\cdot\left[1-\left(\frac{\lambda}{w}\right)^{2}\right]^{-\frac{1}{2}}\right)
-\]
+\end_layout
 
+\begin_layout Standard
+\begin_inset Formula $Amp_{1}\overset{}{=}w\cdot sinc(\frac{1}{2}\frac{w}{\lambda}tg\theta)|_{\theta_{1}}$
 \end_inset
 
- לפרק נוסחא )או להעיף את סופה(
+
 \end_layout
 
 \begin_layout Standard
@@ -682,18 +658,10 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-תמונת סינק?
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Graphics
 	filename figures/sinc_prsntn.png
 	lyxscale 50
-	scale 50
+	scale 28
 
 \end_inset
 
@@ -715,6 +683,13 @@ status open
 \end_inset
 
  נמצא באותו אזור תמיד
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $w\cdot sinc\left(\frac{1}{4}\cdot\left[1-\left(\frac{\lambda}{w}\right)^{2}\right]^{-\frac{1}{2}}\right)$
+\end_inset
+
+ <<<להוריד?>>>
 \end_layout
 
 \begin_layout BeginFrame
@@ -796,21 +771,27 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Box Frameless
-position "t"
+position "c"
 hor_pos "c"
 has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "40col%"
+width "45col%"
 special "none"
 height "1in"
 height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
-תמונה: פרופיל שני סינקים במישור המסך )הסנסור(, עם הדגשה על התחום )הצר( של
- הסנסור
+\begin_inset Graphics
+	filename figures/1stModAmpProfileTheta.png
+	lyxscale 50
+	scale 22
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -827,21 +808,15 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "10col%"
+width "12col%"
 special "none"
 height "1in"
 height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
-\begin_inset Formula $\Rightarrow$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula $ferhaufer$
+\align right
+\begin_inset Formula $\overset{Fraunhofer}{\Longrightarrow}$
 \end_inset
 
 
@@ -855,7 +830,7 @@ status open
 
 
 \begin_inset Box Frameless
-position "t"
+position "c"
 hor_pos "c"
 has_inner_box 1
 inner_pos "t"
@@ -868,19 +843,13 @@ height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
-תמונה פרופיל עצמה 
-\begin_inset Formula $cos(\pi x)$
-\end_inset
-
-ביציאה מהמוליך
-\end_layout
+\begin_inset Graphics
+	filename figures/1stModAmpProfileX.png
+	lyxscale 50
+	scale 27
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -889,8 +858,9 @@ status open
 
 \end_layout
 
-\begin_layout Standard
-בע"פ: צריך להזכיר כאן את סכימת הפאזות בזן
+\end_inset
+
+
 \end_layout
 
 \begin_layout BeginFrame
@@ -935,15 +905,18 @@ height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
-אומרים בעל פה: עכשיו ניתוח רציני יותר...
-\end_layout
-
-\begin_layout Plain Layout
 משוואת גלים עם שפה: 
 \end_layout
 
 \begin_layout Plain Layout
 \begin_inset Formula $\frac{\partial^{2}\psi}{\partial t^{2}}=c^{2}\nabla^{2}\psi;\:\:\:\psi(x=\pm\frac{1}{2}w)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
 \end_inset
 
 
@@ -966,29 +939,17 @@ status open
 \uwave off
 \noun off
 \color none
-\begin_inset Formula $\psi_{n}=cos(\frac{2\pi}{\lambda_{gn}}z+\omega t)\cdot cos(n\cdot\pi\frac{x}{w})\cdot Rect(x;w)$
+\begin_inset Formula $\psi_{n}=cos(\frac{2\pi}{\lambda_{gn}}z+\omega t)\cdot cos(n\cdot\pi\frac{x}{w})$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula $sin(\theta_{n})=n\cdot\frac{1}{2}\frac{\lambda}{w};\:\lambda_{gn}=\frac{\lambda}{cos(\theta_{n})}$
+\begin_inset space ~
 \end_inset
 
 
-\end_layout
-
-\begin_layout Plain Layout
-עבור 
-\begin_inset Formula $\theta_{n}$
-\end_inset
-
-מרוכב המודים דועכים
-\end_layout
-
-\begin_layout Plain Layout
-להעיף משוואות
 \end_layout
 
 \end_inset
@@ -999,7 +960,7 @@ status open
 
 
 \begin_inset Box Frameless
-position "t"
+position "c"
 hor_pos "c"
 has_inner_box 1
 inner_pos "t"
@@ -1013,20 +974,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename figures/3rd_mode_in_wave_guide.png
+	filename figures/3rd_mode_in_wave_guide_axis_prsntn.png
 	scale 40
 
 \end_inset
 
-לסובב
+
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -1060,7 +1017,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Box Frameless
-position "t"
+position "c"
 hor_pos "c"
 has_inner_box 1
 inner_pos "t"
@@ -1073,8 +1030,14 @@ height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
-תמונה: פרופיל שני סינקים במישור המסך )הסנסור(, עם הדגשה על התחום )הצר( של
- הסנסור
+\begin_inset Graphics
+	filename figures/3rdModAmpProfileTheta.png
+	lyxscale 50
+	scale 22
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1091,21 +1054,15 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "10col%"
+width "12col%"
 special "none"
 height "1in"
 height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
-\begin_inset Formula $\Rightarrow$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula $fraunhofer$
+\align right
+\begin_inset Formula $\overset{Fraunhofer}{\Longrightarrow}$
 \end_inset
 
 
@@ -1119,24 +1076,27 @@ status open
 
 
 \begin_inset Box Frameless
-position "t"
+position "c"
 hor_pos "c"
 has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "40col%"
+width "42col%"
 special "none"
 height "1in"
 height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
-תמונה פרופיל עצמה 
-\begin_inset Formula $cos(3\pi x)$
+\begin_inset Graphics
+	filename figures/3rdModAmpProfileX.png
+	lyxscale 50
+	scale 22
+
 \end_inset
 
-ביציאה מהמוליך
+
 \end_layout
 
 \end_inset
@@ -1189,21 +1149,13 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename figures/vertical-detrended-withExpectation_zoom.png
+	filename figures/vertical-detrended-withExpectation_zoom_prsntn.png
 	lyxscale 40
-	scale 40
+	scale 30
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Plain Layout
->>>להחליף ב-
-\lang english
-fit
-\lang hebrew
-<<<
 \end_layout
 
 \begin_layout Plain Layout
